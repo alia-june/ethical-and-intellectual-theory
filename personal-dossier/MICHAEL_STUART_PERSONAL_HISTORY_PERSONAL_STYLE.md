@@ -1,0 +1,19 @@
+# Michael Stuart — A Short Personal History
+
+I am an independent programmer, systems researcher, writer, and maker, although none of these names alone explains work that moves among computing, archives, ethics, language, personae, and physical construction, asking what a thing is, what makes it operate, and what remains when it changes.
+
+I write as Alia-June, a writing name and persona through which I develop parts of my ethical and doctrinal work. DastardlyRat is the result of my … and I will leave it at that, because an intentional boundary is still information even when what lies beyond it is not disclosed. Sfia is an older name from childhood mythology, a giant rat, and belongs to the imaginative history from which some of these later forms emerged. These personae are not replacements for my public name, which is Michael Stuart; they are named forms through which different kinds of writing, thought, humor, and consequence can be carried.
+
+Through these personae I explore consent, attribution, provenance, responsibility, personal modeling, and the limits of automated authority. I return to the distinctions between access and permission, implementation and truth, preservation and authority, because systems become dangerous when one condition is silently substituted for another.
+
+My first sustained attempt at self-education in computing began with a TRS-80 and a tape drive. I learned BASIC by looking at code, changing it, watching what happened, and beginning again. I adapted tabletop role-playing combat into a small game. The tape was old and unreliable, which meant I repeatedly lost work; this taught me that creation without preservation is temporary and preservation without an account of what changed can become another kind of loss.
+
+I later immersed myself in DOS, batch files, hardware configuration, memory management, modems, operating systems, and maintaining computers when switches, pins, expansion cards, and resource conflicts were ordinary parts of the work. In an early professional project I built a messaging system with a Windows front end and database connected to a C++ server on OS/2, communicating by modem with an alphanumeric paging service. I interpreted the protocol documentation, discovered that the remote implementation did not follow its expected timing, improvised, debugged, and documented what actually worked rather than what the documentation said should work.
+
+My education included Latin translation, ethics, philosophy, comparative religion, community college, and university settings. Translation gave me a durable discipline: preserve the source, examine the word and its roots, understand its part in the sentence, translate it in context, and then consider what the whole may mean. I apply versions of that discipline beyond language because a conclusion separated from its source can sound complete while concealing how it was made.
+
+My current work concerns information assurance and integrity, provenance, guarded computing, archival organization, consent, and responsible artificial intelligence. Some of it exists as functioning tools, some as specifications, research notes, or unfinished investigations; I do not consider implementation proof of truth, nor an unfinished idea meaningless because it has not become a finished system. I try to distinguish observation from inference, a preserved file from a true claim, access from permission, and a useful interpretation from an attested one.
+
+I also build with LEGO, study mechanical and visual structures, and write. These are ways of examining composition, articulation, balance, transformation, and the hidden interior that allows an exterior form to act.
+
+My aim is modest even when the systems become complicated: preserve the source, show the transformation, leave uncertainty visible where certainty has not been earned, and keep the resulting system answerable to the people who must live with what it does.
