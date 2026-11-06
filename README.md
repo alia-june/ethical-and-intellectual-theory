@@ -51,6 +51,15 @@ Intellectual work can be studied, tested, discussed, and learned from. This doct
 | **[Final statement](research-ethics/SELF_DOCTRINE_EXTENDED.md#xix-final-statement)** | The concluding account of intellectual inquiry, personal modeling, and the limits of permission. |
 | **[Fallibility, approximation, and redress](research-ethics/FALLIBILITY_APPROXIMATION_AND_REDRESS.md)** | A companion statement on coincidental resemblance, excluded sources, ethical recognition, contaminant ejection, and voluntary mediation. |
 
+## Personal dossier
+
+A de-identified account of declared ethical positions, their supporting sources, hypothetical boundary cases, and unresolved questions. The readable and structured editions preserve the distinction between declarations and editorial interpretations.
+
+- **[Read the personal dossier](personal-dossier/personal_reconstruction_anonymized.md)**
+- **[Open the machine-readable JSON](personal-dossier/personal_reconstruction_anonymized.json)**
+
+De-identification removes direct identifiers but does not guarantee that the combination of ideas is unrecognizable.
+
 ## The distinctions that matter
 
 | Principle | Its consequence within the doctrine |
