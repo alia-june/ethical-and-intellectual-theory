@@ -1,0 +1,535 @@
+{
+  "schema_version": "1.0",
+  "document_type": "deidentified_personal_position_dossier",
+  "title": "Personal Positions, Evidence, and Ethical Boundaries",
+  "status": "De-identified edition; no new personal claims",
+  "scope": {
+    "purpose": "Provide a readable and structured account of declared ethical positions and their relationships.",
+    "source_boundary": "The supplied doctrine statements and the associated conversation, approvals, dossier, and consistency review.",
+    "method": "Combine the two dossier parts, apply the accepted review corrections, paraphrase distinctive wording, and retain evidential distinctions.",
+    "identity_policy": "Use no personal name, account, source locator, precise date, or persistent person identifier. Record and source IDs are local to this document.",
+    "authority": "Production of this edition was explicitly approved. This record does not itself authorize external publication, transfer, prediction, imitation, authentication, or delegation.",
+    "limit": "The account describes declared positions, not a complete person, independently verified conduct, or a unique cognitive method."
+  },
+  "anonymization": {
+    "classification": "De-identified; irreversible anonymity is not established.",
+    "removed": [
+      "Direct identity and account references",
+      "Repository addresses and local file paths",
+      "Attachment, chat, and other identity-bearing identifiers",
+      "Precise dates and incidental chronology",
+      "Verbatim quotations and distinctive spelling",
+      "Sensitive personal context not necessary to express the ethical position"
+    ],
+    "retained": [
+      "General sequence of development",
+      "Declared ethical positions",
+      "Differences between declarations and editorial interpretations",
+      "Approval and acceptance distinctions",
+      "Hypothetical boundary cases",
+      "Unresolved questions and limits"
+    ],
+    "residual_risk": "A reader familiar with the source may recognize the combination of ideas. De-identification reduces direct identification and does not guarantee that recognition is impossible."
+  },
+  "evidence_classes": [
+    {
+      "id": "direct_declaration",
+      "description": "A position expressed directly by the individual in the source conversation."
+    },
+    {
+      "id": "supplied_position",
+      "description": "A position contained in supplied text; inclusion does not independently establish authorship of every sentence."
+    },
+    {
+      "id": "assistant_formulation",
+      "description": "Wording or organization produced by the assistant."
+    },
+    {
+      "id": "scoped_approval",
+      "description": "Approval of a described activity or interpretation, limited to its stated scope."
+    },
+    {
+      "id": "editorial_interpretation",
+      "description": "A relationship or explanation drawn from sources and kept distinct from a direct declaration."
+    },
+    {
+      "id": "unresolved",
+      "description": "A question for which the record does not establish a responsible conclusion."
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC-01",
+      "type": "supplied_document",
+      "description": "Initial doctrine distinguishing examination of intellectual work from attributable personal profiling."
+    },
+    {
+      "id": "SRC-02",
+      "type": "direct_clarification",
+      "description": "Clarification that explicit permission can permit the relevant profiling or archival activity."
+    },
+    {
+      "id": "SRC-03",
+      "type": "assistant_document",
+      "description": "Approved earlier expansion incorporating the permission condition."
+    },
+    {
+      "id": "SRC-04",
+      "type": "supplied_document",
+      "description": "Later extended doctrine covering evidence, operational use, adaptation, correction, and limits on personal interpretation."
+    },
+    {
+      "id": "SRC-05",
+      "type": "direct_declaration",
+      "description": "Statement introducing coincidental approximation, delayed recognition, removal of unauthorized influence, and voluntary mediation."
+    },
+    {
+      "id": "SRC-06",
+      "type": "approved_interpretation",
+      "description": "Approved interpretation of approximation, correction, and mediation, subsequently developed as a companion statement."
+    },
+    {
+      "id": "SRC-07",
+      "type": "authorization_record",
+      "description": "Bounded approvals for the dossier and its analytical continuation."
+    },
+    {
+      "id": "SRC-08",
+      "type": "review_record",
+      "description": "Consistency review accepted before authorization of the de-identified edition."
+    }
+  ],
+  "records": [
+    {
+      "id": "CLM-01",
+      "statement": "Permission to examine intellectual work does not automatically include permission to create an attributable profile of its creator.",
+      "evidence_class": "supplied_position",
+      "source_refs": [
+        "SRC-01",
+        "SRC-04"
+      ],
+      "interpretive_status": "Supported position in supplied documents.",
+      "limitations": [
+        "Does not automatically classify every instance of pattern recognition as personal profiling."
+      ]
+    },
+    {
+      "id": "CLM-02",
+      "statement": "Explicit permission may authorize a defined activity; a material expansion requires renewed permission.",
+      "evidence_class": "direct_declaration",
+      "source_refs": [
+        "SRC-02",
+        "SRC-03",
+        "SRC-04"
+      ],
+      "interpretive_status": "Direct clarification developed in subsequent documents.",
+      "limitations": [
+        "Does not establish permission beyond the activity actually approved."
+      ]
+    },
+    {
+      "id": "CLM-03",
+      "statement": "Crediting a contribution and obtaining permission serve different obligations; neither automatically substitutes for the other.",
+      "evidence_class": "supplied_position",
+      "source_refs": [
+        "SRC-01",
+        "SRC-04"
+      ],
+      "interpretive_status": "Supported doctrinal distinction.",
+      "limitations": [
+        "Does not determine ownership or dependence in an individual dispute."
+      ]
+    },
+    {
+      "id": "CLM-04",
+      "statement": "Statements, observations, inferences, corroboration, and attestations must remain distinguishable, with claims limited to what their evidence establishes.",
+      "evidence_class": "supplied_position",
+      "source_refs": [
+        "SRC-04"
+      ],
+      "interpretive_status": "Supported standard for evidence handling.",
+      "limitations": [
+        "Classification alone does not make a claim accurate or verified."
+      ]
+    },
+    {
+      "id": "CLM-05",
+      "statement": "A retained account of a person does not acquire authority to override that person's present instruction or correction.",
+      "evidence_class": "supplied_position",
+      "source_refs": [
+        "SRC-04"
+      ],
+      "interpretive_status": "Supported limit on personal modeling.",
+      "limitations": [
+        "Does not resolve every conflict involving identity, context, prior constraints, or third-party interests."
+      ]
+    },
+    {
+      "id": "CLM-06",
+      "statement": "Similar expression can result from shared conventions, task constraints, or coincidence; resemblance alone does not settle derivation.",
+      "evidence_class": "direct_declaration",
+      "source_refs": [
+        "SRC-05",
+        "SRC-06"
+      ],
+      "interpretive_status": "Direct position with an approved qualification: the relevant construction set is task-constrained, not a claim that language has only finitely many possible expressions.",
+      "limitations": [
+        "No probability of coincidence is established.",
+        "A claim of coincidence does not establish independence."
+      ]
+    },
+    {
+      "id": "CLM-07",
+      "statement": "An instruction excluding material establishes a boundary but does not independently prove that a resulting output has no dependence on that material.",
+      "evidence_class": "scoped_approval",
+      "source_refs": [
+        "SRC-05",
+        "SRC-06"
+      ],
+      "interpretive_status": "Approved interpretation of the distinction between a restriction and demonstrated compliance.",
+      "limitations": [
+        "Does not establish that a particular system accessed a particular source.",
+        "The meaning of restricted implementation material depends on the governing context."
+      ]
+    },
+    {
+      "id": "CLM-08",
+      "statement": "The individual affirms an ethical commitment while acknowledging that sustained interest may precede recognition of a boundary crossing.",
+      "evidence_class": "direct_declaration",
+      "source_refs": [
+        "SRC-05",
+        "SRC-06"
+      ],
+      "interpretive_status": "Generalized declaration preserving commitment and delayed recognition while omitting sensitive personal context.",
+      "limitations": [
+        "Does not establish perfect conduct, absence of responsibility, or an independent explanation of behavior."
+      ]
+    },
+    {
+      "id": "CLM-09",
+      "statement": "When unauthorized reliance is identified, the response should include stopping that reliance and addressing affected work within the available authority.",
+      "evidence_class": "scoped_approval",
+      "source_refs": [
+        "SRC-05",
+        "SRC-06"
+      ],
+      "interpretive_status": "Approved interpretation of removal and redress.",
+      "limitations": [
+        "Suspected influence, known dependence, and established unauthorized use remain different statuses.",
+        "A declaration of removal does not establish complete removal.",
+        "Does not authorize destruction of records or changes to another person's work."
+      ]
+    },
+    {
+      "id": "CLM-10",
+      "statement": "Non-coercive transfers should remain open to voluntary clarification, negotiation, and remedy.",
+      "evidence_class": "scoped_approval",
+      "source_refs": [
+        "SRC-05",
+        "SRC-06"
+      ],
+      "interpretive_status": "Approved interpretation of the individual's commitment to mediation.",
+      "limitations": [
+        "Does not guarantee participation, agreement, ownership, transfer authority, or legal effectiveness.",
+        "Later agreement does not establish that earlier permission existed."
+      ]
+    },
+    {
+      "id": "CLM-11",
+      "statement": "Personal interpretation should avoid turning metaphor, favorable description, or speculative language into unsupported claims about essential identity.",
+      "evidence_class": "supplied_position",
+      "source_refs": [
+        "SRC-04"
+      ],
+      "interpretive_status": "Supported limit on inflated personal interpretation.",
+      "limitations": [
+        "Does not prohibit clearly identified imaginative representation or praise."
+      ]
+    },
+    {
+      "id": "CLM-12",
+      "statement": "Corrections and competing accounts should retain enough provenance to explain their treatment, subject to permission and confidentiality.",
+      "evidence_class": "supplied_position",
+      "source_refs": [
+        "SRC-04"
+      ],
+      "interpretive_status": "Supported principle of transparent correction.",
+      "limitations": [
+        "Does not authorize unrestricted retention of protected material.",
+        "No universal retention period or procedure is established."
+      ]
+    },
+    {
+      "id": "CLM-13",
+      "statement": "The record supports declared standards and a history of their development more strongly than it supports findings about conduct outside the record.",
+      "evidence_class": "editorial_interpretation",
+      "source_refs": [
+        "SRC-01",
+        "SRC-04",
+        "SRC-05",
+        "SRC-08"
+      ],
+      "interpretive_status": "Review conclusion about evidential scope.",
+      "limitations": [
+        "Does not infer compliance or noncompliance from the absence of independent evidence."
+      ]
+    },
+    {
+      "id": "CLM-14",
+      "statement": "Approving production, receiving an artifact, reviewing it, and accepting its contents are distinct events.",
+      "evidence_class": "supplied_position",
+      "source_refs": [
+        "SRC-04",
+        "SRC-07",
+        "SRC-08"
+      ],
+      "interpretive_status": "Supported distinction applied to the dossier and its review.",
+      "limitations": [
+        "Acceptance of a review does not establish independent verification of all personal claims.",
+        "No universal rule of precedence among document versions has been established."
+      ]
+    }
+  ],
+  "development": [
+    {
+      "stage": "Initial statement",
+      "description": "The source distinguished study of work from personal reconstruction.",
+      "source_refs": [
+        "SRC-01"
+      ]
+    },
+    {
+      "stage": "Permission clarification",
+      "description": "Permission was clarified as capable of authorizing bounded activity.",
+      "source_refs": [
+        "SRC-02",
+        "SRC-03"
+      ]
+    },
+    {
+      "stage": "Extended treatment",
+      "description": "The account expanded to evidence handling, adaptive systems, correction, and personal authority.",
+      "source_refs": [
+        "SRC-04"
+      ]
+    },
+    {
+      "stage": "Fallibility and remedy",
+      "description": "Coincidence, delayed recognition, removal of unauthorized reliance, and mediation received separate treatment.",
+      "source_refs": [
+        "SRC-05",
+        "SRC-06"
+      ]
+    },
+    {
+      "stage": "Reconstruction and review",
+      "description": "A bounded dossier and continuation were produced. A consistency review was accepted before this de-identified edition was authorized.",
+      "source_refs": [
+        "SRC-07",
+        "SRC-08"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-01",
+      "title": "Commitment and recognition",
+      "claim_refs": [
+        "CLM-08",
+        "CLM-09",
+        "CLM-13"
+      ],
+      "interpretation": "A continuing ethical commitment can be recorded alongside delayed recognition. The authorization, event, awareness, and response still require separate assessment.",
+      "limitation": "No general threshold for responsibility or adequate remedy is established."
+    },
+    {
+      "id": "REL-02",
+      "title": "Convergence and dependence",
+      "claim_refs": [
+        "CLM-03",
+        "CLM-06",
+        "CLM-07"
+      ],
+      "interpretation": "Possible convergence limits unsupported accusations, while known dependence still requires honest treatment.",
+      "limitation": "Neither resemblance nor a claim of coincidence resolves a particular case alone."
+    },
+    {
+      "id": "REL-03",
+      "title": "Removal and correction history",
+      "claim_refs": [
+        "CLM-09",
+        "CLM-12"
+      ],
+      "interpretation": "Stopping reliance and retaining an accountable correction record may serve different purposes and require distinct permissions.",
+      "limitation": "The need for accountability does not authorize duplication of restricted material."
+    },
+    {
+      "id": "REL-04",
+      "title": "Permission and mediation",
+      "claim_refs": [
+        "CLM-02",
+        "CLM-10"
+      ],
+      "interpretation": "A later agreement may set future terms or address an earlier dispute without establishing that permission existed earlier.",
+      "limitation": "Agreement about future use need not settle all historical claims."
+    },
+    {
+      "id": "REL-05",
+      "title": "Adaptation and authority",
+      "claim_refs": [
+        "CLM-05",
+        "CLM-11",
+        "CLM-14"
+      ],
+      "interpretation": "A personal account may assist communication while remaining subordinate to explicit instructions and the limits of its authorization.",
+      "limitation": "It cannot grant itself authority to act for the person."
+    }
+  ],
+  "hypothetical_cases": [
+    {
+      "id": "CASE-01",
+      "title": "Recognition after a change in analytical purpose",
+      "scenario": "A reviewer permitted to examine a work begins constructing a creator profile and later notices that profiling was excluded.",
+      "claim_refs": [
+        "CLM-01",
+        "CLM-08",
+        "CLM-09"
+      ],
+      "assessment": "Stop and assess the affected activity. Delayed recognition does not determine whether the earlier activity was authorized or what remedy is sufficient.",
+      "unresolved": "The timing of awareness and the proportionate remedy require case-specific evidence."
+    },
+    {
+      "id": "CASE-02",
+      "title": "Resemblance after source exclusion",
+      "scenario": "An output resembles a short construction in material that was excluded from the task.",
+      "claim_refs": [
+        "CLM-06",
+        "CLM-07"
+      ],
+      "assessment": "Record the resemblance and restriction separately. Examine competing explanations without treating either coincidence or a violation as established.",
+      "unresolved": "The available evidence may not resolve derivation."
+    },
+    {
+      "id": "CASE-03",
+      "title": "Replacement with a correction record",
+      "scenario": "An author replaces an identified unauthorized contribution and keeps a bounded explanation of the correction.",
+      "claim_refs": [
+        "CLM-09",
+        "CLM-12"
+      ],
+      "assessment": "Assess permission for the replacement and the correction record separately. Do not claim universal removal without support.",
+      "unresolved": "Retention, access, and any claim of replacement independence remain context-dependent."
+    },
+    {
+      "id": "CASE-04",
+      "title": "Disputed voluntary transfer",
+      "scenario": "Two parties agree an exchange was voluntary but disagree about the uses it permitted.",
+      "claim_refs": [
+        "CLM-02",
+        "CLM-10"
+      ],
+      "assessment": "Clarify the disputed scope and consider future agreement without rewriting the chronology of permission.",
+      "unresolved": "Participation, settlement terms, and authority to agree have not been established."
+    },
+    {
+      "id": "CASE-05",
+      "title": "An inferred preference conflicts with a request",
+      "scenario": "A system expects a detailed response, but the individual requests brevity.",
+      "claim_refs": [
+        "CLM-05",
+        "CLM-14"
+      ],
+      "assessment": "The inferred preference does not independently authorize overriding the current request. Expose material ambiguity rather than resolving it invisibly through a profile.",
+      "unresolved": "More consequential conflicts may require clarification of identity, context, or prior explicit constraints."
+    }
+  ],
+  "unresolved_questions": [
+    {
+      "id": "OPEN-01",
+      "question": "Which formulation governs when document versions differ?",
+      "claim_refs": [
+        "CLM-14"
+      ]
+    },
+    {
+      "id": "OPEN-02",
+      "question": "What do restricted implementation terms mean in a particular authorized activity?",
+      "claim_refs": [
+        "CLM-07"
+      ]
+    },
+    {
+      "id": "OPEN-03",
+      "question": "What evidence is sufficient to classify a resemblance as independent, influenced, dependent, or unresolved?",
+      "claim_refs": [
+        "CLM-06",
+        "CLM-07"
+      ]
+    },
+    {
+      "id": "OPEN-04",
+      "question": "When should a disputed output remain qualified, be isolated, or be withdrawn?",
+      "claim_refs": [
+        "CLM-09"
+      ]
+    },
+    {
+      "id": "OPEN-05",
+      "question": "What establishes sufficient removal when influence cannot be separated reliably?",
+      "claim_refs": [
+        "CLM-09"
+      ]
+    },
+    {
+      "id": "OPEN-06",
+      "question": "What minimum correction record is necessary and permitted?",
+      "claim_refs": [
+        "CLM-12"
+      ]
+    },
+    {
+      "id": "OPEN-07",
+      "question": "How should delayed recognition, negligent disregard, and deliberate circumvention be distinguished?",
+      "claim_refs": [
+        "CLM-08",
+        "CLM-09"
+      ]
+    },
+    {
+      "id": "OPEN-08",
+      "question": "What voluntary mediation process and completion conditions would the parties accept?",
+      "claim_refs": [
+        "CLM-10"
+      ]
+    },
+    {
+      "id": "OPEN-09",
+      "question": "What future uses of the dossier, if any, will be separately authorized?",
+      "claim_refs": [
+        "CLM-02",
+        "CLM-05",
+        "CLM-14"
+      ]
+    }
+  ],
+  "review_checklist": [
+    "Check whether each statement accurately represents the intended position.",
+    "Check whether source material and editorial wording remain distinguishable.",
+    "Identify any statement generalized beyond its original context.",
+    "Identify omitted qualifications or added implications.",
+    "Confirm that hypothetical examples are not mistaken for personal history.",
+    "Clarify terminology where its meaning affects permission or remedy.",
+    "Keep unresolved claims visibly unresolved.",
+    "Identify any material requiring further restriction.",
+    "Distinguish correction of an editorial error from a changed position.",
+    "Record acceptance explicitly rather than inferring it from silence."
+  ],
+  "review_status": {
+    "consistency_review": "The preceding review was accepted and its corrections are incorporated in this edition.",
+    "edition_production": "Explicitly authorized.",
+    "edition_content_acceptance": "Not yet recorded after delivery of this edition.",
+    "independent_verification": "No independent verification of personal claims or conduct is asserted.",
+    "examples": "All cases are hypothetical.",
+    "further_use": "Machine-readable preparation is authorized. This file does not independently authorize external ingestion, sharing, or operational personal modeling."
+  }
+}
