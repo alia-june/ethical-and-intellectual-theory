@@ -60,6 +60,16 @@ A de-identified account of declared ethical positions, their supporting sources,
 
 De-identification removes direct identifiers but does not guarantee that the combination of ideas is unrecognizable.
 
+## Programming doctrine
+
+A bounded programming methodology connecting purpose, meaning, decomposition, explicit contracts, construction, code, and evidence. Human-authored theory and human-composed decomposition remain distinct from AI-assisted formulation, mappings, automation, and finite checks.
+
+- **[Read the programming doctrine](programming-doctrine/HUMAN_DOCTRINE.md)**
+- **[Open the machine-readable doctrine](programming-doctrine/DOCTRINE.json)**
+- **[Publication scope and validation](programming-doctrine/PUBLICATION_AND_VALIDATION.md)**
+
+The edition preserves explicit project profiles and open decisions. Its anonymous presentation does not imply personal identity, universal policy adoption, or runtime authority.
+
 ## The distinctions that matter
 
 | Principle | Its consequence within the doctrine |

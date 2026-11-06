@@ -1,0 +1,632 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Programming doctrine: anonymous public edition 1.0",
+  "description": "Structural contract for a de-identified descriptive doctrine. Validity does not establish truth, consent, permission, semantic equivalence, or runtime enforcement.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "scope",
+    "guide",
+    "startup_instruction",
+    "source_index",
+    "records",
+    "view_order",
+    "relation_vocabulary",
+    "relationships",
+    "inverse_relationships",
+    "source_usage",
+    "coverage",
+    "reconciliation",
+    "counts",
+    "validation_boundary",
+    "method_condition_dispositions",
+    "worked_construction",
+    "publication"
+  ],
+  "properties": {
+    "format": {
+      "type": "object",
+      "required": [
+        "name",
+        "edition",
+        "prepared_date",
+        "role",
+        "language"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "const": "Programming doctrine: anonymous public edition"
+        },
+        "edition": {
+          "const": "1.0-public"
+        },
+        "prepared_date": {
+          "const": "2026-11-06"
+        },
+        "role": {
+          "const": "public_descriptive_doctrine_and_construction_reference"
+        },
+        "language": {
+          "const": "en"
+        },
+        "schema_file": {
+          "const": "DOCTRINE.schema.json"
+        }
+      }
+    },
+    "scope": {
+      "type": "object"
+    },
+    "guide": {
+      "type": "array"
+    },
+    "startup_instruction": {
+      "type": "object"
+    },
+    "source_index": {
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^SRC-[0-9]{3}$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "source_kind",
+          "recorded_role",
+          "availability",
+          "summary",
+          "evidential_limit"
+        ],
+        "properties": {
+          "source_kind": {
+            "type": "string",
+            "minLength": 1
+          },
+          "recorded_role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "availability": {
+            "type": "string",
+            "minLength": 1
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidential_limit": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/record"
+      }
+    },
+    "view_order": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "relation_vocabulary": {
+      "type": "object"
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "from_id",
+          "relation",
+          "to_id"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "from_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "relation": {
+            "enum": [
+              "depends_on",
+              "has_open_question",
+              "has_premise"
+            ]
+          },
+          "to_id": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "inverse_relationships": {
+      "type": "object"
+    },
+    "source_usage": {
+      "type": "object"
+    },
+    "coverage": {
+      "type": "object"
+    },
+    "reconciliation": {
+      "type": "array"
+    },
+    "counts": {
+      "type": "object"
+    },
+    "validation_boundary": {
+      "type": "object"
+    },
+    "method_condition_dispositions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "source_ref",
+          "target_record_id",
+          "disposition",
+          "target_field",
+          "target_items",
+          "rationale"
+        ],
+        "properties": {
+          "disposition": {
+            "enum": [
+              "retained_directly",
+              "qualified_revision"
+            ]
+          },
+          "target_items": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        }
+      }
+    },
+    "worked_construction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "role",
+        "selected_profile",
+        "construction_steps",
+        "reference_code",
+        "code_role_mappings",
+        "historical_cases",
+        "limits"
+      ],
+      "properties": {
+        "role": {
+          "type": "string"
+        },
+        "selected_profile": {
+          "type": "string"
+        },
+        "construction_steps": {
+          "type": "array"
+        },
+        "reference_code": {
+          "type": "string"
+        },
+        "code_role_mappings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "code_role",
+              "title",
+              "reference_selector",
+              "reference_line",
+              "construction_record",
+              "meaning_source_refs",
+              "relationship_status"
+            ],
+            "properties": {
+              "reference_line": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "meaning_source_refs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              }
+            }
+          }
+        },
+        "historical_cases": {
+          "type": "array"
+        },
+        "limits": {
+          "type": "array"
+        }
+      }
+    },
+    "publication": {
+      "type": "object"
+    }
+  },
+  "$defs": {
+    "record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "kind",
+        "title",
+        "statement",
+        "basis",
+        "adoption",
+        "scope",
+        "source_refs",
+        "depends_on",
+        "qualifications",
+        "open_question_ids",
+        "conditions"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "definition",
+            "axiom",
+            "principle",
+            "invariant",
+            "method",
+            "contract",
+            "profile",
+            "inference_rule",
+            "theorem",
+            "corollary",
+            "review_argument",
+            "heuristic",
+            "example",
+            "open_question",
+            "reported_finding"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "statement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "adoption": {
+          "enum": [
+            "confirmed_in_stated_scope",
+            "source_scoped_requirement",
+            "proposed_formulation",
+            "not_a_policy",
+            "unresolved"
+          ]
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "explanation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "blocking_rule": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "response": {
+          "type": "string",
+          "minLength": 1
+        },
+        "consequent": {
+          "type": "string",
+          "minLength": 1
+        },
+        "basis": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "confirmed_user_decision",
+              "recovered_requirement",
+              "editorial_synthesis",
+              "reported_inspection",
+              "derived_argument",
+              "illustration",
+              "unresolved"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "depends_on": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "qualifications": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "open_question_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "preconditions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "postconditions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "validation_obligations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "stop_conditions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "resolved_parts": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "scenario": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "antecedents": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "premise_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "derivation": {
+          "type": "object"
+        },
+        "assumptions": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "required_decisions": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "premises": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "method"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
+          "then": {
+            "required": [
+              "preconditions",
+              "steps",
+              "postconditions",
+              "validation_obligations",
+              "stop_conditions"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "theorem"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
+          "then": {
+            "required": [
+              "premise_ids",
+              "assumptions",
+              "derivation"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "review_argument"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
+          "then": {
+            "required": [
+              "premises",
+              "steps"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "inference_rule"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
+          "then": {
+            "required": [
+              "antecedents",
+              "consequent"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "open_question"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
+          "then": {
+            "required": [
+              "questions",
+              "resolved_parts",
+              "blocking_rule"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "contract"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
+          "then": {
+            "required": [
+              "required_decisions"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "example"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
+          "then": {
+            "required": [
+              "scenario",
+              "response"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
