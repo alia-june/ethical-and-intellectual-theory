@@ -5,7 +5,7 @@
 **Status:** Companion statement to the Self-Doctrine  
 **Source basis:** The individual’s request for this page and explicit approval of the proposed interpretation and repository scope.
 
-[← Return to the reading hub](README.md) · [Read the full Self-Doctrine](SELF_DOCTRINE_EXTENDED.md)
+[← Return to the reading hub](../README.md) · [Read the full Self-Doctrine](SELF_DOCTRINE_EXTENDED.md)
 
 > **Resemblance requires examination. Recognition requires a response. Permission remains bounded.**
 
@@ -148,4 +148,4 @@ Where a transfer is non-coercive, the individual’s commitment is to keep clari
 
 ---
 
-[Return to the reading hub](README.md) · [Consent and bounded authority](SELF_DOCTRINE_EXTENDED.md#xv-consent-as-a-versioned-and-bounded-record)
+[Return to the reading hub](../README.md) · [Consent and bounded authority](SELF_DOCTRINE_EXTENDED.md#xv-consent-as-a-versioned-and-bounded-record)
