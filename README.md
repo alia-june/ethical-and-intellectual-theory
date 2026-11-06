@@ -61,6 +61,18 @@ A de-identified account of declared ethical positions and published programming 
 
 De-identification removes direct identifiers but does not guarantee that the combination of ideas is unrecognizable.
 
+### Visual abstractions
+
+These images are abstract visual companions to the dossier. They interpret aspects of the work without representing identity, proving authorship, or independently attesting to any personal claim.
+
+![Integrity Lattice — a sacred-geometric abstraction of provenance, verification, retained variants, bounded transformation, and information integrity.](assets/images/integrity-lattice.png)
+
+*Integrity Lattice — a sacred-geometric abstraction of provenance, verification, retained variants, bounded transformation, and information integrity.*
+
+![Information Assurance — a nonfigurative abstraction of layered records, traceable transformation, redundancy, visible damage, and guarded information flow.](assets/images/information-assurance-abstraction.png)
+
+*Information Assurance — a nonfigurative abstraction of layered records, traceable transformation, redundancy, visible damage, and guarded information flow.*
+
 ## Errata
 
 **[Record 02 — Three regretted experiences and a change in priority](ERRATA.md#record-02)** records self-reported experiences, retrospective judgments, and a consent-priority lesson. Perceived intent and unresolved validation remain qualified.
