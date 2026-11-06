@@ -61,6 +61,10 @@ A de-identified account of declared ethical positions and published programming 
 
 De-identification removes direct identifiers but does not guarantee that the combination of ideas is unrecognizable.
 
+## Errata
+
+**[Record 02 — Three regretted experiences and a change in priority](ERRATA.md#record-02)** records self-reported experiences, retrospective judgments, and a consent-priority lesson. Perceived intent and unresolved validation remain qualified.
+
 ## Programming doctrine
 
 A bounded programming methodology connecting purpose, meaning, decomposition, explicit contracts, construction, code, and evidence. Human-authored theory and human-composed decomposition remain distinct from AI-assisted formulation, mappings, automation, and finite checks.
