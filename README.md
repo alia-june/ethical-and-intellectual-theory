@@ -39,6 +39,7 @@ Intellectual work can be studied, tested, discussed, and learned from. This doct
 | **[Full nineteen-section doctrine](SELF_DOCTRINE_EXTENDED.md)** | The supplied extended statement, including provenance, evidence, AI adaptation, consent records, and correction. |
 | **[Fourteen consolidated axioms](SELF_DOCTRINE_EXTENDED.md#xviii-consolidated-axioms)** | A concise entry point into the doctrine’s principal distinctions. |
 | **[Final statement](SELF_DOCTRINE_EXTENDED.md#xix-final-statement)** | The concluding account of intellectual inquiry, personal modeling, and the limits of permission. |
+| **[Fallibility, approximation, and redress](FALLIBILITY_APPROXIMATION_AND_REDRESS.md)** | A companion statement on coincidental resemblance, excluded sources, ethical recognition, contaminant ejection, and voluntary mediation. |
 
 ## The distinctions that matter
 
