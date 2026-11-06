@@ -1,15 +1,15 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "document_type": "deidentified_personal_position_dossier",
-  "title": "Personal Positions, Evidence, and Ethical Boundaries",
-  "status": "De-identified edition; no new personal claims",
+  "title": "Declared Ethical Positions and Programming Methodology",
+  "status": "Reconstituted de-identified edition; declared positions and published methodological summaries, with no new findings about identity or personal conduct",
   "scope": {
-    "purpose": "Provide a readable and structured account of declared ethical positions and their relationships.",
-    "source_boundary": "The supplied doctrine statements and the associated conversation, approvals, dossier, and consistency review.",
-    "method": "Combine the two dossier parts, apply the accepted review corrections, paraphrase distinctive wording, and retain evidential distinctions.",
-    "identity_policy": "Use no personal name, account, source locator, precise date, or persistent person identifier. Record and source IDs are local to this document.",
-    "authority": "Production of this edition was explicitly approved. This record does not itself authorize external publication, transfer, prediction, imitation, authentication, or delegation.",
-    "limit": "The account describes declared positions, not a complete person, independently verified conduct, or a unique cognitive method."
+    "purpose": "Provide a readable and structured account of declared ethical positions, published programming methodology, and their bounded relationships.",
+    "source_boundary": "The preserved ethical-position dossier and the programming doctrine published alongside it. Underlying private evidence is not newly disclosed or independently revalidated.",
+    "method": "Preserve the original position records and qualifications; add source-bound methodological summaries, confirmed terminology, editorial relationships, and explicitly hypothetical cases.",
+    "identity_policy": "Use no personal name, account, identity-bearing source locator, precise personal date, or persistent person identifier. Local record IDs and repository-relative citations to already public documents are allowed.",
+    "authority": "This bounded reconstitution and publication were explicitly approved. Publication does not authorize unrelated transfer, prediction, imitation, authentication, delegation, or operational personal modeling.",
+    "limit": "The account describes declared positions and the scope of published methodological material, not a complete person, independently verified conduct, general competence, or a unique cognitive method."
   },
   "anonymization": {
     "classification": "De-identified; irreversible anonymity is not established.",
@@ -27,7 +27,9 @@
       "Differences between declarations and editorial interpretations",
       "Approval and acceptance distinctions",
       "Hypothetical boundary cases",
-      "Unresolved questions and limits"
+      "Unresolved questions and limits",
+      "Public methodological positions with their recorded adoption statuses",
+      "Repository-relative references to already public doctrine records"
     ],
     "residual_risk": "A reader familiar with the source may recognize the combination of ideas. De-identification reduces direct identification and does not guarantee that recognition is impossible."
   },
@@ -55,6 +57,10 @@
     {
       "id": "unresolved",
       "description": "A question for which the record does not establish a responsible conclusion."
+    },
+    {
+      "id": "published_position",
+      "description": "An editorial summary of an already published supplied methodology. The cited record’s adoption, scope, and limits remain explicit; publication is not independent evidence of conduct or personal identity."
     }
   ],
   "sources": [
@@ -97,6 +103,22 @@
       "id": "SRC-08",
       "type": "review_record",
       "description": "Consistency review accepted before authorization of the de-identified edition."
+    },
+    {
+      "id": "SRC-09",
+      "type": "published_programming_doctrine",
+      "description": "The anonymous public programming doctrine, including its working guide, scoped commitments, source-qualified principles, proposed methods, declared example, and validation limits.",
+      "public_documents": [
+        "../programming-doctrine/HUMAN_DOCTRINE.md",
+        "../programming-doctrine/DOCTRINE.json",
+        "../programming-doctrine/PUBLICATION_AND_VALIDATION.md"
+      ],
+      "limit": "The public source states its private-evidence limits. Its confirmed, source-scoped, editorial, hypothetical, and reported roles must not be merged."
+    },
+    {
+      "id": "SRC-10",
+      "type": "scoped_reconstitution_authorization",
+      "description": "Explicit approval of this bounded dossier reconstitution and publication in the designated repositories. The approval covers the named outputs and checks rather than unrestricted personal inference or operational use."
     }
   ],
   "records": [
@@ -288,6 +310,734 @@
         "Acceptance of a review does not establish independent verification of all personal claims.",
         "No universal rule of precedence among document versions has been established."
       ]
+    },
+    {
+      "id": "CLM-15",
+      "title": "Purpose, function, and scoped approval",
+      "statement": "The published methodology establishes the required function and a concrete approved scope before production, allows routine work already covered by that authorization, and organizes common requirements through a shared core and explicit project profiles.",
+      "evidence_class": "published_position",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "C01",
+          "recorded_adoption": "confirmed_in_stated_scope",
+          "recorded_basis": [
+            "confirmed_user_decision"
+          ],
+          "recorded_scope": "Confirmed starting commitment for this doctrine discussion; receiving work still requires its actual local authority and profile decisions."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "C02",
+          "recorded_adoption": "confirmed_in_stated_scope",
+          "recorded_basis": [
+            "confirmed_user_decision"
+          ],
+          "recorded_scope": "Confirmed starting commitment for this doctrine discussion; receiving work still requires its actual local authority and profile decisions."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P01",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "M01",
+          "recorded_adoption": "proposed_formulation",
+          "recorded_basis": [
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Operational procedure for the applicable project/profile; production steps require existing concrete clearance."
+        }
+      ],
+      "interpretive_status": "Editorial summary of the cited published records. Their confirmed, source-scoped, proposed, illustrative, and reported roles remain as recorded; this dossier does not upgrade them into new personal findings.",
+      "limitations": [
+        "A new scope or material change is distinct from a routine step within existing clearance.",
+        "This records the supplied procedure, not independent evidence that every project followed it."
+      ]
+    },
+    {
+      "id": "CLM-16",
+      "title": "Decomposition and original synthesis",
+      "statement": "The methodology chooses the useful decomposition scale from the function or question, identifies responsibilities and relationships, and requires original construction from recovered functions and primitives where the project calls for original synthesis.",
+      "evidence_class": "published_position",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P13",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P25",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "M04",
+          "recorded_adoption": "proposed_formulation",
+          "recorded_basis": [
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Operational procedure for the applicable project/profile; production steps require existing concrete clearance."
+        }
+      ],
+      "interpretive_status": "Editorial summary of the cited published records. Their confirmed, source-scoped, proposed, illustrative, and reported roles remain as recorded; this dossier does not upgrade them into new personal findings.",
+      "limitations": [
+        "Original-synthesis requirements remain project-specific.",
+        "This does not establish originality, ownership, or legal status of a particular implementation."
+      ]
+    },
+    {
+      "id": "CLM-17",
+      "title": "Transparent contradiction analysis",
+      "statement": "Conflicting assertions may remain visible in working analysis while their implications are examined before supported reconciliation.",
+      "evidence_class": "published_position",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P06",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "M17",
+          "recorded_adoption": "proposed_formulation",
+          "recorded_basis": [
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Operational procedure for the applicable project/profile; production steps require existing concrete clearance."
+        }
+      ],
+      "interpretive_status": "Editorial summary of the cited published records. Their confirmed, source-scoped, proposed, illustrative, and reported roles remain as recorded; this dossier does not upgrade them into new personal findings.",
+      "limitations": [
+        "No universal formal logic or contradiction calculus is selected.",
+        "An unresolved conflict does not authorize an otherwise unsupported dependent action."
+      ]
+    },
+    {
+      "id": "CLM-18",
+      "title": "Evidence roles and claim limits",
+      "statement": "The methodology distinguishes required behavior, observations, interpretations, implementation intentions, actual outcomes, outcome reports, verification judgments, and acceptance, limiting conclusions to the property and scope supported by the check.",
+      "evidence_class": "published_position",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P07",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P24",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "DEF18",
+          "recorded_adoption": "confirmed_in_stated_scope",
+          "recorded_basis": [
+            "confirmed_user_decision"
+          ],
+          "recorded_scope": "Confirmed shared terminology for this doctrine; actual permission validity and evidential support remain operation-specific."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "DEF24",
+          "recorded_adoption": "confirmed_in_stated_scope",
+          "recorded_basis": [
+            "confirmed_user_decision"
+          ],
+          "recorded_scope": "Confirmed shared terminology; a particular report remains a claim whose evidence must be assessed."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "M18",
+          "recorded_adoption": "proposed_formulation",
+          "recorded_basis": [
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Operational procedure for the applicable project/profile; production steps require existing concrete clearance."
+        }
+      ],
+      "interpretive_status": "Editorial summary of the cited published records. Their confirmed, source-scoped, proposed, illustrative, and reported roles remain as recorded; this dossier does not upgrade them into new personal findings.",
+      "limitations": [
+        "A label, valid record, completed procedure, or passing structural check does not establish all other properties.",
+        "Declared standards remain distinct from observed personal conduct."
+      ]
+    },
+    {
+      "id": "CLM-19",
+      "title": "Contract-defined sentinels",
+      "statement": "The methodology preserves meaningful value and state distinctions through field or boundary contracts, including valid error and exception sentinel states and explicitly qualified native-null conversions.",
+      "evidence_class": "published_position",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "C03",
+          "recorded_adoption": "confirmed_in_stated_scope",
+          "recorded_basis": [
+            "confirmed_user_decision"
+          ],
+          "recorded_scope": "Confirmed starting commitment for this doctrine discussion; receiving work still requires its actual local authority and profile decisions."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "C06",
+          "recorded_adoption": "confirmed_in_stated_scope",
+          "recorded_basis": [
+            "confirmed_user_decision"
+          ],
+          "recorded_scope": "Confirmed starting commitment for this doctrine discussion; receiving work still requires its actual local authority and profile decisions."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P08",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P09",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "M06",
+          "recorded_adoption": "proposed_formulation",
+          "recorded_basis": [
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Operational procedure for the applicable project/profile; production steps require existing concrete clearance."
+        }
+      ],
+      "interpretive_status": "Editorial summary of the cited published records. Their confirmed, source-scoped, proposed, illustrative, and reported roles remain as recorded; this dossier does not upgrade them into new personal findings.",
+      "limitations": [
+        "The complete marker encoding, collision policy, transitions, and universal mapping remain unresolved.",
+        "A sentinel’s presence does not itself prove that a recognizing mitigation structure exists or operates correctly."
+      ]
+    },
+    {
+      "id": "CLM-20",
+      "title": "Safe fall-through and responsibility",
+      "statement": "Safe fall-through requires the designated JSON state to survive an exception while the surrounding system owns the exception response; preservation, catching, and response-contract compliance remain separately assessable.",
+      "evidence_class": "published_position",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "C07",
+          "recorded_adoption": "confirmed_in_stated_scope",
+          "recorded_basis": [
+            "confirmed_user_decision"
+          ],
+          "recorded_scope": "Confirmed starting commitment for this doctrine discussion; receiving work still requires its actual local authority and profile decisions."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "C08",
+          "recorded_adoption": "confirmed_in_stated_scope",
+          "recorded_basis": [
+            "confirmed_user_decision"
+          ],
+          "recorded_scope": "Confirmed starting commitment for this doctrine discussion; receiving work still requires its actual local authority and profile decisions."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "M16",
+          "recorded_adoption": "proposed_formulation",
+          "recorded_basis": [
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Operational procedure for the applicable project/profile; production steps require existing concrete clearance."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "COR01",
+          "recorded_adoption": "proposed_formulation",
+          "recorded_basis": [
+            "derived_argument"
+          ],
+          "recorded_scope": "Conditional reasoning or example within the explicitly stated premises and applicable project contract."
+        }
+      ],
+      "interpretive_status": "Editorial summary of the cited published records. Their confirmed, source-scoped, proposed, illustrative, and reported roles remain as recorded; this dossier does not upgrade them into new personal findings.",
+      "limitations": [
+        "The required survivor and execution boundary must be selected before dependent implementation.",
+        "Rollback, automatic continuation, and preservation of every intermediate state are not implied.",
+        "The example’s immutable-text survivor is a local profile choice."
+      ]
+    },
+    {
+      "id": "CLM-21",
+      "title": "References, mutation, copies, and history",
+      "statement": "Continuing-object and version-pinned references are distinct permitted modes; their identity, mutation, copy-independence, history, retention, conflict, and unavailability behavior require explicit applicable contracts.",
+      "evidence_class": "published_position",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "C04",
+          "recorded_adoption": "confirmed_in_stated_scope",
+          "recorded_basis": [
+            "confirmed_user_decision"
+          ],
+          "recorded_scope": "Confirmed starting commitment for this doctrine discussion; receiving work still requires its actual local authority and profile decisions."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P10",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P11",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P12",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "M07",
+          "recorded_adoption": "proposed_formulation",
+          "recorded_basis": [
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Operational procedure for the applicable project/profile; production steps require existing concrete clearance."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "M08",
+          "recorded_adoption": "proposed_formulation",
+          "recorded_basis": [
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Operational procedure for the applicable project/profile; production steps require existing concrete clearance."
+        }
+      ],
+      "interpretive_status": "Editorial summary of the cited published records. Their confirmed, source-scoped, proposed, illustrative, and reported roles remain as recorded; this dossier does not upgrade them into new personal findings.",
+      "limitations": [
+        "No universal UUID, immutable-store, live-reference prohibition, or retention policy follows.",
+        "A distinct outer copy does not establish independent nested state.",
+        "Observed-version disclosure and no silent pinned substitution remain proposed shared obligations where the source so labels them."
+      ]
+    },
+    {
+      "id": "CLM-22",
+      "title": "Amorphous construction under invariants",
+      "statement": "The methodology varies construction according to function while declaring what may change, which invariants and interfaces must hold, and which cooperation or refusal conditions apply.",
+      "evidence_class": "published_position",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P14",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P15",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "M05",
+          "recorded_adoption": "proposed_formulation",
+          "recorded_basis": [
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Operational procedure for the applicable project/profile; production steps require existing concrete clearance."
+        }
+      ],
+      "interpretive_status": "Editorial summary of the cited published records. Their confirmed, source-scoped, proposed, illustrative, and reported roles remain as recorded; this dossier does not upgrade them into new personal findings.",
+      "limitations": [
+        "Amorphous form does not mean undefined behavior or unrestricted capability.",
+        "A wrapper, limited language, or declaration is not evidence of technical enforcement."
+      ]
+    },
+    {
+      "id": "CLM-23",
+      "title": "Target-specific compilation requirements",
+      "statement": "The methodology distinguishes explicit compilation structure, reproducible artifact bytes, runtime determinism, and execution bounds, requiring finite loop expansion and initialization where the affected target contract demands them.",
+      "evidence_class": "published_position",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P18",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P19",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "M09",
+          "recorded_adoption": "proposed_formulation",
+          "recorded_basis": [
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Operational procedure for the applicable project/profile; production steps require existing concrete clearance."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "TH06",
+          "recorded_adoption": "not_a_policy",
+          "recorded_basis": [
+            "derived_argument"
+          ],
+          "recorded_scope": "Conditional reasoning or example within the explicitly stated premises and applicable project contract."
+        }
+      ],
+      "interpretive_status": "Editorial summary of the cited published records. Their confirmed, source-scoped, proposed, illustrative, and reported roles remain as recorded; this dossier does not upgrade them into new personal findings.",
+      "limitations": [
+        "The historical target requirements do not impose a universal loop ban.",
+        "Unrolling or successful compilation alone does not establish runtime correctness, numerical equivalence, or byte reproducibility."
+      ]
+    },
+    {
+      "id": "CLM-24",
+      "title": "Correctness and qualified optimization",
+      "statement": "Relevant correctness and reference behavior precede optimization or more complex integration; any intended approximation needs its applicable branch, metric, consequence, bound, resource allowance, and authorization, with accuracy and performance assessed separately.",
+      "evidence_class": "published_position",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P21",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "M11",
+          "recorded_adoption": "proposed_formulation",
+          "recorded_basis": [
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Operational procedure for the applicable project/profile; production steps require existing concrete clearance."
+        }
+      ],
+      "interpretive_status": "Editorial summary of the cited published records. Their confirmed, source-scoped, proposed, illustrative, and reported roles remain as recorded; this dossier does not upgrade them into new personal findings.",
+      "limitations": [
+        "A result at one input does not establish domain-wide behavior or other contract obligations.",
+        "No universal numerical allowance or performance budget is adopted."
+      ]
+    },
+    {
+      "id": "CLM-25",
+      "title": "Expansion accounting and interaction qualification",
+      "statement": "Dynamic composition requires explicit expansion and resource accounting, while consequential interactions require their own applicable evidence rather than automatic inheritance of constituent confidence.",
+      "evidence_class": "published_position",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "C05",
+          "recorded_adoption": "confirmed_in_stated_scope",
+          "recorded_basis": [
+            "confirmed_user_decision"
+          ],
+          "recorded_scope": "Confirmed starting commitment for this doctrine discussion; receiving work still requires its actual local authority and profile decisions."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P29",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "P30",
+          "recorded_adoption": "source_scoped_requirement",
+          "recorded_basis": [
+            "recovered_requirement",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Recovered principle as qualified by its original context and the applicable current project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "M14",
+          "recorded_adoption": "proposed_formulation",
+          "recorded_basis": [
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Operational procedure for the applicable project/profile; production steps require existing concrete clearance."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "TH02",
+          "recorded_adoption": "not_a_policy",
+          "recorded_basis": [
+            "derived_argument"
+          ],
+          "recorded_scope": "Conditional reasoning or example within the explicitly stated premises and applicable project contract."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "TH04",
+          "recorded_adoption": "not_a_policy",
+          "recorded_basis": [
+            "derived_argument"
+          ],
+          "recorded_scope": "Conditional reasoning or example within the explicitly stated premises and applicable project contract."
+        }
+      ],
+      "interpretive_status": "Editorial summary of the cited published records. Their confirmed, source-scoped, proposed, illustrative, and reported roles remain as recorded; this dossier does not upgrade them into new personal findings.",
+      "limitations": [
+        "A recursive plugin/pipeline runtime is the first selected budget target, not a completed universal runtime.",
+        "Active occupancy, lifetime creation, depth, retries, waiting, and retained resources are different accounting questions.",
+        "Illustrative numbers do not supply defaults, and the proposed qualification ontology remains open as stated by the source."
+      ]
+    },
+    {
+      "id": "CLM-26",
+      "title": "Upward construction and declared rehydration",
+      "statement": "The methodology builds upward from reviewed meanings, commitments, relationships, and project bindings into contracts, methods, construction instructions, and code, retaining inspection paths in both directions.",
+      "evidence_class": "published_position",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "C09",
+          "recorded_adoption": "confirmed_in_stated_scope",
+          "recorded_basis": [
+            "confirmed_user_decision",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Apply only within the relevant project contract and approved work scope."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "C10",
+          "recorded_adoption": "confirmed_in_stated_scope",
+          "recorded_basis": [
+            "confirmed_user_decision",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Apply only within the relevant project contract and approved work scope."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "M20",
+          "recorded_adoption": "proposed_formulation",
+          "recorded_basis": [
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Apply only within the relevant project contract and approved work scope."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "M21",
+          "recorded_adoption": "proposed_formulation",
+          "recorded_basis": [
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Apply only within the relevant project contract and approved work scope."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "M22",
+          "recorded_adoption": "proposed_formulation",
+          "recorded_basis": [
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Apply only within the relevant project contract and approved work scope."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "EX-SAFE",
+          "recorded_adoption": "not_a_policy",
+          "recorded_basis": [
+            "illustration",
+            "reported_inspection"
+          ],
+          "recorded_scope": "Apply only within the relevant project contract and approved work scope."
+        }
+      ],
+      "interpretive_status": "Editorial summary of the cited published records. Their confirmed, source-scoped, proposed, illustrative, and reported roles remain as recorded; this dossier does not upgrade them into new personal findings.",
+      "limitations": [
+        "A reverse trace does not reverse implication, causality, or execution order.",
+        "The published example covers one declared profile and restricted construction grammar.",
+        "Historical checks support that bounded example; they do not establish general synthesis, formal proof, arbitrary-input hardening, or personal competence across other work."
+      ]
+    },
+    {
+      "id": "CLM-27",
+      "title": "Human and AI contribution roles",
+      "statement": "The published account distinguishes human-authored code theory and human-composed decomposition from AI-assisted formulation, mappings, automation, examples, and finite checks.",
+      "evidence_class": "published_position",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "C11",
+          "recorded_adoption": "confirmed_in_stated_scope",
+          "recorded_basis": [
+            "confirmed_user_decision",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Apply only within the relevant project contract and approved work scope."
+        }
+      ],
+      "interpretive_status": "Editorial summary of the cited published records. Their confirmed, source-scoped, proposed, illustrative, and reported roles remain as recorded; this dossier does not upgrade them into new personal findings.",
+      "limitations": [
+        "This is the recorded contribution framing, not independent authentication of every source fragment’s authorship.",
+        "Attribution, consent, implementation, validation, and adoption remain separate questions."
+      ]
+    },
+    {
+      "id": "CLM-28",
+      "title": "Anonymous presentation and accountable provenance",
+      "statement": "The methodology removes identifying details from the presentation while preserving functional context, source status, correction history, and a private path for provenance recovery.",
+      "evidence_class": "published_position",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "C12",
+          "recorded_adoption": "confirmed_in_stated_scope",
+          "recorded_basis": [
+            "confirmed_user_decision",
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Apply only within the relevant project contract and approved work scope."
+        },
+        {
+          "source_ref": "SRC-09",
+          "record_id": "M22",
+          "recorded_adoption": "proposed_formulation",
+          "recorded_basis": [
+            "editorial_synthesis"
+          ],
+          "recorded_scope": "Apply only within the relevant project contract and approved work scope."
+        }
+      ],
+      "interpretive_status": "Editorial summary of the cited published records. Their confirmed, source-scoped, proposed, illustrative, and reported roles remain as recorded; this dossier does not upgrade them into new personal findings.",
+      "limitations": [
+        "De-identification does not guarantee unrecognizability or erase association with hosting accounts.",
+        "The publication scope does not grant general permission for unrelated profiling, imitation, authentication, or retention."
+      ]
     }
   ],
   "development": [
@@ -327,6 +1077,21 @@
       "source_refs": [
         "SRC-07",
         "SRC-08"
+      ]
+    },
+    {
+      "stage": "Published programming methodology",
+      "description": "A bounded anonymous methodology was published with separate human and machine forms, explicit source roles, a worked construction, and validation limits.",
+      "source_refs": [
+        "SRC-09"
+      ]
+    },
+    {
+      "stage": "Reconstitution with methodological positions",
+      "description": "The ethical-position dossier is extended with fourteen summaries of published methodological positions, terminology, editorial relationships, and hypothetical boundary cases. Existing position records and qualifications remain intact.",
+      "source_refs": [
+        "SRC-09",
+        "SRC-10"
       ]
     }
   ],
@@ -383,6 +1148,75 @@
       ],
       "interpretation": "A personal account may assist communication while remaining subordinate to explicit instructions and the limits of its authorization.",
       "limitation": "It cannot grant itself authority to act for the person."
+    },
+    {
+      "id": "REL-06",
+      "title": "Scoped permission and published methodology",
+      "claim_refs": [
+        "CLM-01",
+        "CLM-02",
+        "CLM-14",
+        "CLM-15",
+        "CLM-28"
+      ],
+      "interpretation": "Both accounts preserve boundaries around the activity actually authorized. Publishing supplied programming guidance does not itself authorize unrelated personal reconstruction.",
+      "limitation": "This is an editorial relationship between domains, not a new universal precedence rule."
+    },
+    {
+      "id": "REL-07",
+      "title": "Technical evidence and personal interpretation",
+      "claim_refs": [
+        "CLM-04",
+        "CLM-11",
+        "CLM-13",
+        "CLM-18",
+        "CLM-26",
+        "CLM-27"
+      ],
+      "interpretation": "The programming record gives more detail about declared procedures and one bounded example while retaining the dossier’s limits on personal interpretation.",
+      "limitation": "A technical example or source label does not establish personality, uniqueness, or general compliance."
+    },
+    {
+      "id": "REL-08",
+      "title": "Original synthesis and attribution",
+      "claim_refs": [
+        "CLM-03",
+        "CLM-06",
+        "CLM-07",
+        "CLM-16",
+        "CLM-27"
+      ],
+      "interpretation": "The original-synthesis requirement and the ethical attribution account both call for honest treatment of functional lessons, copied material, uncertainty, and contribution roles.",
+      "limitation": "Their relationship does not decide derivation, authorship, permission, or legal ownership in a particular dispute."
+    },
+    {
+      "id": "REL-09",
+      "title": "Transparent correction and retained provenance",
+      "claim_refs": [
+        "CLM-12",
+        "CLM-17",
+        "CLM-18",
+        "CLM-28"
+      ],
+      "interpretation": "Conflicting assertions, later corrections, and their evidence can remain inspectable without allowing the retained record to overrule current scoped decisions.",
+      "limitation": "Preservation remains subject to confidentiality, consent, and the actual retention contract."
+    },
+    {
+      "id": "REL-10",
+      "title": "Declared method and bounded demonstration",
+      "claim_refs": [
+        "CLM-13",
+        "CLM-19",
+        "CLM-20",
+        "CLM-21",
+        "CLM-22",
+        "CLM-23",
+        "CLM-24",
+        "CLM-25",
+        "CLM-26"
+      ],
+      "interpretation": "The published methods state how construction should be reasoned about; the example and its historical checks supply narrower evidence for a selected realization.",
+      "limitation": "Method declarations and finite historical results do not establish universal implementation, complete correctness, or conduct outside the record."
     }
   ],
   "hypothetical_cases": [
@@ -441,6 +1275,46 @@
       ],
       "assessment": "The inferred preference does not independently authorize overriding the current request. Expose material ambiguity rather than resolving it invisibly through a profile.",
       "unresolved": "More consequential conflicts may require clarification of identity, context, or prior explicit constraints."
+    },
+    {
+      "id": "CASE-06",
+      "title": "A project method is treated as a personal identity model",
+      "scenario": "A reader follows the published construction method and then treats its use as evidence of the creator’s stable psychology or unique identity.",
+      "claim_refs": [
+        "CLM-01",
+        "CLM-11",
+        "CLM-15",
+        "CLM-26"
+      ],
+      "assessment": "Keep the declared method and its scope separate from the proposed personal inference. The publication does not establish the inference or independently supply permission for that use.",
+      "unresolved": "Any further identity claim, profiling purpose, evidence standard, and authorization require separate assessment."
+    },
+    {
+      "id": "CASE-07",
+      "title": "A bounded exception example is generalized",
+      "scenario": "A reviewer sees the declared example preserve its selected input text and catch an ordinary exception, then claims preservation of interrupted working state and compliance with every system response contract.",
+      "claim_refs": [
+        "CLM-18",
+        "CLM-20",
+        "CLM-26"
+      ],
+      "assessment": "Limit the conclusion to the selected survivor, boundary, response requirements, and recorded cases. Other preservation or response properties require their own contract and evidence.",
+      "unresolved": "The additional survivor policy and response obligations are not established by this hypothetical observation."
+    },
+    {
+      "id": "CASE-08",
+      "title": "Publication is treated as unrestricted reuse",
+      "scenario": "A published methodology is repurposed to train identity authentication or imitation without a separately established authorization.",
+      "claim_refs": [
+        "CLM-01",
+        "CLM-02",
+        "CLM-05",
+        "CLM-14",
+        "CLM-27",
+        "CLM-28"
+      ],
+      "assessment": "Distinguish access to the work, attribution, publication permission, and permission for the proposed operational use. Public availability does not independently settle the latter.",
+      "unresolved": "The actual proposed use, applicable consent, other interests, and permitted retention remain case-specific."
     }
   ],
   "unresolved_questions": [
@@ -510,6 +1384,30 @@
         "CLM-05",
         "CLM-14"
       ]
+    },
+    {
+      "id": "OPEN-10",
+      "question": "Which project profile, survivor, sentinel representation, reference policy, resource bounds, and qualification decisions apply before a particular implementation?",
+      "claim_refs": [
+        "CLM-19",
+        "CLM-20",
+        "CLM-21",
+        "CLM-23",
+        "CLM-24",
+        "CLM-25",
+        "CLM-26"
+      ]
+    },
+    {
+      "id": "OPEN-11",
+      "question": "What additional evidence, if any, would support a claim about implementation or conduct beyond the particular published examples without turning methodology into an unsupported personal model?",
+      "claim_refs": [
+        "CLM-11",
+        "CLM-13",
+        "CLM-18",
+        "CLM-26",
+        "CLM-27"
+      ]
     }
   ],
   "review_checklist": [
@@ -522,14 +1420,90 @@
     "Keep unresolved claims visibly unresolved.",
     "Identify any material requiring further restriction.",
     "Distinguish correction of an editorial error from a changed position.",
-    "Record acceptance explicitly rather than inferring it from silence."
+    "Record acceptance explicitly rather than inferring it from silence.",
+    "Check each methodological summary against the cited public record and its recorded adoption status.",
+    "Do not promote historical example results into a new runtime replay or personal finding.",
+    "Check that public source citations reveal no private locator, date, identity, or source fingerprint."
   ],
   "review_status": {
-    "consistency_review": "The preceding review was accepted and its corrections are incorporated in this edition.",
-    "edition_production": "Explicitly authorized.",
-    "edition_content_acceptance": "Not yet recorded after delivery of this edition.",
-    "independent_verification": "No independent verification of personal claims or conduct is asserted.",
-    "examples": "All cases are hypothetical.",
-    "further_use": "Machine-readable preparation is authorized. This file does not independently authorize external ingestion, sharing, or operational personal modeling."
+    "consistency_review": "The earlier accepted review remains historical. This reconstitution receives the bounded source, consistency, correspondence, and privacy checks described in its validation account.",
+    "edition_production": "This bounded reconstitution and publication in the designated repositories were explicitly authorized.",
+    "edition_content_acceptance": "Publication approval is recorded; separate acceptance of every new editorial interpretation after delivery is not inferred.",
+    "independent_verification": "No independent verification of personal identity, psychology, uniqueness, or conduct is asserted. Cited technical results remain historical reports within their source scope.",
+    "examples": "All dossier boundary cases are hypothetical. The cited programming example is distinct historical technical material; this reconstitution does not rerun it.",
+    "further_use": "Publication of this edition is authorized. The dossier itself grants no unrelated ingestion, transfer, prediction, imitation, authentication, delegation, or operational personal-modeling authority."
+  },
+  "terminology": [
+    {
+      "id": "TERM-01",
+      "term": "Authority",
+      "meaning": "The capacity to grant or constrain permission within an applicable scope.",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "DEF12",
+          "recorded_adoption": "confirmed_in_stated_scope"
+        }
+      ],
+      "limit": "Confirmed terminology within the supplied programming doctrine; original ethical statements remain preserved and are not silently rewritten."
+    },
+    {
+      "id": "TERM-02",
+      "term": "Authorization",
+      "meaning": "The particular permission granted for a specified participant, action, and conditions.",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "DEF23",
+          "recorded_adoption": "confirmed_in_stated_scope"
+        }
+      ],
+      "limit": "Confirmed terminology within the supplied programming doctrine; original ethical statements remain preserved and are not silently rewritten."
+    },
+    {
+      "id": "TERM-03",
+      "term": "Outcome",
+      "meaning": "The actual result of an operation or attempt, distinct from any report about it.",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "DEF18",
+          "recorded_adoption": "confirmed_in_stated_scope"
+        }
+      ],
+      "limit": "Confirmed terminology within the supplied programming doctrine; original ethical statements remain preserved and are not silently rewritten."
+    },
+    {
+      "id": "TERM-04",
+      "term": "Outcome report",
+      "meaning": "A claim describing an outcome. Its accuracy and completeness require an appropriate evidential basis.",
+      "source_refs": [
+        "SRC-09"
+      ],
+      "source_record_refs": [
+        {
+          "source_ref": "SRC-09",
+          "record_id": "DEF24",
+          "recorded_adoption": "confirmed_in_stated_scope"
+        }
+      ],
+      "limit": "Confirmed terminology within the supplied programming doctrine; original ethical statements remain preserved and are not silently rewritten."
+    }
+  ],
+  "revision": {
+    "edition": "reconstituted-2",
+    "basis": "Preserved ethical-position dossier plus the accompanying published programming doctrine.",
+    "preserved": "Original fourteen claims, source entries, evidence-class definitions, five relationships, five hypothetical cases, and nine open questions retain their exact values.",
+    "added": "Fourteen methodological summaries, four terminology entries, five editorial relationships, three hypothetical cases, two open questions, and public source-record citations.",
+    "limits": "This is a source-bound extension rather than a complete reconstruction of a person. Earlier dossier and source versions remain in repository history."
   }
 }

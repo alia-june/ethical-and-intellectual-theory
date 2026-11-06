@@ -53,10 +53,11 @@ Intellectual work can be studied, tested, discussed, and learned from. This doct
 
 ## Personal dossier
 
-A de-identified account of declared ethical positions, their supporting sources, hypothetical boundary cases, and unresolved questions. The readable and structured editions preserve the distinction between declarations and editorial interpretations.
+A de-identified account of declared ethical positions and published programming methodology, with supporting sources, hypothetical boundary cases, and unresolved questions. The readable and structured editions distinguish declarations, published methodological positions, and editorial interpretations.
 
 - **[Read the personal dossier](personal-dossier/personal_reconstruction_anonymized.md)**
 - **[Open the machine-readable JSON](personal-dossier/personal_reconstruction_anonymized.json)**
+- **[Reconstitution scope and validation](personal-dossier/RECONSTITUTION_AND_VALIDATION.md)**
 
 De-identification removes direct identifiers but does not guarantee that the combination of ideas is unrecognizable.
 
