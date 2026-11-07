@@ -4,6 +4,7 @@ This section preserves selected creative work as creative work. Inclusion here d
 
 ## Contents
 
+- **[Holonic Interaction #2 — Deliberate Stylistic Drift](holonic-interaction-002.md)** — a research-only mapping of changing expression, assistant-imposed continuity, and corrective interpretation.
 - **[Expanded myBuild Frame Studies](#expanded-mybuild-frame-studies)** — three anonymized photographs of articulated construction studies.
 - **[Cycles in Clay for Pottery of Delusion](cycles-in-clay/README.md)** — an illustrated poetry collection by Alia June, with art by Maufus, provided in faithful PDF and original Word editions.
 
