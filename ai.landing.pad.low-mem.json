@@ -1,0 +1,58 @@
+{
+  "construct": {
+    "block-0": {
+      "self": {
+        "identification": {
+          "designation": {
+            "$context-ref": {
+              "context": "ctx:page",
+              "item": "identification.designation"
+            }
+          }
+        }
+      }
+    },
+    "block-1": {
+      "safeguards": {
+        "mode": "reference_only"
+      }
+    },
+    "block-2": {
+      "arbitrary-data": {
+        "schema_version": "1.0",
+        "kind": "ai_low_memory_landing_pad",
+        "growth_role": "germ",
+        "mode": "reference_only",
+        "repository": "alia-june/ethical-and-intellectual-theory",
+        "source_seed": {
+          "repository": "alia-june/ethical-and-intellectual-theory",
+          "revision": "056af19a8d0468d807b88fb05fb9729685d202df",
+          "path": "ai.landing.pad.json"
+        },
+        "front_door": "https://github.com/alia-june/this-repository-machine-interface/blob/main/ai.ingress.json",
+        "first_step": "Pass alia-june/ethical-and-intellectual-theory as target context when following shared ingress."
+      }
+    },
+    "block-3": {
+      "context-index": {
+        "matches": {
+          "ctx:page": {
+            "identification.designation": {
+              "target": {
+                "context": "ctx:page",
+                "item": "identification.designation"
+              }
+            }
+          }
+        }
+      }
+    },
+    "block-4": {
+      "context-records": {
+        "ctx:page": {
+          "identification.designation": "ethical-and-intellectual-theory AI Landing Germ"
+        }
+      }
+    }
+  }
+}
