@@ -40,6 +40,14 @@ Principles expressed in this doctrine may participate in a broader ethical struc
 >
 > — [Axiom 1, Self-Doctrine](research-ethics/SELF_DOCTRINE_EXTENDED.md#axiom-1-access-is-not-consent)
 
+## ReShade research outreach — Before You Use AI
+
+**[Read the published ReShade guidance](outreach/reshade/README.md)** · [Non-AI alternatives](outreach/reshade/ALTERNATIVES.md) · [Participation and consent](outreach/reshade/PARTICIPATION.md) · [Standalone HTML](outreach/reshade/index.html)
+
+A public, personal proposal on when **not** to use AI, how to prefer human-led and deterministic shader research, why provenance matters, and how to offer voluntary criticism without extracting another person's intellectual identity. This is not an official ReShade statement. The depth-oracle case study remains **deferred pending external chat verification**; no private correspondence or third-party shader source has been published in the outreach section.
+
+Prior drafts and their evolving intent remain preserved on the [research staging branch](https://github.com/alia-june/ethical-and-intellectual-theory/tree/staging/outreach-reshade/outreach).
+
 ## Begin with the doctrine
 
 Intellectual work can be studied, tested, discussed, and learned from. This doctrine examines the additional ethical questions that arise when analysis turns toward the person behind the work: their characteristic methods, inferred identity, or a retained model used to predict, imitate, authenticate, or influence.
