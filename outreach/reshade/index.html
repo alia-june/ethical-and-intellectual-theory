@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Before You Use AI | ReShade Research Outreach (Draft)</title>
+<style>
+:root{color-scheme:light dark;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65}body{max-width:850px;margin:auto;padding:2rem 1.4rem 5rem}header{border-bottom:1px solid #8885;padding-bottom:1.5rem}h1{line-height:1.15;font-size:clamp(2rem,5vw,3.2rem)}h2{margin-top:2.5rem}a{color:inherit;text-decoration-thickness:1px;text-underline-offset:.15rem}nav{display:flex;gap:.75rem;flex-wrap:wrap}nav a{border:1px solid #8888;padding:.35rem .7rem;border-radius:1rem;font-size:.9rem}blockquote{border-left:3px solid #888;padding-left:1rem;margin-left:0}table{border-collapse:collapse;width:100%}th,td{padding:.7rem;vertical-align:top;border-bottom:1px solid #8886;text-align:left}small,.muted{opacity:.75}.status{letter-spacing:.08em;font-size:.75rem;font-weight:bold;text-transform:uppercase}li{margin:.55rem 0}footer{border-top:1px solid #8885;margin-top:3rem;padding-top:1rem}
+</style>
+</head>
+<body>
+<header>
+<p class="status">STAGING DRAFT · NOT OFFICIAL RESHADE GUIDANCE · NOT PUBLISHED</p>
+<h1>Before You Use AI</h1>
+<p>Consent-first research ethics, alternatives to AI, and an invitation to correct our methods.</p>
+<nav aria-label="Page sections"><a href="#dont">Don't use AI</a><a href="#instead">Do this instead</a><a href="#objections">Objections</a><a href="#case">Case study</a><a href="#participation">Your place</a></nav>
+</header>
+<main>
+<section id="dont"><h2>1. Don't use AI — and why</h2><p>Begin with conventional tools and human inquiry. A language model is not a compiler, a reproducible experiment, proof of correctness, or permission to extract another person's ideas.</p>
+<ul><li>A compiler, linter, debugger, numeric solver, published specification, or test harness may answer the question more reliably.</li><li>Model output can sound certain while misrepresenting code or its author's intentions.</li><li>Sending third-party code or logs to a service can create confidentiality, license, consent, and provenance problems.</li><li>Author-identifying methodological fingerprint extraction and archival require separate ethical consideration and are prohibited without specific applicable consent under this proposed doctrine.</li><li>If a creator has expressed an objection to the intended machine-assisted use, respect the boundary.</li></ul></section>
+<section id="instead"><h2>2. Do this instead</h2><ol><li>Define the research question, required behavior, invariants, and failure modes first.</li><li>Study authorized public shading theory, mathematics, APIs, and documentation.</li><li>Ask the creator directly when appropriate and welcome. Silence is not consent.</li><li>Use deterministic compilers, linting, numerical references, static checks, and reproducible differential tests where permitted.</li><li>Construct your own controlled experimental shader if you need to observe a development process and cannot permissibly study another person's source.</li><li>Keep records of sources, human decisions, revisions, test results, corrections, and uncertainty.</li></ol></section>
+<section id="objections"><h2>3. If you use AI, these are our objections</h2><p>We object to treating another person's source or distinctive intellectual method as unrestricted extraction material. We also object to unverifiable model output replacing engineering evidence.</p>
+<table><thead><tr><th>Before using AI</th><th>Record explicitly</th></tr></thead><tbody>
+<tr><td>Necessity</td><td>Why a deterministic or human-led alternative is insufficient.</td></tr>
+<tr><td>Inputs and authority</td><td>What material enters the model, whose it is, and what permissions apply.</td></tr>
+<tr><td>Outputs and attribution</td><td>What is produced, what is independently contributed, and what conceptual debt remains.</td></tr>
+<tr><td>Verification</td><td>Which reproducible tests distinguish model suggestion from established behavior.</td></tr>
+<tr><td>Retention</td><td>What will be archived, redacted, discarded, or excluded.</td></tr></tbody></table>
+<p>Consent controls voluntary participation; safety and applicable law remain independent obligations.</p></section>
+<section><h2>4. Decomposting is not extractive mining</h2><p>Extractive mining, in this ethical context, means stripping a work or creator's methods for advantage without sufficient permission, provenance, or contribution. <strong>Decomposting</strong> describes the intended regenerative cycle:</p>
+<blockquote><strong>Decompose → Study → Reason → Learn → Respect provenance → Correct → Regrow.</strong></blockquote>
+<p>One conceptual separation: <strong>hermetically seal Code A → identify independently corroborated, permitted Pattern B → disallow Code A − Pattern B.</strong></p>
+<p>Code A is protected source; Pattern B is legitimately transferable general knowledge; Code A − Pattern B signifies excluded, source-specific residue—not an instruction to compute or archive it. If the research cannot establish Pattern B without crossing an author's boundary, stop or use independent specifications or a consenting reference.</p></section>
+<section id="case"><h2>5. A case study: creating shaders to study development</h2><p>My research began with questions about error propagation, verification, and development methodology. ReShade and general shading knowledge provided a useful domain, but documentation and observations of the development process were uneven. I therefore created experimental shaders within a human-directed hybrid development workflow to generate my own inspectable research history.</p>
+<p>These shaders were experimental apparatus as well as outputs. The objective was to understand how errors arise and are corrected, not to infer another programmer's complete intentions or archive a personal coding fingerprint.</p>
+<p>My depth-oracle decisions offer a case for criticism. The <a href="../../ERRATA.md#record-02">self-reported errata, Record 02</a>, documents regrets about research direction, considering existing permissible work, and an unsuccessful community opening. These statements do not attest to anyone else's intentions.</p></section>
+<section id="participation"><h2>6. Your place in this ecosystem</h2><p>Developers, shader authors, skeptical researchers, users, and reviewers are invited to <em>voluntarily</em> criticize the guidance and my own documented methods. No person is asked to approve AI, surrender source, or endorse this project.</p>
+<p>A private, redacted human–AI conversation may be offered to a willing reviewer under a separately agreed sharing scope. No such link is created or published here. Declining or not responding is sufficient and requires no explanation.</p>
+<p>Small, swappable research modules for documentation, verification, and attestation are an intended non-displacing architecture, not a demonstrated guarantee of zero impact on gaming or LLM ecosystems.</p></section>
+</main>
+<footer><p class="muted"><small>Staging only. Not legal advice or official policy. Read the <a href="README.md">full draft</a>, <a href="REVIEW_NOTES.md">review checklist</a>, and <a href="../../research-ethics/SELF_DOCTRINE_EXTENDED.md">parent doctrine</a>. No production release has been authorized.</small></p></footer>
+</body></html>
