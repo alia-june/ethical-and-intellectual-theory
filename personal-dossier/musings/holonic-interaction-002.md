@@ -2,7 +2,7 @@
 
 **Record ID:** HI-002  
 **Status:** Research mapping; not a production specification or gate clearance  
-**Primary evidence:** Human–assistant conversation, November 7, 2026  
+**Primary evidence:** [Full chronological conversation transcript](holonic-interaction-002-transcript.md), November 7, 2026  
 **Intent authority:** Human participant's retrospective clarification  
 **Scope:** One observed conversational sequence; no general law inferred
 
