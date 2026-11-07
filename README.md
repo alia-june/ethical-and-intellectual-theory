@@ -77,7 +77,7 @@ A de-identified account of declared ethical positions and published programming 
 - **[Open the machine-readable JSON](personal-dossier/personal_reconstruction_anonymized.json)**
 - **[Reconstitution scope and validation](personal-dossier/RECONSTITUTION_AND_VALIDATION.md)**
 - **[Michael Stuart — a short personal history](personal-dossier/MICHAEL_STUART_PERSONAL_HISTORY_PERSONAL_STYLE.md)** — an identified first-person account written in the Alia-June personal style.
-- **[Musings — expanded myBuild Frame studies](personal-dossier/musings/README.md)** — anonymized photographs of articulated constructions presented as informal creative studies rather than biographical or evidentiary claims.
+- **[Musings](personal-dossier/musings/README.md)** — creative construction studies and an illustrated poetry collection, presented as creative work rather than biographical proof, clinical evidence, or independent attestation.
 
 The personal history is an identified first-person companion. It is distinct from the de-identified reconstruction and does not independently verify the reconstruction’s claims.
 
