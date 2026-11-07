@@ -13,6 +13,8 @@
 &nbsp; · &nbsp;
 <a href="research-ethics/SELF_DOCTRINE_EXTENDED.md#xviii-consolidated-axioms">Explore the 14 axioms</a>
 &nbsp; · &nbsp;
+<a href="acap/README.md">AI collaboration protocol</a>
+&nbsp; · &nbsp;
 <a href="#document-history">Document history</a>
 </p>
 
@@ -50,6 +52,14 @@ Intellectual work can be studied, tested, discussed, and learned from. This doct
 | **[Fourteen consolidated axioms](research-ethics/SELF_DOCTRINE_EXTENDED.md#xviii-consolidated-axioms)** | A concise entry point into the doctrine’s principal distinctions. |
 | **[Final statement](research-ethics/SELF_DOCTRINE_EXTENDED.md#xix-final-statement)** | The concluding account of intellectual inquiry, personal modeling, and the limits of permission. |
 | **[Fallibility, approximation, and redress](research-ethics/FALLIBILITY_APPROXIMATION_AND_REDRESS.md)** | A companion statement on coincidental resemblance, excluded sources, ethical recognition, contaminant ejection, and voluntary mediation. |
+
+## AI collaboration and attribution
+
+The **AI Collaboration Attribution Protocol (ACAP)** applies the repository's concern with attribution and evidence by documenting how a human author and an AI collaborator worked together. It gives the human author a place to declare intent and editorial decisions, and the AI collaborator a place to report what it generated or transformed. The registries connect candidate material to what the author actually chose to incorporate.
+
+- **[ACAP overview](acap/README.md)** — Choose where to begin and see how a draft becomes a recorded adoption.
+- **[Fillable protocol](acap/protocol.md)** — Record both accounts and link contributions to adoption decisions.
+- **[AI entry point](acap/ai-entry-point.md)** — Copy the prompt for the AI collaborator's own report.
 
 ## Personal dossier
 
