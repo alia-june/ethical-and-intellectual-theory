@@ -43,5 +43,5 @@ Recursion makes the distinction practical. A retry or restart remains subject to
 
 This note is an AI-assisted synthesis of the Redux design discussion and project artifacts. The recovery scenario is illustrative and follows the documented local operation. The definitions of permissive and restrictive follow the author’s explicit correction in the design discussion.
 
-- [Research ethics and scoped consent](../README.md#begin-with-the-doctrine)
-- [Programming doctrine and evidence](../README.md#programming-doctrine)
+- [Research ethics and scoped consent](../../README.md#begin-with-the-doctrine)
+- [Programming doctrine and evidence](../../README.md#programming-doctrine)
