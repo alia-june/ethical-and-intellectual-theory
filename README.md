@@ -104,6 +104,12 @@ These images are abstract visual companions to the dossier. They interpret aspec
 
 *Information Assurance — a nonfigurative abstraction of layered records, traceable transformation, redundancy, visible damage, and guarded information flow.*
 
+### Construction studies
+
+- **[Proper Composition](personal-dossier/musings/proper-composition/README.md)** — Floral panels show how peg placement, inversion, and recurring forms shape a composition. The green panel makes the stopping point visible.
+- **[Transmigration in a Bounded Space](personal-dossier/musings/transmigration-in-a-bounded-space/README.md)** — Compare the stock build, stock parts on a MyBuild frame, and Humucus in Hiding. A separate 2×2×1 build shows what a small core can support.
+- **[Expanded MyBuild Frame Studies](personal-dossier/musings/expanded-mybuild-frame-studies/README.md)** — Three articulated builds explore silhouette, repeated joints, and ornament.
+
 ## Errata
 
 **[Record 02 — Three regretted experiences and a change in priority](ERRATA.md#record-02)** records self-reported experiences, retrospective judgments, and a consent-priority lesson. Perceived intent and unresolved validation remain qualified.
