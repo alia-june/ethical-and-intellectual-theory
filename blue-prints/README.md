@@ -1,0 +1,27 @@
+# Blueprints
+
+**Ethical & Intellectual Theory — architecture and research index**
+
+This directory holds proposed architectural blueprints and technical-theory papers. Its purpose is to make the underlying assumptions, relationships, intended invariants, and open questions inspectable without confusing a research proposal with an accepted specification or a verified implementation.
+
+## Current blueprints
+
+| Blueprint | Subject | Disposition |
+| --- | --- | --- |
+| [Universal JSON, Crete, and SafeCopy — Ethics and Theory](UNIVERSAL_JSON_CRETE_SAFECOPY_ETHICS_AND_THEORY.md) | Representation and exchange; structural composition and fracture; preservation, provenance, and recovery; their separation from authority | **Proposed research synthesis; not canonical or technically attested** |
+
+## Reading and evidentiary conventions
+
+A blueprint should distinguish **historical user direction**, **observed implementation evidence**, **theoretical synthesis**, **open questions**, and **adoption decisions**. The existence of a Markdown file, valid JSON, manifest, checksum, or successful limited test does not establish security, permission, authorship, independent attestation, or production fitness.
+
+Blueprints do not confer runtime authority. They neither supersede the [programming doctrine](../programming-doctrine/HUMAN_DOCTRINE.md) nor enlarge the consent and personal-modeling permissions set out by the [research-ethics doctrine](../research-ethics/SELF_DOCTRINE_EXTENDED.md).
+
+When a design changes, preserve attribution, prior scope, explicit correction and supersession history. In particular, distinguish source preservation from candidate reconstruction and validation from admission/publication.
+
+## Navigation
+
+[Repository home](../README.md) · [Programming doctrine](../programming-doctrine/HUMAN_DOCTRINE.md) · [Research ethics](../research-ethics/SELF_DOCTRINE_EXTENDED.md) · [AI collaboration and attribution](../acap/README.md)
+
+## Publication status
+
+This index organizes public **research proposals**. Each blueprint retains its own stated status. Inclusion here is not the author's adoption of every statement as canonical doctrine.
