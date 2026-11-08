@@ -24,6 +24,8 @@ IF a required reference fails to resolve THEN stop the dependent step AND report
 &nbsp; · &nbsp;
 <a href="acap/README.md">AI collaboration protocol</a>
 &nbsp; · &nbsp;
+<a href="blue-prints/README.md">Blueprints</a>
+&nbsp; · &nbsp;
 <a href="#document-history">Document history</a>
 </p>
 
@@ -123,6 +125,14 @@ A bounded programming methodology connecting purpose, meaning, decomposition, ex
 - **[Publication scope and validation](programming-doctrine/PUBLICATION_AND_VALIDATION.md)**
 
 The edition preserves explicit project profiles and open decisions. Its anonymous presentation does not imply personal identity, universal policy adoption, or runtime authority.
+
+## Architectural blueprints
+
+The [Blueprints index](blue-prints/README.md) organizes proposed technical-theory papers. These documents explore architectural assumptions, representation, composition, copying, integrity, provenance, and authority without treating proposed mechanisms as implemented or independently attested.
+
+- **[Universal JSON, Crete, and SafeCopy — Ethics and Theory](blue-prints/UNIVERSAL_JSON_CRETE_SAFECOPY_ETHICS_AND_THEORY.md)** — A research synthesis on structured representation, hardened relationships, independent copies, recovery, and the limits of authority. **Status: proposed; not canonical.**
+
+The blueprints supplement rather than replace the programming and research-ethics doctrines. Their inclusion does not confer adoption, consent, runtime authority, or verification.
 
 ## The distinctions that matter
 
