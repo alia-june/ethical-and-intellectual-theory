@@ -21,3 +21,9 @@ I approached an unfamiliar but recognizable participant intending to discuss com
 ### Change in priority
 
 Consent moved to the top of my priorities when approaching an unfamiliar participant under adverse conditions. This records a lesson I now emphasize; it does not establish what another participant intended or settle every question about the earlier interactions.
+
+## Massive synthetic generative text error
+
+**Massive synthetic generative text error.** An earlier AI-generated draft turned visual resemblance into an explanation of transmigration, supplied an unsupported account of how the stock parts attach to the MyBuild frame, and placed the transmigration point under Image 2 as though that photograph established it. These were errors introduced by the AI draft. The corrected account treats green and orange as visible resemblance and records the author’s statement that a completely original build was the point of transmigration.
+
+[Corrected musing](personal-dossier/musings/transmigration-in-a-bounded-space/README.md).

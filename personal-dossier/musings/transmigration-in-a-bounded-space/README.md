@@ -1,5 +1,9 @@
 # Transmigration in a Bounded Space
 
+> **Massive synthetic generative text error.** An earlier AI-generated draft turned visual resemblance into an explanation of transmigration, supplied an unsupported account of how the stock parts attach to the MyBuild frame, and placed the transmigration point under Image 2 as though that photograph established it. These were errors introduced by the AI draft. The corrected account treats green and orange as visible resemblance and records the author’s statement that a completely original build was the point of transmigration.
+>
+> [Repository errata](../../../ERRATA.md#massive-synthetic-generative-text-error).
+
 ## Part 1. The pieces have to interlock
 
 Take the problem of being original in a strict space. LEGO and LEGO-like pieces have to interlock. The pieces are technically *infinitely finite*, and in practice they are limited and finite. Working with interlocking blocks of certain sizes is constricting.
@@ -16,13 +20,13 @@ Add the **2×2, 2×3, 3×3, and 4×4 flats**, and I can build larger forms witho
 
 [Stock-build listing supplied for comparison](https://www.ebay.com/itm/147606228686)
 
-### Image 2. Humucus in Hiding
-
-![Close view of Humucus with olive-green armor, orange accents, and dark articulated parts](humucus-in-hiding.jpg)
-
 ### Image 3. Stock parts on a MyBuild frame
 
 ![Green-and-orange mech made with stock parts arranged on a MyBuild frame](stock-parts-mybuild-frame.jpg)
+
+### Image 2. Humucus in Hiding
+
+![Close view of Humucus with olive-green armor, orange accents, and dark articulated parts](humucus-in-hiding.jpg)
 
 ### The point of transmigration
 
