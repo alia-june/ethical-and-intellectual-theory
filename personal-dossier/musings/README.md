@@ -4,6 +4,7 @@ This section preserves selected creative work as creative work. Inclusion here d
 
 ## Contents
 
+- **[Transmigration in a Bounded Space](transmigration-in-a-bounded-space/README.md)** — interlocking micro-builds, Humucus in Hiding, and a 2×2×1 construction.
 - **[Expanded myBuild Frame Studies](#expanded-mybuild-frame-studies)** — three anonymized photographs of articulated construction studies.
 - **[Cycles in Clay for Pottery of Delusion](cycles-in-clay/README.md)** — an illustrated poetry collection by Alia June, with art by Maufus, provided in faithful PDF and original Word editions.
 - **[Reversible Magical Word Squares](reversible-magical-word-squares/README.md)** — comparative research catalogue of twelve historical magical-letter arrangements, proposed translations, the AREPO/plough interpretation, and reproducible symmetry tests.
