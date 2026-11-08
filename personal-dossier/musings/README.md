@@ -6,6 +6,7 @@ This section preserves selected creative work as creative work. Inclusion here d
 
 - **[Expanded myBuild Frame Studies](#expanded-mybuild-frame-studies)** — three anonymized photographs of articulated construction studies.
 - **[Cycles in Clay for Pottery of Delusion](cycles-in-clay/README.md)** — an illustrated poetry collection by Alia June, with art by Maufus, provided in faithful PDF and original Word editions.
+- **[Reversible Magical Word Squares](reversible-magical-word-squares/README.md)** — comparative research catalogue of twelve historical magical-letter arrangements, proposed translations, the AREPO/plough interpretation, and reproducible symmetry tests.
 
 ## Expanded myBuild Frame Studies
 
