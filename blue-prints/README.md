@@ -8,6 +8,7 @@ This directory holds proposed architectural blueprints and technical-theory pape
 
 | Blueprint | Subject | Disposition |
 | --- | --- | --- |
+| [Lunar Flower AI Seed — Expert-System Contract](LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md) | AI under expert-system contract; contract-bound orchestration; ground-up structure and tools; generative synthetic decisions only as a last resort | **Proposed theoretical seed; no runtime admission or implementation claim** |
 | [Universal JSON, Crete, and SafeCopy — Ethics and Theory](UNIVERSAL_JSON_CRETE_SAFECOPY_ETHICS_AND_THEORY.md) | Representation and exchange; structural composition and fracture; preservation, provenance, and recovery; their separation from authority | **Proposed research synthesis; not canonical or technically attested** |
 | [Governed Meaning and Action](governed-meaning-and-action/README.md) | Interpretation, scoped approval, recovery evidence, and contract adoption | **Theory note with a bounded local implementation and proposed extensions** |
 
