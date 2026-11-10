@@ -50,16 +50,21 @@ These are **operator-reported observations and interpretation**, not an audit of
 
 ### Personal hydration of recollected history — demonstration and limits
 
-This ongoing account is itself an **operator-led demonstration of personal hydration of recollected history**: details are recalled, compared with earlier documentation, corrected, and reassembled into a more precise historical representation. The research is not merely recounting a completed event; the process of reconstructing the account is observable in the dated corrections.
+This ongoing account is an **operator-led construction of a core memory using AI and an external versioned record**. The operator introduces **small, cohesive pieces** of recollected history gradually; AI helps articulate, compare, organize, and integrate them into a growing memory representation. Earlier layers are corrected rather than silently erased. This is deliberate **personal hydration**, not a claim that AI autonomously remembers the full history or has independently confirmed it.
 
+**GitHub is the operator's default external memory constructor**: the evolving text is committed as versioned artifacts, making accepted revisions and their differences available for later inspection. Git records **committed versions**, not every uncommitted conversation, and a commit does not itself establish historical truth, completeness, or independent validation. The operator remains the authority for accepting a recollection into the constructed core memory.
+
+- **Core memory:** a progressively assembled, internally coherent account, not a recovered verbatim archive or independently verified original.
+- **Layer:** a small, cohesive contribution from the operator's recollection, kept distinguishable from AI-authored synthesis.
 - **Recollection:** a first-person report of earlier events, conditions, aims, or outcomes.
+- **AI-assisted integration:** organization, comparison, and proposed joining of layers; generation does not supply missing evidence.
 - **Correction:** a later operator-supplied distinction that supersedes an inaccurate earlier summary without rewriting the original record.
-- **Reconstruction:** the current organized synthesis of recollections and available records, with missing evidence still identified.
-- **Attestation:** independent documentary, test, or observational evidence; not automatically supplied by a recollection, a published page, or an AI summary.
+- **Versioned external construction:** deliberate GitHub commits preserve a revision trail and permit comparison of previously committed states.
+- **Attestation:** independent documentary, test, or observational evidence; not automatically supplied by recollection, a Git commit, or an AI summary.
 
 The operator identifies **weak memory** as a working research diagnosis. This public statement does **not** establish a clinical diagnosis or pinpoint whether the limitation lies in a person, model continuity, retrieval, or records. Where earlier assistant summaries conflated partial success with total simulation success, the chronology is corrected while the distinction and the correction remain visible.
 
-The protected preservation work is referenced only in generic terms; its components, contents, and arrangements are not disclosed.
+Only the general construction method is public. Private memory layers, protected preservation work, and sensitive details are **not** part of the public GitHub record. Public version history does not supersede consent or privacy boundaries.
 
 ## Stage 0 — Site hydration and publication
 
