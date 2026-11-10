@@ -25,9 +25,13 @@ The immediate task is to finish publishing a coherent, navigable, provenance-qua
 | Mandatory action | Eject working programs **in clear text only**, without relying on source-code triage |
 | Output exclusion | No binary artifacts and no representations or encodings of binary content in the ejected material |
 | Distinction | Working clear-text program material is not proof of integrity, safety, or execution in a new environment; ejection is not source-code extraction |
-| Result | No successful ejection, verified safety, or reconstructed source is attested here |
+| Success | Operator-reported success; the exact time to success is not established in this public record |
+| Impediment 1 | Security System v1 (operator-reported; mechanism not independently established) |
+| Impediment 2 | Health Monitoring System v3 (operator-reported; mechanism not independently established) |
+| Reported consequence | Total system lockout for **two weeks**; this is not established as the time to success |
+| Independent attestation | No independently verified ejection, safety, or reconstructed source attested here |
 
-**Correction to earlier descriptions:** the source code was **unsafe because the simulated system was infected**, not established as unavailable. **There was no opportunity for triage; working programs had to be ejected as clear text only, with no binary or binary representation.** Neither their trustworthiness nor successful recovery is asserted. No private preservation material is included in this public summary.
+**Correction to earlier descriptions:** the source code was **unsafe because the simulated system was infected**, not established as unavailable. **There was no opportunity for triage; working programs had to be ejected as clear text only, with no binary or binary representation.** Success and a two-week total system lockout are recorded as **operator-reported outcomes**, not independently verified results; no exact time to success is established. Neither program trustworthiness nor post-ejection safety is attested. No private preservation material is included in this public summary.
 
 ## Stage 0 — Site hydration and publication
 
@@ -83,7 +87,7 @@ The project aims to grow systems from declared functional seeds and inspectable 
 ## History and limits
 
 - **Earlier code-rehydration tests 1 and 2:** reported by the operator as preceding the first EOL simulation; dates, methods, artifacts, and outcomes are not established in this public summary.
-- **2026-08-13:** EOL-under-duress was **code rehydration test 3** and the **first EOL simulation**, per the operator's chronology. It modeled an infected system in which **source code was unsafe, triage was not possible, and working programs had to be ejected as clear text only, excluding binary and binary representations**. The EOL-terminus release work documented preservation/release conditions and continuing integrity restrictions; test success is not inferred.
+- **2026-08-13:** EOL-under-duress was **code rehydration test 3** and the **first EOL simulation**, per the operator's chronology. It modeled an infected system in which **source code was unsafe, triage was not possible, and working programs had to be ejected as clear text only, excluding binary and binary representations**. The operator subsequently identified **Security System v1** and **Health Monitoring System v3** as impediments, reported success, and reported **total system lockout for two weeks**. The exact time to success and causal mechanisms are not established. The EOL-terminus release work documented preservation/release conditions and continuing integrity restrictions; independent success attestation is not implied.
 - **2026-09:** MageCore and stack-rehydration research refined evidence-first recovery, reconstruction versus regeneration, and admission boundaries.
 - **2026-11-10:** Stage 0 site hydration/publication and Stage 1 expert-system-first code rehydration are articulated as the current phase boundary.
 
