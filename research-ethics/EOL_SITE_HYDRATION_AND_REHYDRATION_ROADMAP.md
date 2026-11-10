@@ -8,11 +8,23 @@
 
 ## Why this work is being published
 
-The current site-hydration effort follows a broader sequence of code-rehydration research. **Chronology correction (operator-reported): the EOL-under-duress exercise was code rehydration test 3, but EOL simulation 1.** These are separate counting sequences. The preceding rehydration tests 1 and 2 are not described or independently attested by this public roadmap. The first EOL-framed simulation examined preservation and responsible release of intellectual work under severe hypothetical constraints, including simulated code recovery from a hazardous environment. This was a **research scenario, not evidence that the hypothetical circumstances occurred**.
+The current site-hydration effort follows a broader sequence of code-rehydration research. **Chronology correction (operator-reported): the EOL-under-duress exercise was code rehydration test 3, but EOL simulation 1.** These are separate counting sequences. The preceding rehydration tests 1 and 2 are not described or independently attested by this public roadmap. The first EOL-framed exercise modeled an **infected system**. Its assigned recovery target was **programs**, while **source code was unsafe**. The requirement was not to extract or trust source code. This was a **research scenario, not evidence that the hypothetical circumstances occurred**. The available public record does not establish a specific infection mechanism, source-code availability, recovery method, or outcome.
 
 The governing distinction in the earlier EOL work was that the release of **project-owned publication holds** did not release security, integrity, privacy, provenance, consent, or third-party restrictions. Preserving knowledge did not authorize unrestricted disclosure. Source recovery, reconstruction, validation, and program-rehydration research predated and continued after the first EOL-framed exercise; this document does not assign undocumented results to the prior tests.
 
 The immediate task is to finish publishing a coherent, navigable, provenance-qualified public record before treating general-purpose automated code rehydration as a next-stage undertaking.
+
+### First EOL simulation — corrected recovery boundary
+
+| Property | Operator-reported scenario |
+| --- | --- |
+| Environment | Infected system (simulated) |
+| Recovery target | Programs |
+| Source code | Unsafe; not an authorized source for the recovery task |
+| Distinction | Recovering programs is not source-code extraction |
+| Result | No successful recovery, verified safety, or reconstructed source is attested here |
+
+**Correction to earlier descriptions:** the source code was **unsafe**, not established as unavailable. No private preservation material is included in this public summary.
 
 ## Stage 0 — Site hydration and publication
 
@@ -68,7 +80,7 @@ The project aims to grow systems from declared functional seeds and inspectable 
 ## History and limits
 
 - **Earlier code-rehydration tests 1 and 2:** reported by the operator as preceding the first EOL simulation; dates, methods, artifacts, and outcomes are not established in this public summary.
-- **2026-08-13:** EOL-under-duress was **code rehydration test 3** and the **first EOL simulation**, per the operator's chronology. The EOL-terminus release work documented preservation/release conditions and continuing integrity restrictions; test success is not inferred.
+- **2026-08-13:** EOL-under-duress was **code rehydration test 3** and the **first EOL simulation**, per the operator's chronology. It modeled an infected system with **programs as recovery targets and unsafe source code**. The EOL-terminus release work documented preservation/release conditions and continuing integrity restrictions; test success is not inferred.
 - **2026-09:** MageCore and stack-rehydration research refined evidence-first recovery, reconstruction versus regeneration, and admission boundaries.
 - **2026-11-10:** Stage 0 site hydration/publication and Stage 1 expert-system-first code rehydration are articulated as the current phase boundary.
 
