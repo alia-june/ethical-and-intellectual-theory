@@ -55,8 +55,10 @@ A heuristic-grown process would guide the selection, decomposition, adaptation, 
 
 The initial variants I identify for examination in this direction are:
 
-- **OmniFact Generator** — a named construction-oriented project associated with the broader OmniFact artifact architecture. It is a candidate for examining repeatable, governed artifact construction. Its naming here does not assert that a complete generator has been implemented or validated.
-- **MageCore** — an earlier guarded construction, rehydration, and recovery research lineage. It is a candidate for examining how source knowledge, construction steps, dependencies, and recovery evidence may be preserved and reapplied. Its naming here does not reinstate a historical runtime as a current dependency or certify its generality.
+- **[OmniFact Generator](https://github.com/alia-june/xOSG-prototype/blob/main/Synthetic%20Simulations/research-staging/omnifact-ref-v0-8-0/README.md)** — a named construction-oriented project associated with the broader OmniFact artifact architecture. It is a candidate for examining repeatable, governed artifact construction. Its naming here does not assert that a complete generator has been implemented or validated.
+- **[MageCore](https://github.com/alia-june/xOSG-prototype/blob/main/Synthetic%20Simulations/defunct-experiments/retired/mage-core-v0-1-7-prealpha/README.md)** — an earlier guarded construction, rehydration, and recovery research lineage. It is a candidate for examining how source knowledge, construction steps, dependencies, and recovery evidence may be preserved and reapplied. Its naming here does not reinstate a historical runtime as a current dependency or certify its generality.
+
+The linked records are documentation-only research stages: the OmniFact reference is not admitted or classified defunct; MAGE Core is retired/defunct. Their sanitized source ZIPs have not been uploaded to GitHub. 
 
 These are **initial variants for research**, not proven equivalent implementations, activated integrations, or assertions that either presently constructs factories of factories of factories. Their relationships and admissible roles require separate technical specifications and validation.
 
