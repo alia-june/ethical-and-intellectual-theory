@@ -51,6 +51,10 @@ Principles expressed in this doctrine may participate in a broader ethical struc
 >
 > — [Axiom 1, Self-Doctrine](research-ethics/SELF_DOCTRINE_EXTENDED.md#axiom-1-access-is-not-consent)
 
+## Heuristic-grown seeds — factories of factories of factories
+
+**[Read the personal research position](research-ethics/WHEN_NOT_TO_USE_AI_HEURISTIC_GROWN_SEED_SYSTEM.md)** — A response to *when not to use AI in research*: independent research under resource constraints, declared seed functionality, heuristic-guided construction, recursive factory construction, and asymmetric growth and resilience. **OmniFact Generator and MageCore are named as initial research variants, not certified implementations.**
+
 ## ReShade research outreach — Before You Use AI
 
 **[Read the published ReShade guidance](outreach/reshade/README.md)** · [Non-AI alternatives](outreach/reshade/ALTERNATIVES.md) · [Participation and consent](outreach/reshade/PARTICIPATION.md) · [Standalone HTML](outreach/reshade/index.html)
