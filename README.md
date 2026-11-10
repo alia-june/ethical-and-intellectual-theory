@@ -55,6 +55,10 @@ Principles expressed in this doctrine may participate in a broader ethical struc
 
 **Stage 0 (in progress):** complete public site hydration and publication of eligible theory, specifications, and qualified proofs of concept arising from the EOL simulation research. **Stage 1 (planned):** stable programmatic code rehydration through evidence-bound rules and expert systems, with synthetic generative text only as a last resort. Private data remains outside the publication boundary. **Chronology:** the EOL-under-duress exercise was the **third code rehydration test** but the **first EOL simulation** (operator-reported; earlier test outcomes not attested here). [Read the phase history, status, and safeguards](research-ethics/EOL_SITE_HYDRATION_AND_REHYDRATION_ROADMAP.md).
 
+## Lunar Flower AI Seed — expert-system orchestration
+
+**[Read the proposed AI seed](blue-prints/LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md)** — Place AI under an expert-system contract as a constrained orchestrator, construct the tools and structure from the ground up, and use generative synthetic decision-making only as a separately reviewed last resort. **Theory only; no activated contract or verified implementation is claimed.**
+
 ## Heuristic-grown seeds — factories of factories of factories
 
 **[Read the personal research position](research-ethics/WHEN_NOT_TO_USE_AI_HEURISTIC_GROWN_SEED_SYSTEM.md)** — A response to *when not to use AI in research*: independent research under resource constraints, declared seed functionality, heuristic-guided construction, recursive factory construction, and asymmetric growth and resilience. **OmniFact Generator and MageCore are named as initial research variants, not certified implementations.**
