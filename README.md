@@ -53,7 +53,7 @@ Principles expressed in this doctrine may participate in a broader ethical struc
 
 ## Current research phase — EOL simulation to site hydration
 
-**Stage 0 (in progress):** complete public site hydration and publication of eligible theory, specifications, and qualified proofs of concept arising from the EOL simulation research. **Stage 1 (planned):** stable programmatic code rehydration through evidence-bound rules and expert systems, with synthetic generative text only as a last resort. Private data remains outside the publication boundary. [Read the phase history, status, and safeguards](research-ethics/EOL_SITE_HYDRATION_AND_REHYDRATION_ROADMAP.md).
+**Stage 0 (in progress):** complete public site hydration and publication of eligible theory, specifications, and qualified proofs of concept arising from the EOL simulation research. **Stage 1 (planned):** stable programmatic code rehydration through evidence-bound rules and expert systems, with synthetic generative text only as a last resort. Private data remains outside the publication boundary. **Chronology:** the EOL-under-duress exercise was the **third code rehydration test** but the **first EOL simulation** (operator-reported; earlier test outcomes not attested here). [Read the phase history, status, and safeguards](research-ethics/EOL_SITE_HYDRATION_AND_REHYDRATION_ROADMAP.md).
 
 ## Heuristic-grown seeds — factories of factories of factories
 
