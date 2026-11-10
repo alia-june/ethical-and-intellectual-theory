@@ -8,9 +8,9 @@
 
 ## Why this work is being published
 
-The current site-hydration effort follows a series of controlled end-of-life (EOL) simulations. The earlier **EOL-under-duress** research examined preservation and responsible release of intellectual work under severe hypothetical constraints, including simulated code recovery from a hazardous environment. These were research scenarios, **not evidence that the hypothetical circumstances occurred**.
+The current site-hydration effort follows a broader sequence of code-rehydration research. **Chronology correction (operator-reported): the EOL-under-duress exercise was code rehydration test 3, but EOL simulation 1.** These are separate counting sequences. The preceding rehydration tests 1 and 2 are not described or independently attested by this public roadmap. The first EOL-framed simulation examined preservation and responsible release of intellectual work under severe hypothetical constraints, including simulated code recovery from a hazardous environment. This was a **research scenario, not evidence that the hypothetical circumstances occurred**.
 
-The governing distinction in the earlier EOL work was that the release of **project-owned publication holds** did not release security, integrity, privacy, provenance, consent, or third-party restrictions. Preserving knowledge did not authorize unrestricted disclosure. The work later developed into source recovery, reconstruction, validation, and program rehydration research.
+The governing distinction in the earlier EOL work was that the release of **project-owned publication holds** did not release security, integrity, privacy, provenance, consent, or third-party restrictions. Preserving knowledge did not authorize unrestricted disclosure. Source recovery, reconstruction, validation, and program-rehydration research predated and continued after the first EOL-framed exercise; this document does not assign undocumented results to the prior tests.
 
 The immediate task is to finish publishing a coherent, navigable, provenance-qualified public record before treating general-purpose automated code rehydration as a next-stage undertaking.
 
@@ -67,7 +67,8 @@ The project aims to grow systems from declared functional seeds and inspectable 
 
 ## History and limits
 
-- **2026-08-13:** EOL-under-duress and EOL-terminus release simulations documented preservation/release conditions and continuing integrity restrictions.
+- **Earlier code-rehydration tests 1 and 2:** reported by the operator as preceding the first EOL simulation; dates, methods, artifacts, and outcomes are not established in this public summary.
+- **2026-08-13:** EOL-under-duress was **code rehydration test 3** and the **first EOL simulation**, per the operator's chronology. The EOL-terminus release work documented preservation/release conditions and continuing integrity restrictions; test success is not inferred.
 - **2026-09:** MageCore and stack-rehydration research refined evidence-first recovery, reconstruction versus regeneration, and admission boundaries.
 - **2026-11-10:** Stage 0 site hydration/publication and Stage 1 expert-system-first code rehydration are articulated as the current phase boundary.
 
