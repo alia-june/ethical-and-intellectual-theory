@@ -8,7 +8,7 @@
 
 ## Why this work is being published
 
-The current site-hydration effort follows a broader sequence of code-rehydration research. **Chronology correction (operator-reported): the EOL-under-duress exercise was code rehydration test 3, but EOL simulation 1.** These are separate counting sequences. The preceding rehydration tests 1 and 2 are not described or independently attested by this public roadmap. The first EOL-framed exercise modeled an **infected system**. The infected environment made the **source code unsafe**; under the simulation's duress constraints, **triage could not be performed**. The required action was therefore to **eject working programs**, not inspect, extract, or trust their source code. Here, **working** describes program functionality, not proof that an ejected program was clean or safe. This was a **research scenario, not evidence that the hypothetical circumstances occurred**. The available public record does not establish the infection mechanism, source-code availability, ejection method, or outcome.
+The current site-hydration effort follows a broader sequence of code-rehydration research. **Chronology correction (operator-reported): the EOL-under-duress exercise was code rehydration test 3, but EOL simulation 1.** These are separate counting sequences. The preceding rehydration tests 1 and 2 are not described or independently attested by this public roadmap. The first EOL-framed exercise modeled an **infected system**. The infected environment made the **source code unsafe**; under the simulation's duress constraints, **triage could not be performed**. The required action was therefore to **eject working programs in clear text only**, without inspecting, extracting, or trusting their unsafe source code. **No binary or binary representation was permitted in the ejected material.** Here, **working** describes program functionality, not proof that an ejected program was clean or safe. This public summary does not establish how the working clear-text material would be executed or validated. This was a **research scenario, not evidence that the hypothetical circumstances occurred**. The available public record does not establish the infection mechanism, source-code availability, ejection method, or outcome.
 
 The governing distinction in the earlier EOL work was that the release of **project-owned publication holds** did not release security, integrity, privacy, provenance, consent, or third-party restrictions. Preserving knowledge did not authorize unrestricted disclosure. Source recovery, reconstruction, validation, and program-rehydration research predated and continued after the first EOL-framed exercise; this document does not assign undocumented results to the prior tests.
 
@@ -19,14 +19,15 @@ The immediate task is to finish publishing a coherent, navigable, provenance-qua
 | Property | Operator-reported scenario |
 | --- | --- |
 | Environment | Infected system (simulated) |
-| Recovery target | Working programs to be ejected from the infected environment |
+| Recovery target | Working programs, ejected as clear text only |
 | Source code | Unsafe **because the system was infected**; not a trusted recovery source |
 | Triage | Not possible under the simulated duress conditions |
-| Mandatory action | Eject working programs without relying on source-code triage |
-| Distinction | Functional operation is not an attestation of program integrity or safety; program ejection is not source-code extraction |
+| Mandatory action | Eject working programs **in clear text only**, without relying on source-code triage |
+| Output exclusion | No binary artifacts and no representations or encodings of binary content in the ejected material |
+| Distinction | Working clear-text program material is not proof of integrity, safety, or execution in a new environment; ejection is not source-code extraction |
 | Result | No successful ejection, verified safety, or reconstructed source is attested here |
 
-**Correction to earlier descriptions:** the source code was **unsafe because the simulated system was infected**, not established as unavailable. **There was no opportunity for triage; working programs had to be ejected.** Neither their trustworthiness nor successful recovery is asserted. No private preservation material is included in this public summary.
+**Correction to earlier descriptions:** the source code was **unsafe because the simulated system was infected**, not established as unavailable. **There was no opportunity for triage; working programs had to be ejected as clear text only, with no binary or binary representation.** Neither their trustworthiness nor successful recovery is asserted. No private preservation material is included in this public summary.
 
 ## Stage 0 — Site hydration and publication
 
@@ -82,7 +83,7 @@ The project aims to grow systems from declared functional seeds and inspectable 
 ## History and limits
 
 - **Earlier code-rehydration tests 1 and 2:** reported by the operator as preceding the first EOL simulation; dates, methods, artifacts, and outcomes are not established in this public summary.
-- **2026-08-13:** EOL-under-duress was **code rehydration test 3** and the **first EOL simulation**, per the operator's chronology. It modeled an infected system in which **source code was unsafe, triage was not possible, and working programs had to be ejected**. The EOL-terminus release work documented preservation/release conditions and continuing integrity restrictions; test success is not inferred.
+- **2026-08-13:** EOL-under-duress was **code rehydration test 3** and the **first EOL simulation**, per the operator's chronology. It modeled an infected system in which **source code was unsafe, triage was not possible, and working programs had to be ejected as clear text only, excluding binary and binary representations**. The EOL-terminus release work documented preservation/release conditions and continuing integrity restrictions; test success is not inferred.
 - **2026-09:** MageCore and stack-rehydration research refined evidence-first recovery, reconstruction versus regeneration, and admission boundaries.
 - **2026-11-10:** Stage 0 site hydration/publication and Stage 1 expert-system-first code rehydration are articulated as the current phase boundary.
 
