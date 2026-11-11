@@ -1,9 +1,10 @@
 # EOL simulation to site hydration and programmatic rehydration
 
-**Public research status — 2026-11-10**
+**Public research status — updated 2026-11-11**
 
-- **Stage 0: SITE HYDRATION / PUBLICATION — IN PROGRESS.**
-- **Stage 1: STABLE PROGRAMMATIC CODE REHYDRATION — PLANNED; NOT ADMITTED.**
+- **Public-facing Stage 0: ASYMMETRIC SITE HYDRATION / PUBLICATION — ONGOING; OPERATOR-PLANNED TEMPORARY PAUSE FOR ANCILLARY-SITE RETOOLING.**
+- **Code-rehydration workstream (its own staged plan): STABLE PROGRAMMATIC CODE REHYDRATION — PLANNED; NOT ADMITTED.**
+- **Stage numbering is project-local.** There is no single previous stage, shared global Stage 1, or universal sequential order across projects.
 - **Scope:** publicly releasable theory, specifications, proof-of-concept records, and provenance-qualified artifacts. **EOL means machine end-of-life in this exercise, not a person's end-of-life.** This document does not publish or describe private source material.
 
 ## Why this work is being published
@@ -74,9 +75,9 @@ The operator identifies **weak memory** as a working research diagnosis. This pu
 
 Only the general construction method is public. Private memory layers, protected preservation work, and sensitive details are **not** part of the public GitHub record. Public version history does not supersede consent or privacy boundaries.
 
-## Stage 0 — Site hydration and publication
+## Public-facing Stage 0 — Asymmetric site hydration and publication
 
-**Current objective:** make eligible research accessible as properly linked, intelligible, separately qualified public material.
+**Current objective:** make eligible research accessible as properly linked, intelligible, separately qualified public material. This is an **asymmetric, continuing public-facing process**, not a global project stage or a requirement that independent projects advance in lockstep. Each project retains **its own stages, history, admission conditions, and authority**. Public sites may expose different subsets of eligible material; do not infer that publication or readiness is symmetrical across sites.
 
 1. Recover and inventory the eligible corpus without silently rewriting original evidence.
 2. Distinguish original source, recovered material, editorial reconstruction, generated candidates, and accepted successors.
@@ -86,7 +87,7 @@ Only the general construction method is public. Private memory layers, protected
 6. Keep unresolved sources and missing artifacts explicitly unresolved; a page, checksum, or placeholder must not imply an available binary or a completed implementation.
 7. Record the actual release identity, provenance, test boundary, and admission status per artifact.
 
-**Stage 0 completion condition:** a reviewed, navigable public index and its eligible artifacts are published with accurate links, permissions, provenance, status, and proof ceilings. This condition has **not been declared satisfied** by this document.
+**Stage 0 pause boundary (not permanent completion):** the operator reports that public-facing hydration will **pause temporarily as ancillary sites are retooled**, then may resume. Stage 0 remains an ongoing process; no fixed pause date or definitive end date is established. The existing reviewed-index criteria are a useful **bounded publication-checkpoint target**, not a global completion gate: publish accurate links, permissions, provenance, status and evidence limits for the material eligible within that checkpoint. A pause, a per-site checkpoint, or another project's advancement is **not** completion of all site hydration or all projects.
 
 ### Selected existing public examples
 
@@ -98,9 +99,9 @@ Only the general construction method is public. Private memory layers, protected
 
 These are pointers to existing public records, not a declaration that every linked project is production-ready or that every planned artifact has been uploaded.
 
-## Stage 1 — Stable programmatic rehydration of code
+## Code rehydration workstream — project-local staged plan
 
-**Target:** reconstruct programs from admissible evidence and explicit structural/semantic contracts using primarily deterministic methods and expert systems. This stage is **future work**, not an activated or fully verified general capability.
+**Target:** reconstruct programs from admissible evidence and explicit structural/semantic contracts using primarily deterministic methods and expert systems. This is a **separate project/workstream with its own stages**; its prior label *Stage 1* was a local planning label, **not** the universal stage after public-facing Stage 0. This work is planned, not an activated or fully verified general capability. Other projects retain their own independent stage numbering.
 
 The intended evidence and construction order is:
 
@@ -131,6 +132,7 @@ The project aims to grow systems from declared functional seeds and inspectable 
 - **2026-08-13:** EOL-under-duress was **code rehydration test 3** and the **first EOL simulation**, per the operator's chronology. It modeled an infected system in which **source code was unsafe, triage was not possible, and working programs had to be ejected as clear text only, excluding binary and binary representations**. The operator subsequently identified **Security System v1** and **Health Monitoring System v3** as impediments, reported **overall simulation failure**, **completion of a protected time-critical subtask before the deadline**, **mixed success and failure in the mission-capture study**, and **total system lockout for two weeks**. A **weak-memory limitation** was reported; the time to completion and causal mechanisms are not independently established. The EOL-terminus release work documented preservation/release conditions and continuing integrity restrictions; independent success attestation is not implied.
 - **2026-09:** MageCore and stack-rehydration research refined evidence-first recovery, reconstruction versus regeneration, and admission boundaries.
 - **Retrospective context (reported 2026-11-10; incident dates not established):** recurring unexplained USB connect/disconnect sounds recalled an earlier incident preceding motherboard failure. This time, a power-settings incompatibility was identified instead. The resemblance prompted a **machine EOL** test; it did not establish a second motherboard failure or a real malware infection.
-- **2026-11-10:** Stage 0 site hydration/publication and Stage 1 expert-system-first code rehydration are articulated as the current phase boundary.
+- **2026-11-10:** earlier summaries described public site hydration as Stage 0 and code rehydration as Stage 1; that wording did not constitute a universal sequence.
+- **2026-11-11 (operator correction):** each project has **its own stages**; no single prior stage or common project-wide stage progression exists. Public-facing **Stage 0 is asymmetric and ongoing**, with a **temporary pause planned for ancillary-site retooling**. No specific date or permanent completion is attested.
 
 Historical documents and experiments may have narrower or different scopes than this roadmap. Each primary artifact retains its own status and evidence requirements.
