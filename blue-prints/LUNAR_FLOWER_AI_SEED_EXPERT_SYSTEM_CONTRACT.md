@@ -40,6 +40,15 @@ The following three gates are **implementation-independent design candidates**. 
 
 **Invariant:** The producer of a candidate cannot grant that candidate production authority merely by asserting success, passing its own tests, or generating a plausible rationale.
 
+#### External error-and-lesson preproduction review (proposed resource)
+
+Before **effect-scoped Production Lock clearance**, the receiving expert system should obtain a bounded, verified **external evidence receipt** for the exact candidate identity and revision, using the proposed [Error and Lesson Registry](https://github.com/dastardlyrat/m.A.R.S.-Persistent-Tool-less-Amorphous-Workspace/blob/main/resources/EXTERNAL_ERROR_LESSON_REGISTRY.md) and [machine-readable resource contract](https://github.com/dastardlyrat/m.A.R.S.-Persistent-Tool-less-Amorphous-Workspace/blob/main/resources/EXTERNAL_ERROR_LESSON_REGISTRY_CONTRACT.json). The planned registry may live on a microcontroller or developer-board host and provides **evidence for review**, not authority to execute or release.
+
+A receipt must identify its source/generation, check prior relevant errors, reviewed lessons, claim support, canonical locks, contradictions, test requirements, evidence freshness and retrieval coverage. Missing entries do not prove safety. A failed lookup, stale generation, unresolved contradiction or unsupported high-impact claim **keeps production locked**; read-only investigation may continue under its own permission. Generated text retains a FABRICATION FLAG and cannot be promoted to an accepted lesson without review. Reiteration and hand-off must re-check that the same candidate revision remains in scope.
+
+**Status:** resource and gate integration are proposed, not deployed or tested. No running device, physical isolation, permanent logging, automated admission, or anti-hallucination guarantee is implied.
+
+
 ### Gate 2 — Reiteration
 
 **Intent:** Permit purposeful re-examination of a candidate without confusing repeated reasoning with progress, proof, or increased authority.
