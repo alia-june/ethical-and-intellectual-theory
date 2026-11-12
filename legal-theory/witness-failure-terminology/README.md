@@ -15,4 +15,4 @@ The legal-system hardening and recursive implication research uses four **contro
 
 ---
 
-[Return to Ethical & Intellectual Theory](../../README.md)
+[Return to Legal Theory index](../README.md).
