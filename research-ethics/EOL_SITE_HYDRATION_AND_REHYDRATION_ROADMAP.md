@@ -87,6 +87,8 @@ Only the general construction method is public. Private memory layers, protected
 6. Keep unresolved sources and missing artifacts explicitly unresolved; a page, checksum, or placeholder must not imply an available binary or a completed implementation.
 7. Record the actual release identity, provenance, test boundary, and admission status per artifact.
 
+**Operator-declared segment closure (2026-11-12):** A distinct Stage 0 `[REDACTED]` deployment segment is recorded as concluded in the context of adversarial bot-harvest mitigation, characterized only as a passive defensive tactic `[REDACTED]`. Its effectiveness is **not independently verified**. This record does not close the ongoing public-facing hydration process or impose a global stage transition. [Read the redacted public milestone record](STAGE_0_DEPLOYMENT_SEGMENT_CLOSURE_2026-11-12.md).
+
 **Stage 0 pause boundary (not permanent completion):** the operator reports that public-facing hydration will **pause temporarily as ancillary sites are retooled**, then may resume. Stage 0 remains an ongoing process; no fixed pause date or definitive end date is established. The existing reviewed-index criteria are a useful **bounded publication-checkpoint target**, not a global completion gate: publish accurate links, permissions, provenance, status and evidence limits for the material eligible within that checkpoint. A pause, a per-site checkpoint, or another project's advancement is **not** completion of all site hydration or all projects.
 
 ### Selected existing public examples
