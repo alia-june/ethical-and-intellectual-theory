@@ -15,6 +15,13 @@ The entries are **author-defined research concepts and diagnostic vocabulary**, 
 
 - **[Witness-Failure Terminology](witness-failure-terminology/README.md)** — Four diagnostic classes (**Murdered Witness, Dead Witness, Undead Witness, Suicide**) concerning premise dependence, inherited support, weakened authority, and contradiction. Research vocabulary; **not established legal doctrines**.
 
+### Knowledge integrity and poisoning concepts
+
+- **[Anti-Knowledge](anti-knowledge/README.md)** — Knowledge poisoned against reasoned inspection or for theory adoption or repudiation; identified by the author as the root of Poison Cache.
+- **[Poison Cache](poison-cache/README.md)** — Named concept explicitly rooted in Anti-Knowledge; further definition and mechanism remain unresolved.
+- **[ICHK](ichk/README.md)** — Author-defined mechanism by which something is poisoned for rejection; Anti-Knowledge may be part of it. The acronym's expansion is unresolved.
+- **[Recursive Poisoning](recursive-poisoning/README.md)** — Proposed need to ingest poisoned material to understand material knowledge or Anti-Knowledge; not established as a universal or safe requirement.
+
 ## Working method and evidence boundaries
 
 The underlying legal-system research distinguishes **logical integrity**, **dependency/support integrity**, **operative legal authority**, **constitutional conformity**, **rights impact**, and **governance decisions**. A failure of supporting justification is not automatically proof that a conclusion is false; independent supporting routes must be considered.
