@@ -134,6 +134,8 @@ Applied methodology is separated from the doctrine itself. Proposed designs do n
 
 The **AI Collaboration Attribution Protocol (ACAP)** applies the repository's concern with attribution and evidence by documenting how a human author and an AI collaborator worked together. It gives the human author a place to declare intent and editorial decisions, and the AI collaborator a place to report what it generated or transformed. The registries connect candidate material to what the author actually chose to incorporate.
 
+**Human-directed decomposition and AI derivation under human instruction.** For this README's restructuring, the human operator supplies the decomposition, intended distinctions, and instructions. The AI derives and assembles the resulting organization, navigation, and editorial formulation in response to those instructions. The AI's contribution is a *derivative, instructed transformation*, not independent authorship of the underlying theory, not an autonomous source of authority, and not independent verification. This attribution applies to the README editorial work; provenance and authorship of each linked primary document remain governed by that document's own record.
+
 - **[ACAP overview](acap/README.md)** — Choose where to begin and see how a draft becomes a recorded adoption.
 - **[Fillable protocol](acap/protocol.md)** — Record both accounts and link contributions to adoption decisions.
 - **[AI entry point](acap/ai-entry-point.md)** — Copy the prompt for the AI collaborator's own report.
