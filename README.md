@@ -154,6 +154,10 @@ The edition preserves explicit project profiles and open decisions. Its anonymou
 
 [Read the four-part witness-failure terminology](legal-theory/witness-failure-terminology/README.md) — **Murdered Witness, Dead Witness, Undead Witness, and Suicide**. Controlled diagnostic categories for failures in legal reasoning and inherited justification, not established legal doctrines or findings of crime.
 
+### Legal Crime — ethical/legal distinction
+
+[Read the author-defined Legal Crime terminology](legal-theory/legal-crime/README.md) — Conduct described as **morally or ethically repulsive and abhorrent, but legal**. An ethical characterization, not a declaration that a criminal offense has occurred.
+
 ### Architectural blueprints
 
 The [Blueprints index](blue-prints/README.md) organizes proposed technical-theory papers. These documents explore architectural assumptions, representation, composition, copying, integrity, provenance, and authority without treating proposed mechanisms as implemented or independently attested.
