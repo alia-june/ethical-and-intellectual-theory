@@ -22,4 +22,4 @@ This definition is conceptual only. It supplies no operational method, target, t
 **Attribution:** Human-directed terminology and definition; AI-assisted editorial formulation under human instruction.  
 **Status:** Author-defined research vocabulary, not an established legal doctrine or independently verified legal determination.
 
-[Return to Ethical & Intellectual Theory](../../README.md).
+[Return to Legal Theory index](../README.md).
