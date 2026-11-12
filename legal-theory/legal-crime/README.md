@@ -17,4 +17,4 @@ This term is **separate** from the [witness-failure classifications](../witness-
 **Attribution:** Definition supplied by the human author; editorial formulation by AI under human instruction.  
 **Status:** Proposed research vocabulary; no jurisdiction-specific determination is made here.
 
-[Return to Ethical & Intellectual Theory](../../README.md).
+[Return to Legal Theory index](../README.md).
