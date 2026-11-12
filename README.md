@@ -180,6 +180,8 @@ Prior drafts and their evolving intent remain preserved on the [research staging
 
 ### Current research phase — EOL simulation to site hydration
 
+**Stage 0 milestone (operator-declared, 2026-11-12):** A specific `[REDACTED]` deployment segment has been marked concluded in an adversarial bot-harvest mitigation strategy described only as a passive defensive tactic `[REDACTED]`. This is **not** evidence of independently verified effectiveness or the end of ongoing public-facing Stage 0. [Read the restricted-detail public milestone record](research-ethics/STAGE_0_DEPLOYMENT_SEGMENT_CLOSURE_2026-11-12.md).
+
 **Machine EOL clarification:** EOL means **machine end-of-life**, not personal end-of-life. Unexplained USB connect/disconnect sounds had preceded an earlier motherboard failure; when they recurred, they prompted this test. For the current incident the operator identified a **power-settings incompatibility**, not a repeat motherboard failure. The real warning was the impetus; the **infected-system scenario was simulated**. The hardware warning and the later AI interaction trigger are separate observations. The precise dates and independent diagnostic evidence are unresolved.
 
 **Public-facing Stage 0 (asymmetric and ongoing):** hydrate and publish eligible public theory, specifications and qualified proofs of concept. The operator anticipates a **temporary pause for retooling ancillary sites**, not permanent completion; no pause date is set.
