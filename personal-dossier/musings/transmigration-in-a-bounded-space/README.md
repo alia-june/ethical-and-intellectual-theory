@@ -37,3 +37,9 @@ The original Humucus lacked understanding. A completely original build was the p
 ![A minifigure with a red and pale head assembly and a round yellow focal piece](micro-construction.jpg)
 
 This is a separate micro-construction. The **2×2×1 solid block** is the core of the head assembly. The pieces around it can extend beyond that core. The red sets the outline, the pale pieces interrupt it, and a single round yellow piece gives the face a focal point. On the minifigure body, those few choices are enough to give the figure a character of its own.
+
+## Part 4. MyBuild Stryker MOC
+
+![Gray-and-orange MyBuild Stryker with long articulated arms](mybuild-stryker-moc.jpg)
+
+This MyBuild Stryker MOC uses a LEGO robot cabin and Evangelion-style arms.
