@@ -13,6 +13,8 @@ IF a required reference fails to resolve THEN stop the dependent step AND report
 
 <h1>Ethical &amp; Intellectual Theory</h1>
 
+<p>Research ethics and intellectual methodology covering consent, attribution, AI collaboration, programming doctrine, and provenance.</p>
+
 <p><strong>The work may be examined.<br>The person remains the authority on their consent.</strong></p>
 
 <p>A personal doctrine on intellectual work, conceptual debt, evidence,<br>and the boundaries of constructing a model of another person.</p>
@@ -285,3 +287,9 @@ The original and earlier expansion remain available as source history. The exten
 <p><sub>A personal research-ethics doctrine.</sub></p>
 
 </div>
+
+## Related alia-june repositories
+
+- [Lunar-Flower](https://github.com/alia-june/Lunar-Flower) — Twin Lanterns ReShade shaders, screen-space indirect lighting, presets, and downloads.
+- [xOSG-prototype](https://github.com/alia-june/xOSG-prototype) — AI instrumentation, orchestration research, durable workspaces, language tooling, and deterministic computation.
+- [this-repository-machine-interface](https://github.com/alia-june/this-repository-machine-interface) — Machine-readable repository orientation, JSON landing pads, ingress, launch, and egress.
