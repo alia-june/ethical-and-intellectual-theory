@@ -22,6 +22,10 @@ The entries are **author-defined research concepts and diagnostic vocabulary**, 
 - **[ICHK](ichk/README.md)** — Author-defined mechanism by which something is poisoned for rejection; Anti-Knowledge may be part of it. The acronym's expansion is unresolved.
 - **[Recursive Poisoning](recursive-poisoning/README.md)** — Proposed need to ingest poisoned material to understand material knowledge or Anti-Knowledge; not established as a universal or safe requirement.
 
+## Research archives and synthesis
+
+- **[Confounding the Court](confounding-the-court/README.md)** - Research synthesis on open-world risk, transformative observation, adversarial purpose capture, and defensive reflexive inversion. Includes physical pages 1-14 of the 16 August 2026 archive, ending before the conversation transcript; the proposed framework remains a research theory.
+
 ## Working method and evidence boundaries
 
 The underlying legal-system research distinguishes **logical integrity**, **dependency/support integrity**, **operative legal authority**, **constitutional conformity**, **rights impact**, and **governance decisions**. A failure of supporting justification is not automatically proof that a conclusion is false; independent supporting routes must be considered.
