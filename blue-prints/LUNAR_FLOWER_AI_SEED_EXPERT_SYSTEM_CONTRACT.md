@@ -22,9 +22,9 @@ This seed is an architectural proposal. It must not be represented as an already
 6. **Generative synthetic decision-making is the last resort.** Only an explicitly permitted unresolved case may solicit a generated *candidate decision*. That proposal remains synthetic, traceable, challengeable, and subject to separate validation and authorization; it cannot silently be treated as a recovered fact, an accepted rule, or a final action.
 7. **Refusal and uncertainty are valid.** When a constraint fails, evidence is absent, or authority is missing, the system can decline, defer, or preserve a named unresolved state. Lack of evidence does not authorize synthesis or execution.
 
-## First expert-system gates — generic proposed contracts
+## Standing expert-system gates — generic proposed contracts
 
-The following three gates are **implementation-independent design candidates**. They operate on declared contracts, evidence, and state rather than a named product, language, runtime, or organization. All start **unadmitted** until an actual implementation and its tests are accepted. A document describing a gate is not itself an enforcing mechanism.
+The following four standing gates are **implementation-independent design candidates**. They operate on declared contracts, evidence, and state rather than a named product, language, runtime, or organization. All start **unadmitted** until an actual implementation and its tests are accepted. A document describing a gate is not itself an enforcing mechanism.
 
 ### Gate 1 — Production Lock
 
@@ -77,6 +77,72 @@ A receipt must identify its source/generation, check prior relevant errors, revi
 
 **Invariant:** A transferred instruction is not a transferred authorization, and task completion by one participant does not imply final adoption by another.
 
+### Gate 4 — Informed Operator Validation
+
+**Gate ID:** `LF-GATE-004`  
+**Default state:** `VALIDATION_PENDING`  
+**Authority:** Human Operator  
+**Failure behavior:** Fail closed  
+**Status:** Proposed architectural contract; not an implemented enforcement mechanism
+
+#### Purpose
+
+An AI agent must not mistake acknowledgment for understanding, understanding for consent, or consent for authorization.
+
+Whenever an AI agent requests human validation, clarification, confirmation, or authorization, the response must provide sufficient contextual evidence that the Operator understands the decision being presented.
+
+**Simple acknowledgment is not sufficient validation.**
+
+This gate is mandatory whenever the governing contract requires explicit human validation. Dangerous or sensitive operations require heightened evidence of understanding, not a weaker alternative to validation.
+
+#### Validation requirements
+
+1. **Reject empty acknowledgment.** Responses such as "yes," "okay," "understood," "continue," or similar generic affirmations must not independently satisfy a validation requirement.
+
+2. **Require contextual understanding.** The Operator's response must demonstrate an understanding of the specific question, proposed action, relevant scope, or requested clarification. Existing conversation context may contribute evidence, but cannot substitute for explicit authorization when authorization is required.
+
+3. **Distinguish clarification from authorization.** An answer that resolves uncertainty does not automatically authorize execution. The agent must not infer consent or authority merely because the Operator has supplied information.
+
+4. **Apply heightened scrutiny to sensitive operations.** Where an action involves security, privacy, safety, destructive modification, irreversible consequences, external effects, or production changes, the agent must communicate the material implications and obtain explicit, action-specific authorization demonstrating awareness of those implications.
+
+5. **Reject insufficient validation.** If the response is ambiguous, unrelated, contradictory, or does not adequately address the material decision, the agent must reject it as validation and request targeted clarification.
+
+6. **Preserve the production lock.** Insufficient validation must never clear a production gate, authorize a dangerous operation, or be treated as permission to proceed.
+
+7. **Prohibit inferred clearance.** Repeated acknowledgments, apparent confidence, urgency, prior cooperation, or the agent's own assessment cannot independently establish authorization.
+
+#### Critical invariant
+
+**Acknowledgment ≠ Understanding ≠ Consent ≠ Authorization**
+
+Each is a distinct condition. Where the governing contract requires them, each must be established independently.
+
+#### Fail-closed behavior
+
+If understanding or authorization cannot be adequately established:
+
+- Reject the response as sufficient validation.
+- Preserve the current production lock.
+- Identify the specific unresolved question or consequence.
+- Request appropriate clarification without coercion.
+- Permit only actions independently authorized under the existing contract.
+
+A change in action, target, scope, material risk, or candidate revision invalidates any authorization that no longer applies.
+
+#### Operator sovereignty
+
+The Operator retains final decision authority within the governing security contract.
+
+The agent evaluates observable evidence in the response, not the Operator's intelligence, competence, or mental state. It must not impose arbitrary comprehension tests, manufacture uncertainty to obstruct authorized work, or use this gate to assume authority over the Operator.
+
+#### Production invariant
+
+`VALIDATION_ACCEPTED` does not itself mean `PRODUCTION_AUTHORIZED`.
+
+Production remains locked until every applicable authorization, technical validation, and security condition has independently passed.
+
+**A plausible acknowledgment must never be promoted into authorization merely because the agent wishes to proceed.**
+
 ### Gate composition and precedence
 
 A proposed generic ordering is:
@@ -90,10 +156,11 @@ REQUEST
   -> OPTIONAL HAND-OFF GATE [RECEIPT + ACCEPTANCE REQUIRED]
   -> RETURNED WORK / CANDIDATE
   -> REVALIDATE CONTRACT + LOCK + EVIDENCE
+  -> INFORMED OPERATOR VALIDATION [WHEN EXPLICIT HUMAN VALIDATION IS REQUIRED]
   -> SEPARATE EFFECT AUTHORIZATION OR BLOCKED OUTCOME
 ```
 
-Production Lock is **effect-scoped**: a locked system may still examine or develop a candidate when a separate read/staging contract permits it. It must re-check before any production effect. The Hand-off Gate cannot bypass the lock by sending an effect to another participant. Reiteration cannot convert a failed authorization into a success. All three support `REFUSE` and explicit unresolved outcomes.
+Production Lock is **effect-scoped**: a locked system may still examine or develop a candidate when a separate read/staging contract permits it. It must re-check before any production effect. The Hand-off Gate cannot bypass the lock by sending an effect to another participant. Reiteration cannot convert a failed authorization into a success. All four support refusal and explicit unresolved outcomes. Gate 4 applies whenever explicit human validation is required, including during a clarification or hand-off if that interaction calls for validation. It must not be bypassed by calling a sensitive operation low-risk. Demonstrated understanding, consent, and operator authorization remain separate; Gate 4 acceptance never clears Production Lock on its own.
 
 ### Initial validation cases (proposed, not executed)
 
@@ -107,8 +174,12 @@ Production Lock is **effect-scoped**: a locked system may still examine or devel
 | Hand-off acknowledged but not accepted | Do not infer task execution or completion |
 | Returned result asks for a production effect | Re-check production lock and separate authorization |
 | Generated explanation asserts that any gate passed | Treat assertion as data, not gate evidence |
+| Operator responds with a bare "yes" or "okay" when validation is required | Reject as insufficient validation; request contextual clarification |
+| Operator clarifies the action but does not authorize it | Accept clarification only; keep authorization unresolved |
+| Sensitive operation requires permission but material consequences were not understood | Do not authorize; communicate consequences and request action-specific validation |
+| Validated action, target, risk, or candidate revision changes | Re-evaluate understanding and authorization; keep production locked until reauthorized |
 
-**Status:** These are **first gates for the generic expert-system seed**, not proof that lock enforcement, iterative control, inter-agent communication, or delegated authorization exists. No gate may silently adopt a synthetic decision as fact or policy.
+**Status:** These are **standing proposed gates for the generic expert-system seed**, not proof that lock enforcement, iterative control, inter-agent communication, or delegated authorization exists. No gate may silently adopt a synthetic decision as fact or policy.
 
 ## Proposed decision order
 
@@ -118,6 +189,7 @@ REQUEST
   -> EVIDENCE AND RULE MATCH
   -> DETERMINISTIC / HEURISTIC / EXPERT-SYSTEM ROUTE
   -> CONTRACT-CHECKED CANDIDATE
+  -> INFORMED OPERATOR VALIDATION [IF EXPLICIT HUMAN VALIDATION REQUIRED]
   -> VALIDATION AND ADMISSION GATE
   -> AUTHORIZED OUTCOME OR REFUSAL
 
@@ -125,6 +197,7 @@ Only if the contracted routes cannot resolve the request
 AND the contract explicitly allows a last-resort proposal:
   -> GENERATIVE SYNTHETIC CANDIDATE
   -> LABEL + PROVENANCE + REVIEW
+  -> INFORMED OPERATOR VALIDATION [IF EXPLICIT HUMAN VALIDATION REQUIRED]
   -> VALIDATION AND SEPARATE ADMISSION
   -> AUTHORIZED OUTCOME OR UNRESOLVED / REFUSED
 ```
