@@ -1,23 +1,7 @@
-# Anti-Knowledge
+# Terminology moved — Knowledge Corruption
 
-**Author-supplied definition:** Knowledge **poisoned against reasoned inspection**, or **poisoned for theory adoption or repudiation**.
+The former “Anti-Knowledge” classification is now framed as **[Knowledge Corruption](../knowledge-corruption/README.md)**, describing a condition in which knowledge material or its examination has been compromised.
 
-## Scope
-
-In this research vocabulary, **Anti-Knowledge** identifies an asserted condition in which material presented as knowledge is poisoned in relation to reasoned examination or to the acceptance or rejection of a theory.
-
-This is the author's proposed classification. The term alone does **not** establish that a source is false, that intentional manipulation occurred, or that a legal offense has been committed. A particular classification would require independently examined evidence, scope, and stated criteria.
-
-## Relationships
-
-- **[Poison Cache](../poison-cache/README.md):** The author identifies Anti-Knowledge as the **root** of Poison Cache. The cache's detailed definition and mechanism remain unresolved.
-- **[ICHK](../ichk/README.md):** ICHK is the proposed mechanism by which something is poisoned for rejection; Anti-Knowledge **may** be part of it, but the two terms are not equated.
-- **[Recursive Poisoning](../recursive-poisoning/README.md):** Refers to the asserted problem of needing to encounter or ingest poisoned material to understand material knowledge or Anti-Knowledge.
-
-## Status and limits
-
-**Status:** Author-defined research vocabulary; definition supplied, mechanism and validation criteria unresolved. No model, procedure, legal finding, or effectiveness claim is established.
-
-**Attribution:** Human-supplied definition and conceptual relations; AI-assisted editorial organization under human instruction.
+The new entry is authoritative. This page is a compatibility redirect for historical links, not a second independently maintained definition. The terminology change does not establish that a particular source is false, intentionally manipulated, or legally wrongful.
 
 [Return to Legal Theory index](../README.md).
