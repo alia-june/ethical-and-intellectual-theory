@@ -13,7 +13,7 @@ In this terminology, *attack* is an analytical descriptor for an adversarial act
 ## Relation to other terminology
 
 - **[Legal Crime](../legal-crime/README.md)** concerns conduct judged morally or ethically repulsive and abhorrent while legal. It is **not automatically equivalent** to a Proper Construction Attack: neither term, by definition alone, establishes the other's conditions.
-- **[Witness-failure terminology](../witness-failure-terminology/README.md)** identifies defects in legal justificatory ancestry and dependency; it is a separate diagnostic category.
+- **[Condition capture and defeat](../condition-capture-and-defeat/README.md)** identifies defects in supporting conditions and justificatory dependency; it is a separate diagnostic category.
 
 ## Publication boundary
 
