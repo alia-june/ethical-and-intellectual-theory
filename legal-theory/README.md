@@ -15,12 +15,12 @@ The entries are **author-defined research concepts and diagnostic vocabulary**, 
 
 - **[Condition Capture and Defeat](condition-capture-and-defeat/README.md)** — Four diagnostic patterns (**eliminated-condition capture, inherited-condition defeat, scope capture, reflexive condition defeat**) concerning necessary supporting conditions, inherited justification, scope, and internal contradiction. Research vocabulary; **not established legal doctrines**.
 
-### Knowledge integrity and poisoning concepts
+### Knowledge integrity, corruption, and rejection concepts
 
-- **[Anti-Knowledge](anti-knowledge/README.md)** — Knowledge poisoned against reasoned inspection or for theory adoption or repudiation; identified by the author as the root of Poison Cache.
-- **[Poison Cache](poison-cache/README.md)** — Named concept explicitly rooted in Anti-Knowledge; further definition and mechanism remain unresolved.
-- **[ICHK](ichk/README.md)** — Author-defined mechanism by which something is poisoned for rejection; Anti-Knowledge may be part of it. The acronym's expansion is unresolved.
-- **[Recursive Poisoning](recursive-poisoning/README.md)** — Proposed need to ingest poisoned material to understand material knowledge or Anti-Knowledge; not established as a universal or safe requirement.
+- **[Knowledge Corruption](knowledge-corruption/README.md)** — Material presented as knowledge compromised in relation to reasoned inspection or theory adoption or repudiation; identified by the author as the root of Poison Cache.
+- **[Poison Cache](poison-cache/README.md)** — Named concept explicitly rooted in Knowledge Corruption; further definition and mechanism remain unresolved.
+- **[Designed-for-Rejection](designed-for-rejection/README.md)** — Proposed mechanism by which material is made to be rejected. Knowledge Corruption may be part of it, but is not equivalent; historical abbreviation ICHK is not expanded.
+- **[Recursive Poisoning](recursive-poisoning/README.md)** — Proposed examination problem of encountering compromised material to understand material knowledge or Knowledge Corruption; not established as universally necessary or safe.
 
 ## Research archives and synthesis
 
