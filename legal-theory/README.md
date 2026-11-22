@@ -13,7 +13,7 @@ The entries are **author-defined research concepts and diagnostic vocabulary**, 
 
 ### Legal reasoning and inherited justification
 
-- **[Witness-Failure Terminology](witness-failure-terminology/README.md)** — Four diagnostic classes (**Murdered Witness, Dead Witness, Undead Witness, Suicide**) concerning premise dependence, inherited support, weakened authority, and contradiction. Research vocabulary; **not established legal doctrines**.
+- **[Condition Capture and Defeat](condition-capture-and-defeat/README.md)** — Four diagnostic patterns (**eliminated-condition capture, inherited-condition defeat, scope capture, reflexive condition defeat**) concerning necessary supporting conditions, inherited justification, scope, and internal contradiction. Research vocabulary; **not established legal doctrines**.
 
 ### Knowledge integrity and poisoning concepts
 
