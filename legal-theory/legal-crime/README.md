@@ -12,7 +12,7 @@ This definition does not authorize retaliation, violence, unlawful investigation
 
 ## Relation to other research terminology
 
-This term is **separate** from the [witness-failure classifications](../witness-failure-terminology/README.md) (Murdered Witness, Dead Witness, Undead Witness, and Suicide), which diagnose support and contradiction defects in legal reasoning.
+This term is **separate** from the [condition capture and defeat diagnostics](../condition-capture-and-defeat/README.md) (eliminated-condition capture, inherited-condition defeat, scope capture, and reflexive condition defeat), which diagnose support and contradiction defects in legal reasoning.
 
 **Attribution:** Definition supplied by the human author; editorial formulation by AI under human instruction.  
 **Status:** Proposed research vocabulary; no jurisdiction-specific determination is made here.
