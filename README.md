@@ -171,7 +171,7 @@ The blueprints supplement rather than replace the programming and research-ethic
 
 ## Legal theory
 
-[Explore the Legal Theory index](legal-theory/README.md) — An extensible directory for author-defined legal concepts, legal-system implication research, and witness-failure terminology. Individual theories are maintained in their own folders and linked from the index rather than from this homepage.
+[Explore the Legal Theory index](legal-theory/README.md) — An extensible directory for author-defined legal concepts, legal-system implication research, and condition capture-and-defeat diagnostics. Individual theories are maintained in their own folders and linked from the index rather than from this homepage.
 
 ## Public outreach and ongoing research
 
