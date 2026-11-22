@@ -19,7 +19,7 @@ The author has not supplied an implementation, operational procedure, success cr
 
 ## Relationships
 
-- **[Knowledge Corruption](../knowledge-corruption/README.md):** Corrupted knowledge **may be a component** of a designed-for-rejection construction, but is not necessary by definition; the concepts are not interchangeable.
+- **[Knowledge Antithesis](../knowledge-antithesis/README.md):** The affected knowledge condition **may be a component** of a designed-for-rejection construction, but is not necessary by definition; the concepts are not interchangeable.
 - **[Poison Cache](../poison-cache/README.md):** A direct identity or dependency has not been established.
 - **[Recursive Poisoning](../recursive-poisoning/README.md):** The problem of needing to encounter compromised material to understand it is distinct; no necessary causal link is asserted.
 
