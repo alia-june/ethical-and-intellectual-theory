@@ -1,33 +1,31 @@
 # Knowledge Antithesis
 
-**Canonical name:** Knowledge Antithesis  
-**Relationship:** Proposed antithetic condition to [Knowledge Corruption](../knowledge-corruption/README.md)  
-**Status:** Author-directed research terminology; conceptual definition only
+**Canonical term:** Knowledge Antithesis  
+**Previous names:** Knowledge Corruption; Anti-Knowledge (historical terminology)  
+**Status:** Author-defined research condition; not an established legal doctrine or verified mechanism
 
 ## Definition
 
-**Knowledge Antithesis** names the condition opposed to **Knowledge Corruption**: the preservation of a knowledge claim's capacity for reasoned inspection, adequately supported assessment, and correction rather than its compromise.
+**Knowledge Antithesis** is the condition formerly termed **Knowledge Corruption**: material presented or treated as knowledge is compromised against **reasoned inspection**, or is compromised in relation to the **adoption or repudiation of a theory**.
 
-The term names the **antithetic relationship**, not a separate person, mechanism, or automatic guarantee of truth. Knowledge integrity is a possible quality of this condition, not a substitute name imposed upon it.
+“Antithesis” refers to a condition **antithetical to knowledge and its reasoned examination**, not to an opposite of corruption. This renaming does **not** introduce an additional concept of knowledge preservation or integrity.
 
-## Conceptual boundary
+## Scope and boundaries
 
-Knowledge Corruption identifies compromised epistemic material or processes. Knowledge Antithesis identifies the opposed condition in which evidence, provenance, scope, contradictions, and correction remain open to examination.
+The condition may concern a claim, its supporting evidence, its presentation, or the process of examination. This is a proposed classification, not proof of a particular corruption mechanism, manipulation, falsehood, intent, or unlawful act. Its application requires independently examined evidence, scope, and criteria.
 
-The existence of an antithetic condition does **not** establish that a particular statement is true, that its evidence is complete, or that corruption is impossible. Likewise, failure to identify corruption does not independently prove that Knowledge Antithesis holds.
-
-This is a proposed conceptual opposition, not an asserted strict logical complement: both a corruption claim and an antithesis claim may remain unresolved where evidence is insufficient.
+The condition is distinct from a mechanism deliberately designed to induce rejection. An observed failure of knowledge examination alone does not establish design or motive.
 
 ## Relationships
 
-- **[Knowledge Corruption](../knowledge-corruption/README.md):** The opposed condition; the terms must not be conflated.
-- **[Designed-for-Rejection](../designed-for-rejection/README.md):** A distinct proposed mechanism, not the antithesis of Knowledge Corruption by definition.
-- **[Poison Cache](../poison-cache/README.md):** A separate research concept rooted in Knowledge Corruption; no new relationship is inferred from this antithesis.
+- **[Poison Cache](../poison-cache/README.md):** The author identifies Knowledge Antithesis (previously called Anti-Knowledge and then Knowledge Corruption) as its **root**; details of the cache remain unresolved.
+- **[Designed-for-Rejection](../designed-for-rejection/README.md):** Knowledge Antithesis **may participate** in a rejection-oriented mechanism, but the concepts are distinct and their connection is not mandatory.
+- **[Recursive Poisoning](../recursive-poisoning/README.md):** The proposed examination problem concerns potentially needing to encounter affected material to understand it; such exposure is not automatically necessary or safe.
 
 ## Status and attribution
 
-**Status:** Named theoretical condition; operational tests, thresholds, and any specific legal or factual application remain unresolved. This label does not certify knowledge, authorize action, or establish a legal doctrine.
+**Status:** Author-defined research terminology. Mechanisms, diagnostic criteria, and particular instances require separate examination; no verified implementation, legal finding, or effectiveness claim is asserted.
 
-**Attribution:** Name supplied by the human author; conceptual formulation by AI under human instruction.
+**Attribution:** Name and clarification supplied by the human author; AI-assisted editorial formulation under human instruction.
 
 [Return to Legal Theory index](../README.md).
