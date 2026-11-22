@@ -1,7 +1,7 @@
-# Terminology moved — Knowledge Corruption
+# Terminology moved — Knowledge Antithesis
 
-The former “Anti-Knowledge” classification is now framed as **[Knowledge Corruption](../knowledge-corruption/README.md)**, describing a condition in which knowledge material or its examination has been compromised.
+The former **Anti-Knowledge** classification, subsequently called Knowledge Corruption, is now named **[Knowledge Antithesis](../knowledge-antithesis/README.md)**.
 
-The new entry is authoritative. This page is a compatibility redirect for historical links, not a second independently maintained definition. The terminology change does not establish that a particular source is false, intentionally manipulated, or legally wrongful.
+These are successive names for the same proposed condition, **not** opposing concepts. The authoritative definition is maintained in the linked entry.
 
 [Return to Legal Theory index](../README.md).
