@@ -17,6 +17,7 @@ Knowledge corruption is a **condition**, not necessarily an attack, a causal exp
 
 ## Relationships
 
+- **[Knowledge Antithesis](../knowledge-antithesis/README.md):** The author-named antithetic condition to Knowledge Corruption, concerning preservation of reasoned inspectability and corrigibility; not an automatic guarantee of factual truth.
 - **[Poison Cache](../poison-cache/README.md):** The author identifies Knowledge Corruption as its **root**. No detailed cache mechanism follows from that root relationship alone.
 - **[Designed-for-Rejection](../designed-for-rejection/README.md):** Knowledge Corruption **may participate** in a rejection-oriented design or mechanism, but the two concepts are not equivalent and the relationship is not mandatory.
 - **[Recursive Poisoning](../recursive-poisoning/README.md):** The proposed examination problem concerns encountering compromised material while attempting to understand it. Such exposure is not automatically necessary, safe, or sufficient.
