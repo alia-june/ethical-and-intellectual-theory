@@ -15,13 +15,12 @@ The entries are **author-defined research concepts and diagnostic vocabulary**, 
 
 - **[Condition Capture and Defeat](condition-capture-and-defeat/README.md)** — Four diagnostic patterns (**eliminated-condition capture, inherited-condition defeat, scope capture, reflexive condition defeat**) concerning necessary supporting conditions, inherited justification, scope, and internal contradiction. Research vocabulary; **not established legal doctrines**.
 
-### Knowledge integrity, corruption, and rejection concepts
+### Knowledge antithesis and rejection concepts
 
-- **[Knowledge Corruption](knowledge-corruption/README.md)** — Material presented as knowledge compromised in relation to reasoned inspection or theory adoption or repudiation; identified by the author as the root of Poison Cache.
-- **[Knowledge Antithesis](knowledge-antithesis/README.md)** — Author-named condition antithetic to Knowledge Corruption, focused on preserving reasoned inspectability and correction without asserting automatic truth.
-- **[Poison Cache](poison-cache/README.md)** — Named concept explicitly rooted in Knowledge Corruption; further definition and mechanism remain unresolved.
-- **[Designed-for-Rejection](designed-for-rejection/README.md)** — Proposed mechanism by which material is made to be rejected. Knowledge Corruption may be part of it, but is not equivalent; historical abbreviation ICHK is not expanded.
-- **[Recursive Poisoning](recursive-poisoning/README.md)** — Proposed examination problem of encountering compromised material to understand material knowledge or Knowledge Corruption; not established as universally necessary or safe.
+- **[Knowledge Antithesis](knowledge-antithesis/README.md)** — New canonical name for the condition formerly called Knowledge Antithesis and Anti-Knowledge: material presented as knowledge compromised against reasoned examination or in relation to theory adoption or repudiation; the proposed root of Poison Cache.
+- **[Poison Cache](poison-cache/README.md)** — Named concept explicitly rooted in Knowledge Antithesis; further definition and mechanism remain unresolved.
+- **[Designed-for-Rejection](designed-for-rejection/README.md)** — Proposed mechanism by which material is made to be rejected. Knowledge Antithesis may be part of it, but is not equivalent; historical abbreviation ICHK is not expanded.
+- **[Recursive Poisoning](recursive-poisoning/README.md)** — Proposed examination problem of encountering compromised material to understand material knowledge or Knowledge Antithesis; not established as universally necessary or safe.
 
 ## Research archives and synthesis
 
