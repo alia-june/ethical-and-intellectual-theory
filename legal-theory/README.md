@@ -24,6 +24,8 @@ The entries are **author-defined research concepts and diagnostic vocabulary**, 
 
 ## Research archives and synthesis
 
+- **[Integrity of Legal Reasoning](integrity-of-legal-reasoning/README.md)** — Disclosure-limited overview of an author-defined research program, formerly identified by the legacy codename Bellotti Ladder. Covers research purposes, status, limits, safeguards, and validation obligations; underlying mechanisms and detailed research remain outside this public overview.
+
 - **[Confounding the Court](confounding-the-court/README.md)** - Research synthesis on open-world risk, transformative observation, adversarial purpose capture, and defensive reflexive inversion. Includes physical pages 1-14 of the 16 August 2026 archive, ending before the conversation transcript; the proposed framework remains a research theory.
 
 ## Working method and evidence boundaries
