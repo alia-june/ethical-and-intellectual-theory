@@ -4,6 +4,8 @@
 
 Public overview | 23 November 2026
 
+[Public glossary of terms](GLOSSARY.md) — Reader explanations with the same disclosure limits as this overview.
+
 ## Purpose and disclosure boundary
 
 Integrity of Legal Reasoning is the primary name of the research program formerly identified by the legacy codename Bellotti Ladder. It is a developing research program concerned with the quality, accountability, and constitutional responsibility of legal reasoning. Its starting subject is corporate constitutional protection. Its broader interests include the evaluation of legal arguments, the responsible use of analytical tools, and the standards needed before research claims are presented as established conclusions.
