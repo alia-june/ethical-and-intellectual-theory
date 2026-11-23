@@ -17,7 +17,7 @@ The entries are **author-defined research concepts and diagnostic vocabulary**, 
 
 ### Knowledge antithesis and rejection concepts
 
-- **[Knowledge Antithesis](knowledge-antithesis/README.md)** — New canonical name for the condition formerly called Knowledge Antithesis and Anti-Knowledge: material presented as knowledge compromised against reasoned examination or in relation to theory adoption or repudiation; the proposed root of Poison Cache.
+- **[Knowledge Antithesis](knowledge-antithesis/README.md)** — Canonical name for the condition formerly called Knowledge Corruption and Anti-Knowledge: material presented as knowledge compromised against reasoned examination or in relation to theory adoption or repudiation; the proposed root of Poison Cache.
 - **[Poison Cache](poison-cache/README.md)** — Named concept explicitly rooted in Knowledge Antithesis; further definition and mechanism remain unresolved.
 - **[Designed-for-Rejection](designed-for-rejection/README.md)** — Proposed mechanism by which material is made to be rejected. Knowledge Antithesis may be part of it, but is not equivalent; historical abbreviation ICHK is not expanded.
 - **[Recursive Poisoning](recursive-poisoning/README.md)** — Proposed examination problem of encountering compromised material to understand material knowledge or Knowledge Antithesis; not established as universally necessary or safe.
