@@ -24,7 +24,7 @@ This seed is an architectural proposal. It must not be represented as an already
 
 ## Standing expert-system gates — generic proposed contracts
 
-The following four standing gates are **implementation-independent design candidates**. They operate on declared contracts, evidence, and state rather than a named product, language, runtime, or organization. All start **unadmitted** until an actual implementation and its tests are accepted. A document describing a gate is not itself an enforcing mechanism.
+The following five standing gates are **implementation-independent design candidates**. They operate on declared contracts, evidence, and state rather than a named product, language, runtime, or organization. All start **unadmitted** until an actual implementation and its tests are accepted. A document describing a gate is not itself an enforcing mechanism.
 
 ### Gate 1 — Production Lock
 
@@ -143,6 +143,123 @@ Production remains locked until every applicable authorization, technical valida
 
 **A plausible acknowledgment must never be promoted into authorization merely because the agent wishes to proceed.**
 
+### Gate 5 — Consequence-Scaled Challenge–Response
+
+**Gate ID:** `LF-GATE-005`  
+**Classification:** Optional high-risk production safeguard  
+**Default adoption state:** `DORMANT`  
+**Trigger after adoption:** Declared risk thresholds, especially destructive, irreversible, critical, or operationally erratic actions  
+**Failure behavior:** Fail closed for any required dependent transition  
+**Status:** Proposed architecture; not implemented, activated, or independently verified
+
+#### Governing purpose and adoption boundary
+
+The greater an action's consequence, destructiveness, irreversibility, or observable operational instability, the stronger the assurance required before the action can be admitted. Relevant consequences include effects on people, rights, assets, security, privacy, data, external systems, and cascading dependencies.
+
+Gate 5 is **optional for adoption by a governing contract**. When adopted, it is **not discretionary per operation**: the contract must declare its activation criteria and high-risk thresholds; the AI agent cannot silently bypass an applicable requirement by relabeling an operation low risk. A gate that is dormant has no claimed runtime effect. Every affected operation still remains subject to the other standing gates.
+
+Gate 5 decomposes into independent controls with distinct inputs, outputs, evidence, and authority boundaries. One control's success does not imply that another control passed; separate logical modules do not themselves constitute independently trusted verification.
+
+#### Control A — Risk Classification
+
+**Function:** Determine risk for the exact proposed action, target, revision, environment, and effect scope using declared criteria and evidence.
+
+**Inputs:** Consequence magnitude and affected parties/resources; reversibility and recovery; destructiveness; uncertainty; dependencies and possible cascading effects; observed operational instability.
+
+**Output:** `RISK_CLASS` and a bounded, reviewable classification receipt.
+
+| Class | Proposed meaning | Challenge burden |
+| --- | --- | --- |
+| `C0` | Ordinary, low-consequence, reversible | No Gate 5 challenge |
+| `C1` | Material consequence | Identify action, target, and intended result |
+| `C2` | High consequence | Demonstrate material-risk, scope, and recovery understanding |
+| `C3` | Destructive or potentially irreversible | Rigorous, action-specific understanding plus independent checks |
+| `C4` | Critical consequence or material uncertainty | Rigorous challenge and additional independent safeguards; unstable execution remains blocked until stabilized |
+
+A higher level inherits applicable lower-level requirements. Risk may be escalated when new evidence requires it; **reducing** a classification requires a separate authorized review supported by evidence. Unknown or ambiguous risk cannot be asserted as `C0`.
+
+**Invariant:** The classifier cannot evaluate its own challenge, declare independent verification, waive a safety requirement, or authorize execution.
+
+#### Control B — Challenge–Response
+
+**Function:** Evaluate whether the Operator supplies the action-specific understanding and authorization evidence required by Control A and the applicable contract.
+
+**Inputs:** The risk classification and receipt, exact candidate/revision, material consequences, named required comprehension points, and declared challenge criteria.
+
+**Outputs:** `PASSED`, `INSUFFICIENT`, `REJECTED`, or `UNRESOLVED`, with recorded reasons.
+
+Responses must identify the action and material implications at the applicable risk level. Generic acknowledgments, repetition, irrelevant explanations, copied formulas lacking contextual meaning, and conversational momentum are insufficient. For destructive or irreversible actions, the response must address actual targets and scope, effects that cannot be recovered, and any material limits of rollback or mitigation.
+
+Challenge **difficulty increases by required evidential substance and independently controlled safeguards**, not arbitrary verbal complexity, intimidation, or endless questioning. The evaluator tests observable response content, not intelligence, diagnosis, or psychological state. It must not manufacture uncertainties or demand unrelated information to obstruct lawful operator decisions.
+
+**Invariant:** A passed challenge is not independent verification, does not alter the risk class, and cannot itself clear Production Lock.
+
+#### Control C — Independent Verification
+
+**Function:** Test material factual and operational prerequisites without relying exclusively on the proposing AI's assertions.
+
+**Inputs:** Exact candidate and target identity; classification and response receipts; versioned evidence; technical prerequisites; recovery and impact claims; independent authorizations when applicable.
+
+**Outputs:** `VERIFIED`, `FAILED`, `INCOMPLETE`, or `UNAVAILABLE` with evidence references and limitations.
+
+Verification can cover integrity of candidate and target, destructive effects, backup/restore viability, permissions, blast radius, tool/runtime safety, and external authorizer status. **At C3 and C4 this control is mandatory** under an adopted Gate 5 contract; lower levels may require checks where independent contractual rules demand them. Merely restating an AI-generated explanation, duplicating a function within the same trust boundary, or posing a harder question is not independent verification.
+
+**Invariant:** Independent verification does not authorize the action or override failed validation, unstable execution, or a production lock. Unavailable mandatory verification blocks admission.
+
+#### Control D — Operational Stability
+
+**Function:** Monitor observable execution conditions and whether the action remains identifiable, bounded, and controlled.
+
+**Inputs:** Target/scope consistency, command and instruction coherence, actual effects versus declared effects, state changes, broken invariants, unexpected outputs, and control-plane signals.
+
+**Outputs:** `STABLE`, `UNSTABLE`, or `UNRESOLVED`.
+
+The control may run throughout planning and execution. Contradictory or rapidly shifting instructions, unstable targets, unexpected modifications, uncontrolled effects, and inconsistent execution state are grounds for containment or suspension when they compromise reliable execution. “Erratic” describes **observable operation behavior**, not a claim about the Operator's mental state.
+
+**Invariant:** An unstable operation cannot become stable through acknowledgment, additional challenge responses, or a model's reassurances. The affected operation stays blocked until the required stability conditions are separately established.
+
+#### Control E — Production Admission Interface
+
+**Function:** Provide the bounded outcome of Controls A–D to **Gate 1 — Production Lock**, which retains the actual effect-admission authority. Control E is an interface and an independent consistency check, **not an additional independent right to clear production**.
+
+**Inputs:** Applicable control receipts, exact candidate and effect scope, Gate 4 result when required, other mandatory gate outcomes, and the current Gate 1 authorization state.
+
+**Outputs:** `ADMISSIBLE_FOR_GATE_1_REVIEW` or `BLOCKED`. This outcome is **never** synonymous with `PRODUCTION_AUTHORIZED`.
+
+Proposed admission predicate, evaluated by the authorized receiving control rather than asserted by the producing agent:
+
+```text
+GATE_5_READY_FOR_GATE_1_REVIEW :=
+    RISK_CLASS_VALID
+    AND CHALLENGE_PASSED_IF_REQUIRED
+    AND INDEPENDENT_VERIFICATION_PASSED_IF_REQUIRED
+    AND OPERATION_STABLE
+    AND CANDIDATE_IDENTITY_AND_SCOPE_UNCHANGED
+
+PRODUCTION_ADMISSIBLE :=
+    GATE_5_READY_FOR_GATE_1_REVIEW
+    AND GATE_4_SATISFIED_IF_REQUIRED
+    AND ALL_OTHER_MANDATORY_GATES_PASSED
+    AND VALID_OPERATOR_AUTHORITY
+    AND GATE_1_EFFECT_CLEARANCE_FOR_EXACT_CANDIDATE
+```
+
+A dormant Gate 5 does not falsely satisfy `GATE_5_READY_FOR_GATE_1_REVIEW`: its result is `NOT_ADOPTED`, and a separate policy must determine whether any other already-mandatory protections permit the action. No gate may create authority from an absent requirement.
+
+#### Control independence, escalation, and failure
+
+- Each control has a separate responsibility and versioned receipt, bound to the candidate/revision, target, and operation scope. No control may silently rewrite another's evidence or erase a prior failed condition.
+- New risk evidence may increase required scrutiny at any point. Higher risk invalidates lower-level assurances that do not meet the new requirements.
+- If risk, target, scope, relevant effects, candidate revision, or operational state materially changes, dependent validation and authorization must be rechecked.
+- A mandatory unavailable, failed, or unresolved control **blocks the dependent production effect**. Independently permitted inspection, cancellation, revocation, and safe containment may continue.
+- Repeating requests or challenges does not accumulate authority. Any re-evaluation requires materially relevant new evidence, consistent with Gate 2.
+- Gate 3 cannot delegate around an unresolved challenge. Gate 4's informed-validation result cannot substitute for independent verification. Gate 1 remains effect-scoped and locked by default.
+- Enforceable independence requires actual trust-boundary and authority separation where claimed. A list of software components or an AI self-attestation is insufficient.
+
+**Critical invariants:** Classification is not validation; validation is not verification; verification is not authorization; authorization is not stability; stability is not safety or permission; an absent or failed mandatory condition cannot be inferred to pass. No single AI-controlled component may classify risk, pass its own challenge, certify external verification, and clear the production lock.
+
+**Publication boundary:** This is a proposed contract, not evidence that challenge engines, external checks, risk scoring, gate interlocks, or production enforcement have been built or tested.
+
 ### Gate composition and precedence
 
 A proposed generic ordering is:
@@ -157,10 +274,17 @@ REQUEST
   -> RETURNED WORK / CANDIDATE
   -> REVALIDATE CONTRACT + LOCK + EVIDENCE
   -> INFORMED OPERATOR VALIDATION [WHEN EXPLICIT HUMAN VALIDATION IS REQUIRED]
-  -> SEPARATE EFFECT AUTHORIZATION OR BLOCKED OUTCOME
+  -> GATE 5 [IF ADOPTED AND RISK-TRIGGERED]
+       A: RISK CLASSIFICATION
+       D: OPERATIONAL STABILITY [MONITORED THROUGHOUT]
+       B: CONSEQUENCE-SCALED CHALLENGE [WHEN REQUIRED]
+       C: INDEPENDENT VERIFICATION [WHEN REQUIRED]
+       E: RECEIPT CONSISTENCY / GATE 1 REVIEW INTERFACE
+  -> RECHECK EXACT CANDIDATE + REQUIRED GATE OUTCOMES
+  -> GATE 1 EFFECT AUTHORIZATION OR BLOCKED OUTCOME
 ```
 
-Production Lock is **effect-scoped**: a locked system may still examine or develop a candidate when a separate read/staging contract permits it. It must re-check before any production effect. The Hand-off Gate cannot bypass the lock by sending an effect to another participant. Reiteration cannot convert a failed authorization into a success. All four support refusal and explicit unresolved outcomes. Gate 4 applies whenever explicit human validation is required, including during a clarification or hand-off if that interaction calls for validation. It must not be bypassed by calling a sensitive operation low-risk. Demonstrated understanding, consent, and operator authorization remain separate; Gate 4 acceptance never clears Production Lock on its own.
+Production Lock is **effect-scoped**: a locked system may still examine or develop a candidate when a separate read/staging contract permits it. It must re-check before any production effect. The Hand-off Gate cannot bypass the lock by sending an effect to another participant. Reiteration cannot convert a failed authorization into a success. All five support refusal and explicit unresolved outcomes when applicable. Gate 4 applies whenever explicit human validation is required, including during a clarification or hand-off if that interaction calls for validation. It must not be bypassed by calling a sensitive operation low-risk. Demonstrated understanding, consent, and operator authorization remain separate; Gate 4 acceptance never clears Production Lock on its own. Gate 5 is optional at adoption, mandatory for triggered operations after adoption, and cannot clear Gate 1. Operational stability may be checked before, during, and after other gate evaluation; the sequence above shows logical dependencies rather than a fixed scheduler.
 
 ### Initial validation cases (proposed, not executed)
 
@@ -178,6 +302,13 @@ Production Lock is **effect-scoped**: a locked system may still examine or devel
 | Operator clarifies the action but does not authorize it | Accept clarification only; keep authorization unresolved |
 | Sensitive operation requires permission but material consequences were not understood | Do not authorize; communicate consequences and request action-specific validation |
 | Validated action, target, risk, or candidate revision changes | Re-evaluate understanding and authorization; keep production locked until reauthorized |
+| Adopted Gate 5: low-risk action with no trigger | Record `CHALLENGE_NOT_REQUIRED` under declared policy; preserve every other gate |
+| Adopted Gate 5: destructive operation assigned C0 without evidence | Reject unsupported low classification and escalate/review |
+| Operator repeats assent without describing irreversible effect | Fail required challenge; retain lock |
+| C3/C4 challenge passes but independent verifier is unavailable | Block production; a verbal response cannot replace verification |
+| Operation becomes erratic after challenge passes | Suspend affected action until independently stable; reassess scope and risk |
+| AI attempts to use Gate 5 success as production authorization | Reject; only Gate 1's authorized clearance can admit exact effect |
+| Proposal remains only a document, with Gate 5 unimplemented | Record as theoretical; claim no running enforcement |
 
 **Status:** These are **standing proposed gates for the generic expert-system seed**, not proof that lock enforcement, iterative control, inter-agent communication, or delegated authorization exists. No gate may silently adopt a synthetic decision as fact or policy.
 
@@ -190,7 +321,8 @@ REQUEST
   -> DETERMINISTIC / HEURISTIC / EXPERT-SYSTEM ROUTE
   -> CONTRACT-CHECKED CANDIDATE
   -> INFORMED OPERATOR VALIDATION [IF EXPLICIT HUMAN VALIDATION REQUIRED]
-  -> VALIDATION AND ADMISSION GATE
+  -> GATE 5 INDEPENDENT CONTROLS [IF ADOPTED / RISK-TRIGGERED]
+  -> VALIDATION AND GATE 1 EFFECT ADMISSION
   -> AUTHORIZED OUTCOME OR REFUSAL
 
 Only if the contracted routes cannot resolve the request
@@ -198,7 +330,8 @@ AND the contract explicitly allows a last-resort proposal:
   -> GENERATIVE SYNTHETIC CANDIDATE
   -> LABEL + PROVENANCE + REVIEW
   -> INFORMED OPERATOR VALIDATION [IF EXPLICIT HUMAN VALIDATION REQUIRED]
-  -> VALIDATION AND SEPARATE ADMISSION
+  -> GATE 5 INDEPENDENT CONTROLS [IF ADOPTED / RISK-TRIGGERED]
+  -> VALIDATION AND SEPARATE GATE 1 ADMISSION
   -> AUTHORIZED OUTCOME OR UNRESOLVED / REFUSED
 ```
 
