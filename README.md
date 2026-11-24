@@ -48,7 +48,7 @@ This README is a **navigation and scope document**, not a certification of every
 | Foundational ethics and consent | [Full doctrine](research-ethics/SELF_DOCTRINE_EXTENDED.md) · [Consolidated axioms](research-ethics/SELF_DOCTRINE_EXTENDED.md#xviii-consolidated-axioms) |
 | AI collaboration and technical methodology | [ACAP](acap/README.md) · [Programming doctrine](programming-doctrine/HUMAN_DOCTRINE.md) |
 | Legal theory and terminology | [Legal Theory index](legal-theory/README.md) |
-| Architecture and seed proposals | [Blueprints](blue-prints/README.md) · [Lunar Flower seed](blue-prints/LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md) · [Heuristic-grown seed methodology](research-ethics/WHEN_NOT_TO_USE_AI_HEURISTIC_GROWN_SEED_SYSTEM.md) |
+| Architecture and seed proposals | [Blueprints](blue-prints/README.md) · [Gate framework](blue-prints/gates/README.md) · [Lunar Flower seed](blue-prints/LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md) · [Heuristic-grown seed methodology](research-ethics/WHEN_NOT_TO_USE_AI_HEURISTIC_GROWN_SEED_SYSTEM.md) |
 | Public outreach and research status | [ReShade guidance](outreach/reshade/README.md) · [Site-hydration and machine-EOL roadmap](research-ethics/EOL_SITE_HYDRATION_AND_REHYDRATION_ROADMAP.md) |
 | Personal dossier and creative work | [Dossier](personal-dossier/personal_reconstruction_anonymized.md) · [Musings](personal-dossier/musings/README.md) |
 | Provenance, limits, and corrections | [Fallibility and redress](research-ethics/FALLIBILITY_APPROXIMATION_AND_REDRESS.md) · [Errata](ERRATA.md) · [Document history](#document-history) |
@@ -165,7 +165,7 @@ The blueprints supplement rather than replace the programming and research-ethic
 
 ### Lunar Flower AI Seed — expert-system orchestration
 
-**[Read the proposed AI seed](blue-prints/LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md)** — Place AI under an expert-system contract as a constrained orchestrator, construct the tools and structure from the ground up, and use generative synthetic decision-making only as a separately reviewed last resort. **Theory only; no activated contract or verified implementation is claimed.**
+**[Read the proposed AI seed](blue-prints/LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md)** — Place AI under an expert-system contract as a constrained orchestrator, construct the tools and structure from the ground up, and use generative synthetic decision-making only as a separately reviewed last resort. Its six proposed gates now include **Gate 6 — Prompt Restatement**, in which the machine states the request as it understands it before relying on that interpretation. Read the [separate Gate Framework README](blue-prints/gates/README.md) for the Gate 0 v0.4 axioms, G0-MOD v0.2 opt-in catalog, deferred and unknown research, and gate distinctions. **Theory only; no activated contract, automatic project adoption, or verified implementation is claimed.**
 
 ### Heuristic-grown seeds — factories of factories of factories
 
