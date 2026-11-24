@@ -4,6 +4,10 @@
 
 An armored figure begins as a drawing. Its image is archived and restored, then studied through composition, proportions, and color. A separate rebuild takes the written description and JSON color information as its working material. The new figure still has the cyan optic, red facial accents, and circular knee plate. It also has spiked hair, sharply faceted armor, and a hand the original drawing kept hidden. Those differences make it possible to examine what survived the passage from image to description and back to image.
 
+## Download the study rasters
+
+[Composition, proportion, and color raster archive](visual-raster-studies.zip) includes all three JSON studies, aligned PNG layers, the nonwhite sample map, and the embedded source pixels. The public copy uses a generic source filename and omits an opaque ancillary PNG identifier. The decoded pixel checksum is unchanged. The container checksum identifies the sanitized PNG.
+
 ## See the process
 
 ### 1. Original drawing and exact restoration
