@@ -132,7 +132,6 @@ DECLARE project_security_profile : ProjectProfile = UNRESOLVED
 DECLARE explicitly_selected_axioms : BoundedAxiomSet = EMPTY
 DECLARE missing_dependency_set : BoundedDependencySet = EMPTY
 DECLARE profile_consistency_state : EvidenceState = UNRESOLVED
-DECLARE profile_assurance_state : EvidenceState = UNRESOLVED
 DECLARE profile_status : ProfileStatus = NOT_SELECTED
 
 EVALUATE project_adoption_state against an independently established project selection
@@ -142,8 +141,8 @@ IF project_adoption_state != ADOPTED:
     profile_status = UNRESOLVED
     RETURN profile_status
 
-READ independently established project selection
-ESTABLISH explicitly_selected_axioms
+READ project_security_profile from the independently established project selection
+ESTABLISH explicitly_selected_axioms from project_security_profile
 FIND missing_dependency_set over the declared finite dependency graph
 
 IF missing_dependency_set is not EMPTY:
