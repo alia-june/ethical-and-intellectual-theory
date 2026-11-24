@@ -24,7 +24,7 @@ This seed is an architectural proposal. It must not be represented as an already
 
 ## Standing expert-system gates — generic proposed contracts
 
-The following six standing gates are **implementation-independent design candidates**. They operate on declared contracts, evidence, and state rather than a named product, language, runtime, or organization. They are not enabled by this publication: adoption remains governed by each project's authorized contract, and implementation and verification are separate obligations. A document describing a gate is not itself an enforcing mechanism. **Gate numbers are stable identifiers, not strict execution order.** See the [separate gates README](gates/README.md) for the Gate 0 research baseline, opt-in modular catalog, and the restatement-gate write-up.
+The following six standing gates are **implementation-independent design candidates**. They operate on declared contracts, evidence, and state rather than a named product, language, runtime, or organization. They are not enabled by this publication: adoption remains governed by each project's authorized contract, and implementation and verification are separate obligations. A document describing a gate is not itself an enforcing mechanism. **Gate numbers are stable identifiers, not strict execution order.** See the [Gates README](gates/README.md) for the gate map, and the [Gate 0 research archive](gates/gate-0/README.md) for foundational axioms, complete C2/C3 source records, optional modular selections, deferrals, and unresolved claims.
 
 ### Gate 1 — Production Lock
 

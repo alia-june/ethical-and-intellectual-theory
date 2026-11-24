@@ -9,7 +9,8 @@ This directory holds proposed architectural blueprints and technical-theory pape
 | Blueprint | Subject | Disposition |
 | --- | --- | --- |
 | [Lunar Flower AI Seed — Expert-System Contract](LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md) | AI under expert-system contract; six proposed gates including optional prompt restatement; ground-up tools and structure; generative synthetic decisions as a last resort | **Proposed theoretical seed; no runtime admission or implementation claim** |
-| [Gate Framework — Gate 0, six proposed gates, and modular opt-in axioms](gates/README.md) | Separate overview and Gate 6 restatement proposal; G0 v0.4 accepted theoretical axioms; G0-MOD v0.2 opt-in catalog and honest deferred/unknown register | **Theoretical only; no automatic adoption, activation, or runtime assurance** |
+| [Gate framework — Gates 0–6](gates/README.md) | Navigation for foundational Gate 0 and six proposed standing gates | **Theoretical; no runtime activation** |
+| [Gate 0 — Full axioms, catalog and research records](gates/gate-0/README.md) | G0 v0.4, G0-MOD v0.2, C2/C3 source ledgers, all dispositions and unknowns | **Accepted research catalog; project adoption remains opt-in** |
 | [Universal JSON, Crete, and SafeCopy — Ethics and Theory](UNIVERSAL_JSON_CRETE_SAFECOPY_ETHICS_AND_THEORY.md) | Representation and exchange; structural composition and fracture; preservation, provenance, and recovery; their separation from authority | **Proposed research synthesis; not canonical or technically attested** |
 | [Governed Meaning and Action](governed-meaning-and-action/README.md) | Interpretation, scoped approval, recovery evidence, and contract adoption | **Theory note with a bounded local implementation and proposed extensions** |
 
