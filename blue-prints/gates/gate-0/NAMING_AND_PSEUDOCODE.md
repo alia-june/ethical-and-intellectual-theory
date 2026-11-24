@@ -49,6 +49,12 @@ Use the terms **established**, **verified**, **eligible**, **authorized**, and *
 
 The table is a **notation mapping**, not a claim that all historical formulas have been formally proved or that all labels are software variables.
 
+## State and operation declarations
+
+The examples use `UNRESOLVED` as an explicit *tagged absence state* for any optional object/reference/input type; it is not a permitted value of an ordinary `Operation`, `Text`, or numeric datum. Likewise `EMPTY` is an explicit, typed empty bounded collection. A concrete programming language would need corresponding tagged union/option definitions rather than silently inserting an invalid value.
+
+Conceptual verbs such as `ESTABLISH`, `EVALUATE`, `VERIFY`, `CREATE`, `TRANSFORM`, and `READ` are **named abstract procedures**, not implicit guarantees of success. Each produces evidence or remains `UNRESOLVED`. Any real implementation would need separately specified inputs, outputs, error cases, and trust boundaries; none is claimed here.
+
 ## Conceptual gate-zero eligibility
 
 The following pseudocode is *illustrative* and uses a declared finite set of mandatory conditions. It deliberately returns **review eligibility**, not operational execution permission.
@@ -78,7 +84,9 @@ EVALUATE required_authority_state, authorization_identity_state
 ESTABLISH applicable_mandatory_conditions, mandatory_condition_count
 VERIFY mandatory_condition_completeness_state
 
-IF any required predicate is REFUTED:
+IF required_authority_state == REFUTED
+   OR authorization_identity_state == REFUTED
+   OR mandatory_condition_completeness_state == REFUTED:
     eligibility_result = DENIED
     RETURN eligibility_result
 IF required_authority_state != SUPPORTED
@@ -117,7 +125,9 @@ RETURN eligibility_result
 
 ```text
 TYPE ProfileStatus = NOT_SELECTED | SELECTED | INCOMPLETE | CONFLICTED | VALID_PROFILE | UNRESOLVED
+TYPE ProfileAdoptionState = ADOPTED | NOT_ADOPTED | UNRESOLVED
 
+DECLARE project_adoption_state : ProfileAdoptionState = UNRESOLVED
 DECLARE project_security_profile : ProjectProfile = UNRESOLVED
 DECLARE explicitly_selected_axioms : BoundedAxiomSet = EMPTY
 DECLARE missing_dependency_set : BoundedDependencySet = EMPTY
@@ -125,8 +135,12 @@ DECLARE profile_consistency_state : EvidenceState = UNRESOLVED
 DECLARE profile_assurance_state : EvidenceState = UNRESOLVED
 DECLARE profile_status : ProfileStatus = NOT_SELECTED
 
-IF project has not explicitly adopted the optional library:
+EVALUATE project_adoption_state against an independently established project selection
+IF project_adoption_state == NOT_ADOPTED:
     RETURN profile_status  // NOT_SELECTED, NOT a failing operational gate
+IF project_adoption_state != ADOPTED:
+    profile_status = UNRESOLVED
+    RETURN profile_status
 
 READ independently established project selection
 ESTABLISH explicitly_selected_axioms
@@ -150,16 +164,22 @@ The procedure does **not** silently activate missing prerequisites or assume a c
 ## Gate 6 — Prompt restatement
 
 ```text
-TYPE RestatementState = NOT_ADOPTED | RESTATED | NEEDS_CLARIFICATION
+TYPE RestatementState = NOT_ADOPTED | RESTATED | NEEDS_CLARIFICATION | UNRESOLVED
+TYPE GateSixAdoptionState = ADOPTED | NOT_ADOPTED | UNRESOLVED
 
+DECLARE gate_six_adoption_state : GateSixAdoptionState = UNRESOLVED
 DECLARE original_operator_prompt : ImmutableText = UNRESOLVED
 DECLARE established_request_context : ContextReference = UNRESOLVED
 DECLARE proposed_prompt_restatement : Text = UNRESOLVED
 DECLARE interpretation_match_state : EvidenceState = UNRESOLVED
 DECLARE restatement_result : RestatementState = NOT_ADOPTED
 
-IF the project has not opted into Gate 6:
+EVALUATE gate_six_adoption_state using the independently established project profile
+IF gate_six_adoption_state == NOT_ADOPTED:
     RETURN restatement_result  // NOT_ADOPTED
+IF gate_six_adoption_state != ADOPTED:
+    restatement_result = UNRESOLVED
+    RETURN restatement_result
 
 READ original_operator_prompt, established_request_context
 proposed_prompt_restatement =
@@ -186,13 +206,16 @@ TYPE CopyWorkState = NOT_STARTED | FALLBACK_READY | COPY_READY | CANDIDATE_VALID
 
 DECLARE authoritative_source_reference : ImmutableSourceReference = UNRESOLVED
 DECLARE safe_fallback_reference : FallbackReference = UNRESOLVED
+DECLARE fallback_adequacy_state : EvidenceState = UNRESOLVED
 DECLARE isolated_working_copy : MutableWorkingCopy = UNRESOLVED
 DECLARE transformed_candidate : Candidate = UNRESOLVED
 DECLARE copy_work_state : CopyWorkState = NOT_STARTED
 
 ESTABLISH authoritative_source_reference and its permitted scope
 ESTABLISH safe_fallback_reference without depending on copy success
-IF safe_fallback_reference == UNRESOLVED:
+EVALUATE fallback_adequacy_state against the declared failure and effect scope
+IF safe_fallback_reference == UNRESOLVED
+   OR fallback_adequacy_state != SUPPORTED:
     copy_work_state = BLOCKED
     RETURN copy_work_state
 

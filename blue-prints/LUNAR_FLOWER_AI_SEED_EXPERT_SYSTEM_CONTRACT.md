@@ -243,6 +243,7 @@ DECLARE all_other_mandatory_gates_are_satisfied : RequirementEvidence = UNRESOLV
 DECLARE valid_operator_authority_is_established : RequirementEvidence = UNRESOLVED
 DECLARE gate_one_clearance_for_exact_effect_is_established : RequirementEvidence = UNRESOLVED
 DECLARE gate_five_is_ready_for_gate_one_review : RequirementEvidence = UNRESOLVED
+DECLARE gate_five_requirements_are_satisfied_under_the_adopted_policy : RequirementEvidence = UNRESOLVED
 DECLARE all_production_effect_prerequisites_are_established : RequirementEvidence = UNRESOLVED
 
 IF gate_five_adoption_state == ADOPTED:
@@ -252,9 +253,16 @@ IF gate_five_adoption_state == ADOPTED:
         AND required_independent_verification_is_satisfied == SUPPORTED
         AND operation_stability_is_supported == SUPPORTED
         AND candidate_identity_and_scope_are_unchanged == SUPPORTED
+    gate_five_requirements_are_satisfied_under_the_adopted_policy =
+        gate_five_is_ready_for_gate_one_review
+ELSE IF gate_five_adoption_state == NOT_ADOPTED:
+    // A separately established non-adoption policy determines whether
+    // the operation is eligible without a Gate 5 challenge.
+    EVALUATE gate_five_requirements_are_satisfied_under_the_adopted_policy
+        using the independently authorized project contract
 ELSE:
-    // Do not treat NOT_ADOPTED or UNRESOLVED as Gate 5 having passed.
-    gate_five_is_ready_for_gate_one_review = UNRESOLVED
+    // Unresolved adoption cannot be interpreted as a pass or non-adoption.
+    gate_five_requirements_are_satisfied_under_the_adopted_policy = UNRESOLVED
 
 // Applicable "if required" predicates mean SUPPORTED when the requirement
 // is not triggered by a validly established governing policy. They never
