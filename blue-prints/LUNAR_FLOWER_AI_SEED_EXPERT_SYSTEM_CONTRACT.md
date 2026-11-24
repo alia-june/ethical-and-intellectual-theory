@@ -24,7 +24,7 @@ This seed is an architectural proposal. It must not be represented as an already
 
 ## Standing expert-system gates — generic proposed contracts
 
-The following five standing gates are **implementation-independent design candidates**. They operate on declared contracts, evidence, and state rather than a named product, language, runtime, or organization. All start **unadmitted** until an actual implementation and its tests are accepted. A document describing a gate is not itself an enforcing mechanism.
+The following six standing gates are **implementation-independent design candidates**. They operate on declared contracts, evidence, and state rather than a named product, language, runtime, or organization. They are not enabled by this publication: adoption remains governed by each project's authorized contract, and implementation and verification are separate obligations. A document describing a gate is not itself an enforcing mechanism. **Gate numbers are stable identifiers, not strict execution order.** See the [separate gates README](gates/README.md) for the Gate 0 research baseline, opt-in modular catalog, and the restatement-gate write-up.
 
 ### Gate 1 — Production Lock
 
@@ -260,12 +260,34 @@ A dormant Gate 5 does not falsely satisfy `GATE_5_READY_FOR_GATE_1_REVIEW`: its 
 
 **Publication boundary:** This is a proposed contract, not evidence that challenge engines, external checks, risk scoring, gate interlocks, or production enforcement have been built or tested.
 
+### Gate 6 — Prompt Restatement
+
+**Gate ID:** `LF-GATE-006`  
+**Classification:** Optional interpretation safeguard  
+**Adoption state:** `NOT_ADOPTED` unless expressly selected by a governing project contract  
+**Logical position:** Before substantive planning or reiteration that depends upon the interpreted prompt  
+**Status:** Proposed architecture; not implemented, adopted, or independently verified
+
+**Intent:** The machine restates the Operator's prompt in its own words **as it understands the request**. The restatement is a bounded interpretation claim, not a replacement instruction, a new requirement, or an authorization.
+
+- **Entry:** The original prompt and already established context, constraints, exclusions, targets, and authorized scope.
+- **Action:** Briefly restate the requested objective and material constraints in plain language. Identify a material ambiguity or assumption rather than silently completing it with invented intent.
+- **Output:** `RESTATED`, `NEEDS_CLARIFICATION`, or `NOT_ADOPTED`. Preserve the original prompt separately so its contents cannot be replaced by the paraphrase.
+- **Material mismatch:** Do not rely on an unsupported interpretation of a changed target, permission, prohibited action, or consequential effect. Request targeted clarification where needed.
+- **Bound:** Do not force repeated confirmations for unchanged, unambiguous routine requests. Explicit Operator confirmation is a *separate* requirement only where the adopted contract or another applicable gate requires it.
+- **Authority:** A restatement does not establish Operator agreement, independent verification, informed consent, authority to delegate, or production clearance.
+
+**Invariant:** `RESTATED != CONFIRMED != AUTHORIZED`. Gate 6 concerns **prompt interpretation**, Gate 2 concerns **candidate reiteration**, and Gate 4 concerns **informed Operator validation**. Gate 6 cannot bypass Gates 1, 3, 4, or 5.
+
+For the full background, examples, relationship to Gate 0 v0.4 and G0-MOD v0.2, and opt-in boundaries, see [Gate Framework README](gates/README.md).
+
 ### Gate composition and precedence
 
 A proposed generic ordering is:
 
 ```text
 REQUEST
+  -> GATE 6: RESTATE PROMPT AS UNDERSTOOD [IF ADOPTED; CLARIFY MATERIAL MISMATCH]
   -> CONTRACT + AUTHORITY VALIDATION
   -> PRODUCTION LOCK CHECK [DEFAULT LOCKED]
   -> RULE / EVIDENCE / EXPERT-SYSTEM EVALUATION
@@ -284,7 +306,7 @@ REQUEST
   -> GATE 1 EFFECT AUTHORIZATION OR BLOCKED OUTCOME
 ```
 
-Production Lock is **effect-scoped**: a locked system may still examine or develop a candidate when a separate read/staging contract permits it. It must re-check before any production effect. The Hand-off Gate cannot bypass the lock by sending an effect to another participant. Reiteration cannot convert a failed authorization into a success. All five support refusal and explicit unresolved outcomes when applicable. Gate 4 applies whenever explicit human validation is required, including during a clarification or hand-off if that interaction calls for validation. It must not be bypassed by calling a sensitive operation low-risk. Demonstrated understanding, consent, and operator authorization remain separate; Gate 4 acceptance never clears Production Lock on its own. Gate 5 is optional at adoption, mandatory for triggered operations after adoption, and cannot clear Gate 1. Operational stability may be checked before, during, and after other gate evaluation; the sequence above shows logical dependencies rather than a fixed scheduler.
+Production Lock is **effect-scoped**: a locked system may still examine or develop a candidate when a separate read/staging contract permits it. It must re-check before any production effect. The Hand-off Gate cannot bypass the lock by sending an effect to another participant. Reiteration cannot convert a failed authorization into a success. All six support refusal and explicit unresolved outcomes when applicable. Gate 4 applies whenever explicit human validation is required, including during a clarification or hand-off if that interaction calls for validation. It must not be bypassed by calling a sensitive operation low-risk. Demonstrated understanding, consent, and operator authorization remain separate; Gate 4 acceptance never clears Production Lock on its own. Gate 5 is optional at adoption, mandatory for triggered operations after adoption, and cannot clear Gate 1. Gate 6 is optional at adoption and addresses interpretation before work based on that interpretation; it cannot stand in for Operator agreement or confirmation. Operational stability may be checked before, during, and after other gate evaluation; the sequence above shows logical dependencies rather than a fixed scheduler.
 
 ### Initial validation cases (proposed, not executed)
 
@@ -298,6 +320,9 @@ Production Lock is **effect-scoped**: a locked system may still examine or devel
 | Hand-off acknowledged but not accepted | Do not infer task execution or completion |
 | Returned result asks for a production effect | Re-check production lock and separate authorization |
 | Generated explanation asserts that any gate passed | Treat assertion as data, not gate evidence |
+| Adopted Gate 6: faithful prompt restatement | Record interpretation beside the original; no authorization implied |
+| Adopted Gate 6: restatement changes target or omits a prohibition | Mark interpretation unresolved; preserve prompt and clarify material mismatch |
+| Gate 6 is not adopted for a project | Do not claim the gate ran; other independently binding requirements remain unchanged |
 | Operator responds with a bare "yes" or "okay" when validation is required | Reject as insufficient validation; request contextual clarification |
 | Operator clarifies the action but does not authorize it | Accept clarification only; keep authorization unresolved |
 | Sensitive operation requires permission but material consequences were not understood | Do not authorize; communicate consequences and request action-specific validation |
@@ -316,6 +341,7 @@ Production Lock is **effect-scoped**: a locked system may still examine or devel
 
 ```text
 REQUEST
+  -> GATE 6 INTERPRETATION RESTATEMENT [IF ADOPTED]
   -> EXPLICIT CONTRACT AND AUTHORITY CHECK
   -> EVIDENCE AND RULE MATCH
   -> DETERMINISTIC / HEURISTIC / EXPERT-SYSTEM ROUTE
