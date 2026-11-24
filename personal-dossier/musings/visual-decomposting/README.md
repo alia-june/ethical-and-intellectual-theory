@@ -6,6 +6,8 @@ An armored figure begins as a drawing. Its image is archived and restored, then 
 
 ## Download the study rasters
 
+[Standalone forensic raster JSON](image-forensic-raster.json) contains the public source PNG, all 768 RGBA tiles, the spatial study, and a Python decoder. Either restoration mode works from this JSON alone. The decoded pixels match the original upload.
+
 [Composition, proportion, and color raster archive](visual-raster-studies.zip) includes all three JSON studies, aligned PNG layers, the nonwhite sample map, and the embedded source pixels. The public copy uses a generic source filename and omits an opaque ancillary PNG identifier. The decoded pixel checksum is unchanged. The container checksum identifies the sanitized PNG.
 
 ## See the process
