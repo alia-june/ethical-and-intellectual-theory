@@ -28,6 +28,7 @@ Gate numbers are identifiers, not execution order. A project that opts into Gate
 - **Unresolved:** 14 identified unknowns; [record and qualification](gate-0/UNKNOWNS.md).
 - **Records:** [C3 source](gate-0/records/C3/00_INDEX.md) and [C2 source](gate-0/records/C2/00_INDEX.md).
 - **Programming invariants:** Separate [PVI-01–08 register](gate-0/PROGRAMMING_INVARIANTS.md).
+- **Readable theory and variable names:** [Human-readable naming and pseudocode](gate-0/NAMING_AND_PSEUDOCODE.md).
 
 A promoted theory is not a required project profile, a verified program, or an implemented lock. Unselected protections remain optional; external binding restrictions remain independently effective.
 

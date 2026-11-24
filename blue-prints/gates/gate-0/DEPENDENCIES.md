@@ -4,14 +4,18 @@
 
 The modular approach supports five relationship types: **dependency**, **derivation**, **reinforcement**, **conflict**, and **substitution**. A dependency says which premises a guarantee requires; it does **not** itself prove the guarantee or opt in to the missing premise.
 
+The following is a **conceptual dependency path**, not an executing flow:
+
 ```text
-DEFINED SCOPES & STATEMENTS
-    -> EXPLICIT PROJECT SELECTION (M0)
-    -> REQUIRED PREREQUISITES IDENTIFIED (T0-01)
-    -> CONSISTENCY EVALUATED (T0-02)
-    -> EVIDENCE AND JUSTIFICATION ASSESSED (T0-03)
-    -> BOUNDED ASSURANCE CLAIM (T0-05)
+declared_project_scope_and_defined_statements
+    -> explicitly_selected_optional_requirements (M0)
+    -> all_required_prerequisites_identified (T0-01)
+    -> selected_requirements_checked_for_consistency (T0-02)
+    -> claimed_guarantees_checked_for_justification (T0-03)
+    -> evidence_scoped_assurance_claims (T0-05)
 ```
+
+A missing prerequisite remains missing; it is not silently enabled. Detailed, typed examples appear in [Human-readable naming and pseudocode](NAMING_AND_PSEUDOCODE.md).
 
 For example, delegated authority requires established authority and delegable scope (T1-01 through T1-04); authorization of a referenced target requires established authorization plus the target/reference relationship (T1 and T2-08); independent assurance requires defined independence criteria beyond merely counting copies (T3-03 and deferred T3-08).
 

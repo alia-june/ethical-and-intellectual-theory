@@ -15,4 +15,12 @@ These preferences do **not** constitute a Gate 0 authority grant or universal se
 
 A reference to a mutable object is not automatically an isolated copy. A sentinel must not be mistaken for legitimate data. A successful validation does not automatically authorize committing a result. A fallback may not compensate for irreversible external effects; that stronger claim is deferred as T2-06.
 
-See also the [earlier C2 programming record](records/C2/05_PROGRAMMING_INVARIANTS.md).
+## Preferred human-readable programming form
+
+- Declare every variable with its type, descriptive name, and known sentinel or defined initial state before use.
+- Use terms such as `original_operator_prompt`, `authorization_grant`, `isolated_working_copy`, and `safe_fallback_reference` instead of one-letter identifiers or ambiguous numeric placeholders.
+- Declare explicit bounds and named stop states for iteration. Literal loop unrolling is an optional representation, **not** a universal rule.
+- Distinguish `UNRESOLVED`, `REFUTED`, `NOT_APPLICABLE`, and `SUPPORTED` when the selected evidence model requires them; none implicitly authorizes an effect.
+- Preserve the original through an appropriate isolated copy, **establish the fallback before copying**, and separate validation of a candidate from authorization to commit.
+
+See the [complete human-readable notation and bounded pseudocode](NAMING_AND_PSEUDOCODE.md) and the [earlier C2 programming record](records/C2/05_PROGRAMMING_INVARIANTS.md).

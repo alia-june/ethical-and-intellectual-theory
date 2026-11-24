@@ -226,25 +226,50 @@ The control may run throughout planning and execution. Contradictory or rapidly 
 
 **Outputs:** `ADMISSIBLE_FOR_GATE_1_REVIEW` or `BLOCKED`. This outcome is **never** synonymous with `PRODUCTION_AUTHORIZED`.
 
-Proposed admission predicate, evaluated by the authorized receiving control rather than asserted by the producing agent:
+Conceptual review predicate, evaluated by the authorized receiving control—not asserted by the producing agent. Every variable is explicitly introduced as an unresolved assessment before being assigned its evidenced state:
 
 ```text
-GATE_5_READY_FOR_GATE_1_REVIEW :=
-    RISK_CLASS_VALID
-    AND CHALLENGE_PASSED_IF_REQUIRED
-    AND INDEPENDENT_VERIFICATION_PASSED_IF_REQUIRED
-    AND OPERATION_STABLE
-    AND CANDIDATE_IDENTITY_AND_SCOPE_UNCHANGED
+TYPE RequirementEvidence = SUPPORTED | REFUTED | UNRESOLVED | CONFLICTED
+TYPE GateFiveAdoption = ADOPTED | NOT_ADOPTED | UNRESOLVED
 
-PRODUCTION_ADMISSIBLE :=
-    GATE_5_READY_FOR_GATE_1_REVIEW
-    AND GATE_4_SATISFIED_IF_REQUIRED
-    AND ALL_OTHER_MANDATORY_GATES_PASSED
-    AND VALID_OPERATOR_AUTHORITY
-    AND GATE_1_EFFECT_CLEARANCE_FOR_EXACT_CANDIDATE
+DECLARE gate_five_adoption_state : GateFiveAdoption = UNRESOLVED
+DECLARE risk_classification_is_supported : RequirementEvidence = UNRESOLVED
+DECLARE required_operator_challenge_is_satisfied : RequirementEvidence = UNRESOLVED
+DECLARE required_independent_verification_is_satisfied : RequirementEvidence = UNRESOLVED
+DECLARE operation_stability_is_supported : RequirementEvidence = UNRESOLVED
+DECLARE candidate_identity_and_scope_are_unchanged : RequirementEvidence = UNRESOLVED
+DECLARE required_operator_validation_is_satisfied : RequirementEvidence = UNRESOLVED
+DECLARE all_other_mandatory_gates_are_satisfied : RequirementEvidence = UNRESOLVED
+DECLARE valid_operator_authority_is_established : RequirementEvidence = UNRESOLVED
+DECLARE gate_one_clearance_for_exact_effect_is_established : RequirementEvidence = UNRESOLVED
+DECLARE gate_five_is_ready_for_gate_one_review : RequirementEvidence = UNRESOLVED
+DECLARE all_production_effect_prerequisites_are_established : RequirementEvidence = UNRESOLVED
+
+IF gate_five_adoption_state == ADOPTED:
+    gate_five_is_ready_for_gate_one_review = SUPPORTED ONLY IF
+        risk_classification_is_supported == SUPPORTED
+        AND required_operator_challenge_is_satisfied == SUPPORTED
+        AND required_independent_verification_is_satisfied == SUPPORTED
+        AND operation_stability_is_supported == SUPPORTED
+        AND candidate_identity_and_scope_are_unchanged == SUPPORTED
+ELSE:
+    // Do not treat NOT_ADOPTED or UNRESOLVED as Gate 5 having passed.
+    gate_five_is_ready_for_gate_one_review = UNRESOLVED
+
+// Applicable "if required" predicates mean SUPPORTED when the requirement
+// is not triggered by a validly established governing policy. They never
+// imply that an unmet required check has been waived.
+all_production_effect_prerequisites_are_established = SUPPORTED ONLY IF
+    gate_five_requirements_are_satisfied_under_the_adopted_policy
+    AND required_operator_validation_is_satisfied == SUPPORTED
+    AND all_other_mandatory_gates_are_satisfied == SUPPORTED
+    AND valid_operator_authority_is_established == SUPPORTED
+    AND gate_one_clearance_for_exact_effect_is_established == SUPPORTED
 ```
 
-A dormant Gate 5 does not falsely satisfy `GATE_5_READY_FOR_GATE_1_REVIEW`: its result is `NOT_ADOPTED`, and a separate policy must determine whether any other already-mandatory protections permit the action. No gate may create authority from an absent requirement.
+The named proposition `gate_five_requirements_are_satisfied_under_the_adopted_policy` must itself have an established applicable policy and evidence; it is **not** an alias that converts `NOT_ADOPTED` into `SUPPORTED`. This is explanatory pseudocode, not an executable authorization algorithm. The [human-readable naming guide](gates/gate-0/NAMING_AND_PSEUDOCODE.md) also defines the short historical predicates.
+
+A dormant Gate 5 does not falsely satisfy `gate_five_is_ready_for_gate_one_review`: its result is `NOT_ADOPTED`, and a separate policy must determine whether any other already-mandatory protections permit the action. No gate may create authority from an absent requirement.
 
 #### Control independence, escalation, and failure
 
@@ -297,11 +322,11 @@ REQUEST
   -> REVALIDATE CONTRACT + LOCK + EVIDENCE
   -> INFORMED OPERATOR VALIDATION [WHEN EXPLICIT HUMAN VALIDATION IS REQUIRED]
   -> GATE 5 [IF ADOPTED AND RISK-TRIGGERED]
-       A: RISK CLASSIFICATION
-       D: OPERATIONAL STABILITY [MONITORED THROUGHOUT]
-       B: CONSEQUENCE-SCALED CHALLENGE [WHEN REQUIRED]
-       C: INDEPENDENT VERIFICATION [WHEN REQUIRED]
-       E: RECEIPT CONSISTENCY / GATE 1 REVIEW INTERFACE
+       Control A — risk classification
+       Control D — operational stability [monitored throughout]
+       Control B — operator consequence challenge [when required]
+       Control C — independent verification [when required]
+       Control E — receipt consistency and Gate 1 review interface
   -> RECHECK EXACT CANDIDATE + REQUIRED GATE OUTCOMES
   -> GATE 1 EFFECT AUTHORIZATION OR BLOCKED OUTCOME
 ```
@@ -361,7 +386,7 @@ AND the contract explicitly allows a last-resort proposal:
   -> AUTHORIZED OUTCOME OR UNRESOLVED / REFUSED
 ```
 
-This is an ordering sketch, not a claimed executable workflow. A generated candidate cannot revise the contract, infer consent, or elevate its own authority.
+This is an ordering sketch, not a claimed executable workflow. A generated candidate cannot revise the contract, infer consent, or elevate its own authority. All illustrative variable names and bounded states are explained in the [human-readable Gate 0 notation guide](gates/gate-0/NAMING_AND_PSEUDOCODE.md).
 
 ## Relation to current publication work
 

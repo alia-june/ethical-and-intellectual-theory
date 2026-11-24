@@ -17,16 +17,19 @@
 
 **Authority** is not the same as **evidence of authority**. **Approval to develop** is not **approval to publish or execute**. A correct verification statement may be inapplicable to a changed target. Identity of an approval and validity of its issuing authority are distinct.
 
-A conceptual necessary-condition proposition for an eligible operation `q` at a relevant point `t` is:
+A conceptual **necessary-condition** proposition for an exact `requested_operation` at its `authorization_decision_event` is:
 
 ```text
-Eligible(q,t) requires:
-    EstablishedAuthority(q,t)
-    AND ApplicableIdentity(q,t)
-    AND CompleteAndSatisfiedMandatoryConditions(q,t)
-    AND AuthorizedEffects(q,t)
-    AND TemporallyApplicableEvidenceAndAuthority(q,t)
+eligible_for_further_review(requested_operation, authorization_decision_event) requires:
+    required_authority_is_established
+    AND authorization_identity_is_applicable
+    AND mandatory_condition_set_is_complete
+    AND all_applicable_mandatory_conditions_are_satisfied
+    AND requested_effects_are_within_authorized_scope
+    AND authorization_and_evidence_remain_applicable
 ```
+
+All six named assertions require evidence under a declared profile. An `UNRESOLVED` or conflicted mandatory finding is not a passing result. See the [full symbol and typed-state glossary](NAMING_AND_PSEUDOCODE.md) for explicit declarations and bounded theoretical flow.
 
 This is **not** a sufficient-condition proof, authorization token, runtime gate, or algorithm. Unknowns remain unknown; a non-admission outcome does not itself prove authority never existed.
 

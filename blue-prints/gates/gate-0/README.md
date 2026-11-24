@@ -18,6 +18,8 @@ This is the full Gate 0 documentation entry point. The earlier [gate overview](.
 | [Deferrals](DEFERRED.md) | Four deferred atomic candidates plus unfinished T4–T7 |
 | [Unknowns](UNKNOWNS.md) | All 14 unresolved findings and the limits on what can be concluded |
 | [Programming invariants](PROGRAMMING_INVARIANTS.md) | Separate PVI-01–08, including copy isolation and pre-copy fallback |
+| [Human-readable naming and pseudocode](NAMING_AND_PSEUDOCODE.md) | Descriptive variables, typed sentinels, bounded examples and historical symbol map |
+| [Readability refactor ledger](HUMAN_READABLE_REFACTOR_LEDGER.md) | Exact documentation changes and historical boundaries |
 | [Research history](RESEARCH_NOTES.md) | First-cycle chronology, audit, and source-record navigation |
 
 ### Unabridged source records
