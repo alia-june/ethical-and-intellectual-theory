@@ -4,6 +4,7 @@ This section preserves selected creative work as creative work. Inclusion here d
 
 ## Contents
 
+- **[Visual Decomposting of Allowed Work](visual-decomposting/README.md)** — Follow an armored figure from exact raster restoration through visual study to a description-led rebuild.
 - **[Proper Composition](proper-composition/README.md)** — Floral panels show how peg placement, inversion, and recurring forms shape a composition. The green panel makes the stopping point visible.
 - **[Transmigration in a Bounded Space](transmigration-in-a-bounded-space/README.md)** — Compare the stock build, stock parts on a MyBuild frame, and Humucus in Hiding. A separate 2×2×1 build shows what a small core can support.
 - **[Expanded MyBuild Frame Studies](expanded-mybuild-frame-studies/README.md)** — Three articulated builds explore silhouette, repeated joints, and ornament.
