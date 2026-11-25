@@ -14,7 +14,7 @@ This directory holds proposed architectural blueprints and technical-theory pape
 | [Universal JSON, Crete, and SafeCopy — Ethics and Theory](UNIVERSAL_JSON_CRETE_SAFECOPY_ETHICS_AND_THEORY.md) | Representation and exchange; structural composition and fracture; preservation, provenance, and recovery; their separation from authority | **Proposed research synthesis; not canonical or technically attested** |
 | [Governed Meaning and Action](governed-meaning-and-action/README.md) | Interpretation, scoped approval, recovery evidence, and contract adoption | **Theory note with a bounded local implementation and proposed extensions** |
 
-**Self-contained gate publication (including the 2026-11-25 Alpha-Lock errata):** [Expert Systems Operation](gates/EXPERT_SYSTEMS_OPERATION.md) — **LLM Orchestration as Last Resort** within the expert-system architecture — incorporates the theoretical Gate Zero foundation, all 27 modular research items, Gates One through Six, tests, ledgers, and their stated limitations, without internal document links.
+**Primary designated specification — xOSG-1 Operations Contract:** [xOSG-1 Operations Contract](gates/xOSG-1_OPERATIONS_CONTRACT.md) — **LLM Orchestration as Last Resort** within the expert-system architecture — incorporates the theoretical Gate Zero foundation, all 27 modular research items, ordered Gates One through Seven and Alpha-Lock, tests, ledgers, and their stated limitations, without internal document links. Its instrumented realization will be called **`es-xosg-9`**; instrumentation is not claimed by this document.
 
 ## Reading and evidentiary conventions
 

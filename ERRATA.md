@@ -1,10 +1,17 @@
 # Errata
 
-## Record 03 — Expert Systems Operation: Ordered Clearance and Alpha-Lock (2026-11-25)
+## Record 04 — xOSG-1 Operations Contract / conditional `es-xosg-9` instrumented designation (2026-11-25)
+
+The integrated one-shot formerly titled *Expert Systems Operation* is now the [**xOSG-1 Operations Contract**](blue-prints/gates/xOSG-1_OPERATIONS_CONTRACT.md). The instrumented realization, **if and when the operations contract is actually instrumented**, is designated **`es-xosg-9`**. These denote a specification and a future or separately established instrumented system, respectively.
+
+The old document path is retained as a compatibility pointer. This designation does not establish instrumentation, proof of enforcement, operational activation, attestation, or production clearance. The seven-gate ordering and Alpha-Lock correction recorded below remains binding within the proposed architecture, not automatically adopted by unrelated projects.
+
+
+## Record 03 — Seven-Gate Ordered Clearance and Alpha-Lock (2026-11-25; incorporated into xOSG-1)
 
 The prior Gates One–Six flow was incorrect for the newly directed **seven-gate ordered-clearance** architecture. Gate Six — Prompt Restatement now clears **sixth**, after Gate Five. Gate One's Production Lock clearance does not permit execution by itself. **Gate Seven — Alpha-Lock** is a second, final production barrier that can clear only after **Gates One–Six clear in order for the identical candidate and effect scope**. Binary clearance is distinct from underlying evidence uncertainty; unresolved or unadopted is not cleared.
 
-See [the complete Gate Seven and sequence erratum](blue-prints/gates/ERRATA_2026-11-25_ORDERED_CLEARANCE_ALPHA_LOCK.md), [the canonical gate contract](blue-prints/LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md), and [Expert Systems Operation](blue-prints/gates/EXPERT_SYSTEMS_OPERATION.md).
+See [the complete Gate Seven and sequence erratum](blue-prints/gates/ERRATA_2026-11-25_ORDERED_CLEARANCE_ALPHA_LOCK.md), [the canonical gate contract](blue-prints/LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md), and [xOSG-1 Operations Contract](blue-prints/gates/xOSG-1_OPERATIONS_CONTRACT.md).
 
 **Status:** Corrective theoretical design amendment; no runtime implementation or production-control changes.
 

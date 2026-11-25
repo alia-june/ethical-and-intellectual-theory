@@ -2,7 +2,7 @@
 
 **Status:** Public theory; no automatic project adoption, active control, or production clearance.
 
-**One-shot reading edition:** [Expert Systems Operation](EXPERT_SYSTEMS_OPERATION.md), with **LLM Orchestration as Last Resort** subordinate to the expert-system architecture, embeds the Gate Zero axioms, named Tranches, dependency material, pseudocode, Gates One through Six, proposed tests, audit, open obligations, promotion decisions, deferrals, and unknowns in one continuous document. It contains **no internal links or required companion material**.
+**Primary specification:** [xOSG-1 Operations Contract](xOSG-1_OPERATIONS_CONTRACT.md) (formerly *Expert Systems Operation*) embeds the Gate Zero axioms, named Tranches, dependencies, pseudocode, ordered Gates One through Seven including Alpha-Lock, proposed tests, audit, open obligations, promotion decisions, deferrals, and unknowns in one continuous document. It contains **no internal links or required companion material**. Its instrumented realization is designated **`es-xosg-9`** only once instrumentation actually exists. LLM orchestration remains a contract-controlled last resort.
 
 This directory also retains two focused reading paths:
 

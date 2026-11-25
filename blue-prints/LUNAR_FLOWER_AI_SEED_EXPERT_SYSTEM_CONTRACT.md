@@ -4,7 +4,7 @@
 **Record date:** 2026-11-10  
 **Disposition:** Public theoretical seed / proposed architecture. **Not a runtime contract, implemented expert system, admitted controller, or performance attestation.**
 
-**Integrated standalone reading edition:** [Expert Systems Operation](gates/EXPERT_SYSTEMS_OPERATION.md). It embeds Gate Zero, all seven standing gates (including Alpha-Lock), research accounting, and historical limitations without internal cross-links. The present contract remains the original source specification of the standing-gate proposal.
+**Current integrated operations specification:** [xOSG-1 Operations Contract](gates/xOSG-1_OPERATIONS_CONTRACT.md), formerly *Expert Systems Operation*. It embeds Gate Zero, ordered Gates One–Seven, and Alpha-Lock. **When it is actually instrumented, the realized system is designated `es-xosg-9`.** This Lunar Flower file remains the historical source/seed, not a competing operational clearance.
 
 ## Seed statement
 

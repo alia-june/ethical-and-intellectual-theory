@@ -165,7 +165,7 @@ The blueprints supplement rather than replace the programming and research-ethic
 
 ### Lunar Flower AI Seed — expert-system orchestration
 
-**[Read Expert Systems Operation](blue-prints/gates/EXPERT_SYSTEMS_OPERATION.md)** — A single integrated, internally self-contained reading edition of the complete theoretical gate framework.
+**[Read xOSG-1 Operations Contract](blue-prints/gates/xOSG-1_OPERATIONS_CONTRACT.md)** — The designated standalone operations specification for Expert Systems Operation, including Gate Zero, ordered Gates One–Seven and Alpha-Lock. **Its instrumented realization is `es-xosg-9` when actually instrumented**, not by naming alone.
 
 **[Read the proposed AI seed](blue-prints/LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md)** — Place AI under an expert-system contract as a constrained orchestrator, construct the tools and structure from the ground up, and use generative synthetic decision-making only as a separately reviewed last resort. Its seven proposed ordered gates include **Gate Six — Prompt Restatement** (sixth clearance) and **Gate Seven — Alpha-Lock**, the second and final production gate. Gate One's authorization alone never starts production. Read the [Gate Framework](blue-prints/gates/README.md) for the gate distinctions and the [full Gate 0 archive](blue-prints/gates/gate-0/README.md) for the Gate Zero Foundational Theory v0.4, Gate Zero Modular Catalog v0.2 and Closure Stage C2/C3 records, deferrals and unknowns. **Theory only; no activated contract, automatic project adoption, or verified implementation is claimed.**
 

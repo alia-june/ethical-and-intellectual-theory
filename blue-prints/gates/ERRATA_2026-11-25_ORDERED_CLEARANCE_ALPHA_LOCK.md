@@ -1,7 +1,7 @@
 # Errata — Ordered Gate Clearance and Gate Seven Alpha-Lock
 
 **Date:** 2026-11-25  
-**Subject:** Expert Systems Operation / Lunar Flower expert-system gate contract  
+**Subject:** xOSG-1 Operations Contract (formerly *Expert Systems Operation*) / Lunar Flower expert-system lineage  
 **Class:** Corrective architectural amendment; **theoretical proposal only**, no implementation, deployment, project adoption, or actual Production Lock change.
 
 ## The correction
@@ -49,6 +49,6 @@ The revised **seven-gate profile** has one fixed clearance order:
 
 ## Publication and lineage
 
-This erratum corrects the *active* canonical gate contract and the self-contained **Expert Systems Operation** reading edition. The older **Closure Stage C2/C3** Gate Zero research and historical decision records remain unchanged; neither their archival preservation nor their theoretical promotions establishes runtime enforcement.
+This erratum corrects the *published theoretical* canonical gate contract and the self-contained **xOSG-1 Operations Contract**. Its realized instrumented system, if and when established, is designated **`es-xosg-9`**. The older **Closure Stage C2/C3** Gate Zero research and historical decision records remain unchanged; neither their archival preservation nor their theoretical promotions establishes runtime enforcement.
 
 **Disposition:** Proposed seven-gate architecture and corresponding documentation; no code execution, actual gate state, or external authority changed.
