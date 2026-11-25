@@ -1,5 +1,14 @@
 # Errata
 
+## Record 03 — Expert Systems Operation: Ordered Clearance and Alpha-Lock (2026-11-25)
+
+The prior Gates One–Six flow was incorrect for the newly directed **seven-gate ordered-clearance** architecture. Gate Six — Prompt Restatement now clears **sixth**, after Gate Five. Gate One's Production Lock clearance does not permit execution by itself. **Gate Seven — Alpha-Lock** is a second, final production barrier that can clear only after **Gates One–Six clear in order for the identical candidate and effect scope**. Binary clearance is distinct from underlying evidence uncertainty; unresolved or unadopted is not cleared.
+
+See [the complete Gate Seven and sequence erratum](blue-prints/gates/ERRATA_2026-11-25_ORDERED_CLEARANCE_ALPHA_LOCK.md), [the canonical gate contract](blue-prints/LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md), and [Expert Systems Operation](blue-prints/gates/EXPERT_SYSTEMS_OPERATION.md).
+
+**Status:** Corrective theoretical design amendment; no runtime implementation or production-control changes.
+
+
 ## Record 02
 
 **Three regretted experiences and a change in priority**
