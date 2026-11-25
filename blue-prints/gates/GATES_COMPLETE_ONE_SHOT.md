@@ -14,6 +14,8 @@ The framework has **two layers**. **Gate Zero** is a foundational theory and opt
 
 The status words are never interchangeable: **promoted theoretical definition** is not **selected by a project**; **selected** is not **verified**; **verified** is not **authorized**; **authorized to study** is not **authorized for production effects**; **unknown** is not a denial of objective truth, but it cannot be treated as established permission under an adopted fail-closed condition. **Deferred** means retained for later analysis rather than rejected.
 
+**Reading sequence:** Parts I–II explain the architecture and vocabulary; Parts III–VI develop foundational rules, dependencies, and programming conventions; Parts VII–VIII present the standing gates and their interaction; Parts IX–XIII retain audit findings, limitations, decisions, and closure. Every part is present below; nothing needs to be opened elsewhere.
+
 **Numerical reconciliation:** Gate Zero v0.4 has eight promoted theoretical axioms. The modular library records 27 atomic items across Tranches Zero through Three: 23 promoted into an **optional theoretical catalog**, four deferred. Tranches Four through Seven are conceptually crosswalked but not modularly specified. Fourteen named research conclusions remain **UNKNOWN**. The eight programming invariants are a **separate register**. Standing Gate Six is only a **new proposal**. Neither this consolidation nor a document read changes any of those statuses.
 
 
@@ -120,7 +122,7 @@ eligible_for_further_review(requested_operation, authorization_decision_event) r
     AND authorization_and_evidence_remain_applicable
 ```
 
-All six named assertions require evidence under a declared profile. An `UNRESOLVED` or conflicted mandatory finding is not a passing result. See the full symbol and typed-state glossary for explicit declarations and bounded theoretical flow.
+All six named assertions require evidence under a declared profile. An `UNRESOLVED` or conflicted mandatory finding is not a passing result. The named state glossary and bounded theoretical flow are included later in Part VI.
 
 This is **not** a sufficient-condition proof, authorization token, runtime gate, or algorithm. Unknowns remain unknown; a non-admission outcome does not itself prove authority never existed.
 
@@ -211,9 +213,9 @@ The four deferred items are **Tranche 2, Item 03 — Provenance Continuity**, **
 Dependencies are *prerequisites for a claimed guarantee*, not grants or implicit project selections. Tranche rules were initially recorded as candidates in Closure Stage Two; Closure Stage Three's promoted/deferred decisions govern their present theoretical catalog status.
 
 
-## Original package compositions, preserved as theoretical examples
+### Original package compositions, preserved as theoretical examples
 
-### Provisional package combinations (not equivalence proofs)
+#### Provisional package combinations (not equivalence proofs)
 
 | Package | Proposed composition | Caveat |
 |---|---|---|
@@ -227,9 +229,9 @@ Dependencies are *prerequisites for a claimed guarantee*, not grants or implicit
 | T3-INDEPENDENT | T3-CONFLICT + T3-08 | Independence must be evidenced, not counted |
 
 
-## Dependency record: all ten documented interlocking relationships
+### Dependency record: all ten documented interlocking relationships
 
-### Interlocking relationship ledger
+#### Interlocking relationship ledger
 
 | Edge ID | From -> to | Type | Research status |
 |---|---|---|---|
@@ -247,9 +249,9 @@ Dependencies are *prerequisites for a claimed guarantee*, not grants or implicit
 **Important:** `X -> Y` does **not** mean `X` mathematically entails `Y` unless it is separately marked as a verified derivation. Dependency cycles require independently grounded premises or valid fixed-point/proof semantics. Removing a prerequisite suspends claims justified solely by it; it does not prove the claimed statement false.
 
 
-## Contrasting overlapping and genuinely distinct rules
+### Contrasting overlapping and genuinely distinct rules
 
-### C2 dependency and redundancy dispositions
+#### C2 dependency and redundancy dispositions
 
 The following **overlaps are not equivalence proofs**:
 
@@ -269,7 +271,7 @@ The following **overlaps are not equivalence proofs**:
 **Dependency convention:** A selected optional claim requires established prerequisites or a justified alternative, not silently selected controls. The mathematical implication `A -> B` must not be inferred from a graph edge that merely records a prerequisite or conceptual relationship.
 
 
-## Conditional derived propositions and non-transferable guarantees
+### Conditional derived propositions and non-transferable guarantees
 
 **These are not all independently promoted axioms.** Their deductions depend on premises listed in historical research.
 
@@ -316,14 +318,14 @@ A reference to a mutable object is not automatically an isolated copy. A sentine
 - Preserve the original through an appropriate isolated copy, **establish the fallback before copying**, and separate validation of a candidate from authorization to commit.
 
 
-## Human-readable variable declarations, sentinel states, and pseudocode
+### Human-readable variable declarations, sentinel states, and pseudocode
 
 **Scope:** The live Gate 0 v0.4 / Gate Zero Modular Catalog v0.2 documentation and the proposed Lunar Flower Gates 1–6.
 **Status:** Readable *theoretical examples only*. These are **not executable code**, implemented checks, or evidence of an operating controller.
 
-This document replaces unexplained one-letter symbols and ambiguous placeholder status values with descriptive names. Existing numbered axiom and gate identifiers are stable references, **not variable names**. Their historical forms remain unchanged. See the identifier glossary and complete Tranche catalog for their full meanings. The archived Closure Stages C2 and C3 research is intentionally preserved verbatim.
+This document replaces unexplained one-letter symbols and ambiguous placeholder status values with descriptive names. Existing numbered axiom and gate identifiers are stable references, **not variable names**. Their historical forms remain unchanged. The expanded terminology and complete Tranche catalog are included in Parts II and IV. The archived Closure Stages C2 and C3 research is intentionally preserved verbatim.
 
-### Naming contract
+#### Naming contract
 
 | Kind | Convention | Example |
 | --- | --- | --- |
@@ -340,7 +342,7 @@ Use the terms **established**, **verified**, **eligible**, **authorized**, and *
 
 **Declaration and sentinel discipline:** Introduce every variable with its type and an explicit non-authorizing initial state *before* any operational assignment. `UNRESOLVED` is not `FALSE`; `NOT_APPLICABLE` is not `SATISFIED`. When the selected language supports tagged/optional types, prefer them to a magic integer sentinel. Do not initialize an unvalidated datum to a legitimate default merely to suppress an uninitialized-variable warning.
 
-### Historical symbol-to-name map
+#### Historical symbol-to-name map
 
 | Earlier shorthand or label | Human-readable replacement | Meaning |
 | --- | --- | --- |
@@ -367,13 +369,13 @@ Use the terms **established**, **verified**, **eligible**, **authorized**, and *
 
 The table is a **notation mapping**, not a claim that all historical formulas have been formally proved or that all labels are software variables.
 
-### State and operation declarations
+#### State and operation declarations
 
 The examples use `UNRESOLVED` as an explicit *tagged absence state* for any optional object/reference/input type; it is not a permitted value of an ordinary `Operation`, `Text`, or numeric datum. Likewise `EMPTY` is an explicit, typed empty bounded collection. A concrete programming language would need corresponding tagged union/option definitions rather than silently inserting an invalid value.
 
 Conceptual verbs such as `ESTABLISH`, `EVALUATE`, `VERIFY`, `CREATE`, `TRANSFORM`, and `READ` are **named abstract procedures**, not implicit guarantees of success. Each produces evidence or remains `UNRESOLVED`. Any real implementation would need separately specified inputs, outputs, error cases, and trust boundaries; none is claimed here.
 
-### Conceptual gate-zero eligibility
+#### Conceptual gate-zero eligibility
 
 The following pseudocode is *illustrative* and uses a declared finite set of mandatory conditions. It deliberately returns **review eligibility**, not operational execution permission.
 
@@ -439,7 +441,7 @@ RETURN eligibility_result
 
 **Constraints:** The number and identity of mandatory conditions must be affirmatively established. The loop is bounded by that established count, not an untrusted sentinel or implicit infinite retry. Conflict or unknown cannot be treated as affirmative support. Declaring these types does not provide a verified runtime evaluator. Other independently binding conditions can still block effect admission.
 
-### Opt-in project-profile reasoning
+#### Opt-in project-profile reasoning
 
 ```text
 TYPE ProfileStatus = NOT_SELECTED | SELECTED | INCOMPLETE | CONFLICTED | VALID_PROFILE | UNRESOLVED
@@ -478,7 +480,7 @@ RETURN profile_status
 
 The procedure does **not** silently activate missing prerequisites or assume a complete dependency graph. Structural validity is not implementation verification, and profile revision does not clear any separately imposed lock.
 
-### Gate 6 — Prompt restatement
+#### Gate 6 — Prompt restatement
 
 ```text
 TYPE RestatementState = NOT_ADOPTED | RESTATED | NEEDS_CLARIFICATION | UNRESOLVED
@@ -513,7 +515,7 @@ RETURN restatement_result
 
 A `RESTATED` outcome means the **machine's proposed interpretation** is available; it does not mean the Operator confirmed it. Material ambiguity requires clarification where consequential reliance would otherwise occur. Reiteration, challenge and authorization remain separate.
 
-### Copy-through-reference and fallback example
+#### Copy-through-reference and fallback example
 
 This is a separate **programming-invariant** illustration, not an authority axiom or a guarantee of recovery from irreversible side effects.
 
@@ -556,13 +558,13 @@ RETURN copy_work_state
 
 **Failure boundary:** A fallback must be established *before* attempting the copy. If the act of copying itself causes an irreversible unauthorized disclosure, the unchanged original is not a sufficient fallback. General fallback adequacy remains deferred as **Tranche 2, Item 06 — Pre-Copy Fallback (`T2-06`)**.
 
-### Gate 5 — Human-readable review predicates
+#### Gate 5 — Human-readable review predicates
 
 The existing contract's `GATE_5_READY_FOR_GATE_1_REVIEW` and `PRODUCTION_ADMISSIBLE` shorthand is rewritten in the standing-gates contract. Stable consequence classes `C0`–`C4` and formal gate IDs remain unchanged.
 
 The review requires established classification, any mandated challenge, any mandated independent verification, stability, unchanged candidate/scope, required informed validation, satisfaction of all other mandatory gates, valid Operator authority, and an independently obtained Gate 1 clearance for the exact effect. Gate 5 being `NOT_ADOPTED` is **not** a passing result: a separate governing policy determines the applicable requirements.
 
-### Refactor boundaries
+#### Refactor boundaries
 
 - **Changed:** Human-readable active Gate 0 notation and illustrative pseudocode; links and programming conventions; Gate 5 theoretical review predicate.
 - **Unchanged:** The research status and adoption authority; the 20 archival C2/C3 source records; canonical gate and axiom IDs; operational production locks.
@@ -923,7 +925,7 @@ Production Lock is **effect-scoped**: a locked system may still examine or devel
 
 **Status:** These are **standing proposed gates for the generic expert-system seed**, not proof that lock enforcement, iterative control, inter-agent communication, or delegated authorization exists. No gate may silently adopt a synthetic decision as fact or policy.
 
-## Proposed decision order
+### Proposed decision order
 
 ```text
 REQUEST
@@ -1043,9 +1045,9 @@ This is an ordering sketch, not a claimed executable workflow. A generated candi
 | T3-R06 | Evidence state conflated with programming sentinel | Keep state-of-value distinct from state-of-knowledge. |
 
 
-## Proof obligations and assurance limits that remain open
+### Proof obligations and assurance limits that remain open
 
-### Outstanding proof obligations
+#### Outstanding proof obligations
 
 - **PO-01:** Specify consistent formal semantics for all eight G0 v0.4 axioms, including cross-domain effects.
 - **PO-02:** Establish (or decline) formal independence and minimality; current sketches are not proofs.
@@ -1059,11 +1061,11 @@ This is an ordering sketch, not a claimed executable workflow. A generated candi
 - **PO-10:** Examine T4 composition, aggregation, conflicting permissions and consequence closure.
 - **PO-11:** Examine T5 temporal properties, T6 independent assurance and T7 containment/recovery when authorized by continued research.
 
-### Assurance/claim restrictions
+#### Assurance/claim restrictions
 
 No mechanized proof, runtime verification, completeness proof, repository update, production clearance or actual profile adoption occurred as a result of this notes snapshot. Proof sketches are deliberately marked conditional. Records are not equivalent to validated implementations.
 
-### Closure triage C1
+#### Closure triage C1
 
 | ID | Question or issue | Closure disposition |
 |---|---|---|
@@ -1076,7 +1078,7 @@ No mechanized proof, runtime verification, completeness proof, repository update
 
 **No issues are marked as mathematically resolved solely because they are deferred.**
 
-### C2 close-out classification
+#### C2 close-out classification
 
 No open proof obligation is represented as discharged. Audit dispositions below concern **fitness for bounded theoretical closure**, not fitness for an operational security claim.
 
@@ -1156,14 +1158,14 @@ T2-03, T2-06, T3-01, and T3-08; T4–T7 modular decompositions; G5-C1 consequenc
 
 ### Unknown rather than assumed
 
-Authority-source precedence and exception semantics; effect-universe completeness; complete enumeration of mandatory conditions; provenance verification across derivation graphs; adequate fallback for irreversible effects; independence criteria in a concrete environment; choice of evidence logic and admissibility; temporal commit/revocation races; guaranteed recovery; independence/minimality/completeness and model-implementation correspondence. See the unknown ledger for separate claim restrictions.
+Authority-source precedence and exception semantics; effect-universe completeness; complete enumeration of mandatory conditions; provenance verification across derivation graphs; adequate fallback for irreversible effects; independence criteria in a concrete environment; choice of evidence logic and admissibility; temporal commit/revocation races; guaranteed recovery; independence/minimality/completeness and model-implementation correspondence. The fourteen unknown findings and their claim restrictions are reproduced in Part XII.
 
 ### Selection convention
 
 A library item is *available*, not *selected*. Selection is not evidence of satisfaction. Missing dependencies suspend guarantees; they are not automatically selected. A change to a theoretical profile never grants an AI permission to unlock external gates. No user project has adopted this release as an operational profile.
 
 
-## The complete promotion and deferral decision ledger
+### The complete promotion and deferral decision ledger
 
 | Decision | Item | Disposition | Reason / boundary |
 |---|---|---|---|
@@ -1186,9 +1188,9 @@ A library item is *available*, not *selected*. Selection is not evidence of sati
 **Accounting:** 27 atomic T0–T3 candidates = 23 promoted to *optional catalog* + 4 deferred. M0 is a separate promoted charter (not in the 27); M1 is not another atomic item. G0 v0.4 retains eight previously promoted theoretical axioms. The classifications do not establish that any concrete project satisfies these controls.
 
 
-## All fourteen unresolved unknowns and the deferral ledger
+### All fourteen unresolved unknowns and the deferral ledger
 
-### Unknown: unresolved propositions, not guesses
+#### Unknown: unresolved propositions, not guesses
 
 | ID | Claim | State | Evidence gap / prohibition on certainty inflation |
 |---|---|---|---|
@@ -1207,7 +1209,7 @@ A library item is *available*, not *selected*. Selection is not evidence of sati
 | U-013 | Model-to-implementation correspondence / runtime security | UNKNOWN | No runtime, source, configuration or environment attested; no deployment. |
 | U-014 | Risk improvement from adding or removing optional controls | UNKNOWN | Restrictiveness, assurance, availability and recoverability are not one dimension. |
 
-### Deferred design work
+#### Deferred design work
 
 | ID | Deferral | Reopen only when |
 |---|---|---|
@@ -1218,12 +1220,12 @@ A library item is *available*, not *selected*. Selection is not evidence of sati
 | T4–T7 | Modular composition, time, assurance, recovery | An explicitly scoped research cycle is authorized. |
 | G5-C1 | Consequence-sensitive admission | Gate 5 separate review and authorization are performed. |
 
-### Open research obligations, preserved from C2
+#### Open research obligations, preserved from C2
 
-PO-01…PO-11 remain **not discharged**. Refer to `historical_C2/04_ERROR_RISK_OPEN_ISSUES.md`. In particular, the absence of a discovered contradiction does not prove full consistency. Optional catalog promotion neither fills these gaps nor certifies a guarantee. No protected effect, privilege increase, or recovery action is admitted because an open question has been labeled UNKNOWN.
+Proof Obligations 01–11 remain **not discharged**. Their individual descriptions and restrictions are reproduced in Part X. In particular, the absence of a discovered contradiction does not prove full consistency. Optional catalog promotion neither fills these gaps nor certifies a guarantee. No protected effect, privilege increase, or recovery action is admitted because an open question has been labeled UNKNOWN.
 
 
-## Programming invariant decision ledger
+### Programming invariant decision ledger
 
 The user's preferred programming disciplines are preserved separately from the authority-axiom library. The decisions below recognize them as **opt-in design preferences**, not universal runtime security proofs, compiler constraints, or a command to write code.
 
@@ -1247,7 +1249,7 @@ The user's preferred programming disciplines are preserved separately from the a
 **Historical promoted foundation:** G0 v0.4, eight axioms, unchanged.
 **Promotion:** M0 as catalog charter; 23 of 27 T0–T3 atomic optional specifications.
 **Deferral:** T2-03, T2-06, T3-01, T3-08; M1 remains an umbrella; T4–T7 modular formalization, G5-C1 and proofs not promoted.
-**Unknown:** fourteen explicitly recorded knowledge gaps in `04_C3_UNKNOWN_RISK_LEDGER.md`.
+**Unknown:** Fourteen expressly enumerated research gaps, reproduced in the Part XII unknown ledger.
 **Programming:** Seven PVI rules accepted as opt-in design preferences, compulsory literal unrolling deferred.
 **Action:** No implementation, project profile selection, code, GitHub, publication, tool gates, or production/unlock changes.
 
@@ -1261,18 +1263,18 @@ New work requires an independently authorized scope: specified project, selected
 
 ### Chain of custody
 
-This package includes an unchanged copy of the C2 12-file research snapshot under `historical_C2/`, so earlier decisions remain inspectable. This C3 release is an additive record of new, explicit Operator-sanctioned theoretical promotion. Earlier ZIP files are not overwritten.
+**Historical provenance:** Closure Stage Two was a bounded audit, and Closure Stage Three recorded a later explicit theoretical promotion. This one-shot document reflows their substantive findings and decisions in place. Their earlier historical source records remain unchanged; reflowing them here neither retroactively changes their status nor turns any research result into operational clearance.
 
 
-## Public research, tooling, and staging boundaries
+### Public research, tooling, and staging boundaries
 
-## Relation to current publication work
+### Relation to current publication work
 
 - **Stage 0 — Site hydration:** publish eligible theory and qualified proofs of concept with provenance and limitations.
 - **Stage 1 — Stable programmatic rehydration:** planned recovery and reconstruction of code from admissible evidence with expert systems and programmatic methods first. Synthetic generative material remains a separately labeled last resort.
 - This seed is **not** a claim that Stage 1 has been built or that the underlying tools have already been recreated.
 
 
-## Boundaries
+### Boundaries
 
 This document contains a general research proposal only. It does not publish private preservation data, credentials, undisclosed source material, or protected recovery details. Publication of a seed does not itself activate a contract, authorize execution, or establish independent verification.
