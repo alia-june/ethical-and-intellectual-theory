@@ -1,6 +1,6 @@
-# G0 v0.4 — Foundational Axioms
+# Gate Zero Foundational Theory — Eight Axioms (v0.4)
 
-**Disposition:** Eight **promoted theoretical premises**, not universal security proofs. G0 v0.3 is retained as the earlier baseline. No production gate is cleared by promotion.
+**Disposition:** Eight **promoted theoretical premises**, not universal security proofs. Gate Zero v0.3 remains the earlier baseline. No production gate is cleared by promotion.
 
 | ID | Axiom | Accepted theoretical obligation |
 | --- | --- | --- |
@@ -37,4 +37,4 @@ This is **not** a sufficient-condition proof, authorization token, runtime gate,
 
 Logical independence/minimality of the eight premises, an exhaustively specified effect universe, complete verification conditions, universal consistency, and implementation correspondence are **UNKNOWN**, not certified. Later modular optional rules have not been shown equivalent to these axioms.
 
-See [propositions](PROPOSITIONS.md), [unknowns](UNKNOWNS.md), [historical theoretical research](records/C2/01_RESEARCH_NOTES.md), and the [C3 decision ledger](records/C3/02_C3_DECISION_LEDGER.md).
+See the [identifier glossary](IDENTIFIER_GLOSSARY.md), [propositions](PROPOSITIONS.md), [unknowns](UNKNOWNS.md), [historical theoretical research](records/C2/01_RESEARCH_NOTES.md), and the [Closure Stage C3 decision ledger](records/C3/02_C3_DECISION_LEDGER.md).

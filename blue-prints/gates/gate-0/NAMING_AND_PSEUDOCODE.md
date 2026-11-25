@@ -1,9 +1,9 @@
 # Human-Readable Symbols, Variables, and Conceptual Pseudocode
 
-**Scope:** The live Gate 0 v0.4 / G0-MOD v0.2 documentation and the proposed Lunar Flower Gates 1–6.  
+**Scope:** The live Gate 0 v0.4 / Gate Zero Modular Catalog v0.2 documentation and the proposed Lunar Flower Gates 1–6.  
 **Status:** Readable *theoretical examples only*. These are **not executable code**, implemented checks, or evidence of an operating controller.
 
-This document replaces unexplained one-letter symbols and ambiguous placeholder status values with descriptive names. Existing numbered axiom and gate identifiers are stable document references; they are **not variable names** and remain unchanged. The archived C2/C3 research is intentionally preserved verbatim.
+This document replaces unexplained one-letter symbols and ambiguous placeholder status values with descriptive names. Existing numbered axiom and gate identifiers are stable references, **not variable names**. Their historical forms remain unchanged. See the [identifier glossary](IDENTIFIER_GLOSSARY.md) and [complete Tranche catalog](TRANCHES.md) for their full meanings. The archived Closure Stages C2 and C3 research is intentionally preserved verbatim.
 
 ## Naming contract
 
@@ -236,7 +236,7 @@ RETURN copy_work_state
 // Candidate validation does not commit, replace, publish or execute anything.
 ```
 
-**Failure boundary:** A fallback must be established *before* attempting the copy. If the act of copying itself causes an irreversible unauthorized disclosure, the unchanged original is not a sufficient fallback. General fallback adequacy remains deferred (`T2-06`).
+**Failure boundary:** A fallback must be established *before* attempting the copy. If the act of copying itself causes an irreversible unauthorized disclosure, the unchanged original is not a sufficient fallback. General fallback adequacy remains deferred as **Tranche 2, Item 06 — Pre-Copy Fallback (`T2-06`)**.
 
 ## Gate 5 — Human-readable review predicates
 

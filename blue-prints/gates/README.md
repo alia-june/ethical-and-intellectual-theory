@@ -4,7 +4,7 @@
 
 This directory has two distinct reading paths:
 
-1. **[Gate 0 — Full research archive and modular axioms](gate-0/README.md)** — accepted G0 v0.4 theoretical foundation, G0-MOD v0.2 opt-in catalog, all 27 T0–T3 statuses, C2/C3 ledgers, dependencies, deferrals and 14 unknowns.
+1. **[Gate 0 — Full research archive and modular axioms](gate-0/README.md)** — accepted Gate Zero Foundational Theory v0.4, Gate Zero Modular Catalog v0.2, all 27 Tranche 0–3 item dispositions, Closure Stage C2/C3 ledgers, dependencies, deferrals and 14 unknowns.
 2. **[Gates 1–6 — Lunar Flower standing-gate contract](../LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md)** — the proposed operating-gate contracts, including the new Gate 6 interpretation restatement.
 
 ## Gate map
@@ -23,11 +23,12 @@ Gate numbers are identifiers, not execution order. A project that opts into Gate
 
 ## Gate 0 disposition at a glance
 
-- **G0 v0.4:** Eight promoted theoretical premises; [full axioms](gate-0/FOUNDATIONAL_AXIOMS.md).
-- **G0-MOD v0.2:** M0 (Explicit Adoption), 23 accepted optional rules, four deferred; [full catalog](gate-0/MODULAR_AXIOM_CATALOG.md).
+- **Gate Zero Foundational Theory v0.4:** Eight promoted theoretical premises; [full axioms](gate-0/FOUNDATIONAL_AXIOMS.md).
+- **Gate Zero Modular Catalog v0.2:** Modular Principle 0 — Explicit Adoption (`M0`), 23 accepted optional rules, four deferred; [full catalog](gate-0/MODULAR_AXIOM_CATALOG.md).
 - **Unresolved:** 14 identified unknowns; [record and qualification](gate-0/UNKNOWNS.md).
-- **Records:** [C3 source](gate-0/records/C3/00_INDEX.md) and [C2 source](gate-0/records/C2/00_INDEX.md).
-- **Programming invariants:** Separate [PVI-01–08 register](gate-0/PROGRAMMING_INVARIANTS.md).
+- **Records:** [Closure Stage C3 source](gate-0/records/C3/00_INDEX.md) and [Closure Stage C2 source](gate-0/records/C2/00_INDEX.md).
+- **Programming invariants:** Separate [Programming Verification Invariants 01–08](gate-0/PROGRAMMING_INVARIANTS.md).
+- **Full identifiers and named Tranches:** [All 27 Tranche items](gate-0/TRANCHES.md) · [Identifier glossary](gate-0/IDENTIFIER_GLOSSARY.md).
 - **Readable theory and variable names:** [Human-readable naming and pseudocode](gate-0/NAMING_AND_PSEUDOCODE.md).
 
 A promoted theory is not a required project profile, a verified program, or an implemented lock. Unselected protections remain optional; external binding restrictions remain independently effective.

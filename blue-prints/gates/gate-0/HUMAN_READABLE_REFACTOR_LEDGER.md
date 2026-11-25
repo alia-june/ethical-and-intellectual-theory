@@ -13,6 +13,6 @@
 | Repository gate READMEs | Linked reference and reduced risk of duplicate definitions | Research statuses unchanged |
 | `records/C2/` and `records/C3/` | **No edits** | Preserve original history and integrity manifests |
 
-**Legacy abbreviations remain** in archived historical research for reproducibility. This ledger records a readability refactor, not a proof, formal release, project security selection or operational authorization.
+**Full Tranche names and other code expansions are supplied in the [identifier glossary](IDENTIFIER_GLOSSARY.md) and [complete Tranche catalog](TRANCHES.md).** Legacy abbreviations remain in archived historical research for reproducibility. This ledger records a readability refactor, not a proof, formal release, project security selection or operational authorization.
 
-[Human-readable source](NAMING_AND_PSEUDOCODE.md) · [Research archive](README.md)
+[Human-readable source](NAMING_AND_PSEUDOCODE.md) · [Research archive](README.md) · [Tranches](TRANCHES.md) · [Identifier glossary](IDENTIFIER_GLOSSARY.md)

@@ -312,7 +312,7 @@ A dormant Gate 5 does not falsely satisfy `gate_five_is_ready_for_gate_one_revie
 
 **Invariant:** `RESTATED != CONFIRMED != AUTHORIZED`. Gate 6 concerns **prompt interpretation**, Gate 2 concerns **candidate reiteration**, and Gate 4 concerns **informed Operator validation**. Gate 6 cannot bypass Gates 1, 3, 4, or 5.
 
-For the full background, examples, relationship to Gate 0 v0.4 and G0-MOD v0.2, and opt-in boundaries, see [Gate Framework README](gates/README.md).
+For the full background, examples, relationship to Gate Zero Foundational Theory v0.4 and Gate Zero Modular Catalog v0.2, and opt-in boundaries, see [Gate Framework README](gates/README.md).
 
 ### Gate composition and precedence
 
@@ -394,7 +394,7 @@ AND the contract explicitly allows a last-resort proposal:
   -> AUTHORIZED OUTCOME OR UNRESOLVED / REFUSED
 ```
 
-This is an ordering sketch, not a claimed executable workflow. A generated candidate cannot revise the contract, infer consent, or elevate its own authority. All illustrative variable names and bounded states are explained in the [human-readable Gate 0 notation guide](gates/gate-0/NAMING_AND_PSEUDOCODE.md).
+This is an ordering sketch, not a claimed executable workflow. A generated candidate cannot revise the contract, infer consent, or elevate its own authority. All illustrative variable names and bounded states are explained in the [human-readable Gate Zero notation guide](gates/gate-0/NAMING_AND_PSEUDOCODE.md), [Tranche catalog](gates/gate-0/TRANCHES.md) and [identifier glossary](gates/gate-0/IDENTIFIER_GLOSSARY.md).
 
 ## Relation to current publication work
 
