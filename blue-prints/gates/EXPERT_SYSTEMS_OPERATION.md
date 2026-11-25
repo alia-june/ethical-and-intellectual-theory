@@ -2,6 +2,14 @@
 
 **Complete Gates Framework — Standalone One-Shot Edition**
 
+## LLM Orchestration as Last Resort
+
+**Hierarchy:** Expert Systems Operation is the governing architecture. LLM orchestration is a subordinate, contract-controlled last-resort route, not the parent system.
+
+The preferred path is declared expert-system rules, evidence-bound evaluation, deterministic or bounded heuristic computation, and permitted tools. If those routes cannot resolve an eligible request, a governing contract may authorize LLM orchestration to produce a clearly labeled candidate. That candidate remains subject to the same evidence, validation, and independent authority requirements; an LLM cannot grant itself an exception, invent missing authority, or clear a production lock.
+
+This heading describes the intended order of responsibility. It does not indicate an operational implementation or change the recorded gate and axiom dispositions.
+
 **Research lineage:** Lunar Flower Expert-System Seed; Gate Zero Foundational Theory version 0.4; Gate Zero Modular Opt-In Catalog version 0.2; Closure Stages 2 and 3; Standing Gates One through Six.
 **Consolidation:** 2026-11-25.
 **Status:** Published theoretical synthesis and archival integration. No deployment, runtime implementation, project-specific adoption, or clearance of any operational Production Lock is claimed.

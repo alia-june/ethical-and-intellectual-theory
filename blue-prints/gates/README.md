@@ -2,7 +2,7 @@
 
 **Status:** Public theory; no automatic project adoption, active control, or production clearance.
 
-**One-shot reading edition:** [Expert Systems Operation — Standalone Gates Framework](EXPERT_SYSTEMS_OPERATION.md) embeds the Gate Zero axioms, named Tranches, dependency material, pseudocode, Gates One through Six, proposed tests, audit, open obligations, promotion decisions, deferrals, and unknowns in one continuous document. It contains **no internal links or required companion material**.
+**One-shot reading edition:** [Expert Systems Operation](EXPERT_SYSTEMS_OPERATION.md), with **LLM Orchestration as Last Resort** subordinate to the expert-system architecture, embeds the Gate Zero axioms, named Tranches, dependency material, pseudocode, Gates One through Six, proposed tests, audit, open obligations, promotion decisions, deferrals, and unknowns in one continuous document. It contains **no internal links or required companion material**.
 
 This directory also retains two focused reading paths:
 
