@@ -14,6 +14,8 @@ This directory holds proposed architectural blueprints and technical-theory pape
 | [Universal JSON, Crete, and SafeCopy — Ethics and Theory](UNIVERSAL_JSON_CRETE_SAFECOPY_ETHICS_AND_THEORY.md) | Representation and exchange; structural composition and fracture; preservation, provenance, and recovery; their separation from authority | **Proposed research synthesis; not canonical or technically attested** |
 | [Governed Meaning and Action](governed-meaning-and-action/README.md) | Interpretation, scoped approval, recovery evidence, and contract adoption | **Theory note with a bounded local implementation and proposed extensions** |
 
+**Self-contained gate publication:** [Complete Gates Framework — One-Shot Edition](gates/GATES_COMPLETE_ONE_SHOT.md) incorporates the theoretical Gate Zero foundation, all 27 modular research items, Gates One through Six, tests, ledgers, and their stated limitations, without internal document links.
+
 ## Reading and evidentiary conventions
 
 A blueprint should distinguish **historical user direction**, **observed implementation evidence**, **theoretical synthesis**, **open questions**, and **adoption decisions**. The existence of a Markdown file, valid JSON, manifest, checksum, or successful limited test does not establish security, permission, authorship, independent attestation, or production fitness.

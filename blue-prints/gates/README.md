@@ -2,7 +2,9 @@
 
 **Status:** Public theory; no automatic project adoption, active control, or production clearance.
 
-This directory has two distinct reading paths:
+**One-shot reading edition:** [The Complete Gates Framework — Self-Contained Document](GATES_COMPLETE_ONE_SHOT.md) embeds the Gate Zero axioms, named Tranches, dependency material, pseudocode, Gates One through Six, proposed tests, audit, open obligations, promotion decisions, deferrals, and unknowns in one continuous document. It contains **no internal links or required companion material**.
+
+This directory also retains two focused reading paths:
 
 1. **[Gate 0 — Full research archive and modular axioms](gate-0/README.md)** — accepted Gate Zero Foundational Theory v0.4, Gate Zero Modular Catalog v0.2, all 27 Tranche 0–3 item dispositions, Closure Stage C2/C3 ledgers, dependencies, deferrals and 14 unknowns.
 2. **[Gates 1–6 — Lunar Flower standing-gate contract](../LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md)** — the proposed operating-gate contracts, including the new Gate 6 interpretation restatement.

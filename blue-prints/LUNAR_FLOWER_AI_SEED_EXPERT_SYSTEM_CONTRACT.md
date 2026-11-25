@@ -4,6 +4,8 @@
 **Record date:** 2026-11-10  
 **Disposition:** Public theoretical seed / proposed architecture. **Not a runtime contract, implemented expert system, admitted controller, or performance attestation.**
 
+**Integrated standalone reading edition:** [Complete Gates Framework — One-Shot Document](gates/GATES_COMPLETE_ONE_SHOT.md). It embeds Gate Zero, all six standing gates, research accounting, and historical limitations without internal cross-links. The present contract remains the original source specification of the standing-gate proposal.
+
 ## Seed statement
 
 > Place the AI under an expert-system contract, as an expert-system orchestrator, with generative synthetic decision-making as a last resort. Build all tools and the governing structure from the ground up.
