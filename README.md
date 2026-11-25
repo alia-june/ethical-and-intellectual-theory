@@ -165,7 +165,7 @@ The blueprints supplement rather than replace the programming and research-ethic
 
 ### Lunar Flower AI Seed — expert-system orchestration
 
-**[Read the full Gates one-shot](blue-prints/gates/GATES_COMPLETE_ONE_SHOT.md)** — A single integrated, internally self-contained reading edition of the complete theoretical gate framework.
+**[Read Expert Systems Operation](blue-prints/gates/EXPERT_SYSTEMS_OPERATION.md)** — A single integrated, internally self-contained reading edition of the complete theoretical gate framework.
 
 **[Read the proposed AI seed](blue-prints/LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md)** — Place AI under an expert-system contract as a constrained orchestrator, construct the tools and structure from the ground up, and use generative synthetic decision-making only as a separately reviewed last resort. Its six proposed gates now include **Gate 6 — Prompt Restatement**, in which the machine states the request as it understands it before relying on that interpretation. Read the [Gate Framework](blue-prints/gates/README.md) for the gate distinctions and the [full Gate 0 archive](blue-prints/gates/gate-0/README.md) for the Gate Zero Foundational Theory v0.4, Gate Zero Modular Catalog v0.2 and Closure Stage C2/C3 records, deferrals and unknowns. **Theory only; no activated contract, automatic project adoption, or verified implementation is claimed.**
 

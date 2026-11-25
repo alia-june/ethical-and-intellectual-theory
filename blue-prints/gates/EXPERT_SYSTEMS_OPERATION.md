@@ -1,4 +1,6 @@
-# The Complete Gates Framework — A Standalone, One-Shot Research and Contract Document
+# Expert Systems Operation
+
+**Complete Gates Framework — Standalone One-Shot Edition**
 
 **Research lineage:** Lunar Flower Expert-System Seed; Gate Zero Foundational Theory version 0.4; Gate Zero Modular Opt-In Catalog version 0.2; Closure Stages 2 and 3; Standing Gates One through Six.
 **Consolidation:** 2026-11-25.
