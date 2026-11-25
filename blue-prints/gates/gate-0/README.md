@@ -4,7 +4,7 @@
 **Theoretical baselines:** Gate Zero Foundational Theory v0.4 (`G0 v0.4`), eight accepted axioms; Gate Zero Modular Catalog v0.2 (`G0-MOD v0.2`), an opt-in library  
 **Status:** Theory and recorded research decisions. **Not implementation, independent certification, project adoption, or production authorization.**
 
-This is the full Gate 0 documentation entry point. The earlier [gate overview](../README.md) intentionally remains short; the original [Lunar Flower standing-gate contract](../../LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md) describes Gates 1–6. Gate 0 is a *foundation*, not a newly activated runtime gate.
+This is the full Gate 0 documentation entry point. The earlier [gate overview](../README.md) intentionally remains short; the original [Lunar Flower standing-gate contract](../../LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md) describes Gates 1–7, including final Alpha-Lock. Gate 0 is a *foundation*, not a newly activated runtime gate.
 
 ## Read the research
 

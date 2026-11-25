@@ -4,7 +4,7 @@
 **Record date:** 2026-11-10  
 **Disposition:** Public theoretical seed / proposed architecture. **Not a runtime contract, implemented expert system, admitted controller, or performance attestation.**
 
-**Integrated standalone reading edition:** [Expert Systems Operation](gates/EXPERT_SYSTEMS_OPERATION.md). It embeds Gate Zero, all six standing gates, research accounting, and historical limitations without internal cross-links. The present contract remains the original source specification of the standing-gate proposal.
+**Integrated standalone reading edition:** [Expert Systems Operation](gates/EXPERT_SYSTEMS_OPERATION.md). It embeds Gate Zero, all seven standing gates (including Alpha-Lock), research accounting, and historical limitations without internal cross-links. The present contract remains the original source specification of the standing-gate proposal.
 
 ## Seed statement
 
