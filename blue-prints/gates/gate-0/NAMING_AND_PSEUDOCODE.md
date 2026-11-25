@@ -1,6 +1,6 @@
 # Human-Readable Symbols, Variables, and Conceptual Pseudocode
 
-**Scope:** The live Gate 0 v0.4 / Gate Zero Modular Catalog v0.2 documentation and the proposed Lunar Flower Gates 1–6.  
+**Scope:** The live Gate 0 v0.4 / Gate Zero Modular Catalog v0.2 documentation and the proposed Lunar Flower Gates 1–7.  
 **Status:** Readable *theoretical examples only*. These are **not executable code**, implemented checks, or evidence of an operating controller.
 
 This document replaces unexplained one-letter symbols and ambiguous placeholder status values with descriptive names. Existing numbered axiom and gate identifiers are stable references, **not variable names**. Their historical forms remain unchanged. See the [identifier glossary](IDENTIFIER_GLOSSARY.md) and [complete Tranche catalog](TRANCHES.md) for their full meanings. The archived Closure Stages C2 and C3 research is intentionally preserved verbatim.
@@ -15,7 +15,7 @@ This document replaces unexplained one-letter symbols and ambiguous placeholder 
 | Operation or theoretical function | Verb-led `snake_case` | `evaluate_applicable_authority` |
 | Time / event point | Name its causal role | `effect_commit_event`, `evaluation_event` |
 | Collection | Plural or `_set`, with declared bounds | `applicable_mandatory_conditions` |
-| Fixed identifiers | Retain published stable tokens | `G0-01`, `T2-08`, `LF-GATE-006` |
+| Fixed identifiers | Retain published stable tokens | `G0-01`, `T2-08`, `LF-GATE-006`, `LF-GATE-007` |
 | Enumerated outcome | Explicit descriptive value | `ADMITTED_FOR_REVIEW`, `DENIED`, `UNRESOLVED` |
 
 Use the terms **established**, **verified**, **eligible**, **authorized**, and **committed** only for their distinct meanings. Use `is_...` and `has_...` for clear assertions, but do not silently coerce a three-state proposition to a Boolean.
@@ -160,7 +160,7 @@ RETURN profile_status
 
 The procedure does **not** silently activate missing prerequisites or assume a complete dependency graph. Structural validity is not implementation verification, and profile revision does not clear any separately imposed lock.
 
-## Gate 6 — Prompt restatement
+## Gate Six — Prompt Restatement (illustration; sixth clearance in the seven-gate profile)
 
 ```text
 TYPE RestatementState = NOT_ADOPTED | RESTATED | NEEDS_CLARIFICATION | UNRESOLVED
@@ -193,7 +193,36 @@ ELSE:
 RETURN restatement_result
 ```
 
-A `RESTATED` outcome means the **machine's proposed interpretation** is available; it does not mean the Operator confirmed it. Material ambiguity requires clarification where consequential reliance would otherwise occur. Reiteration, challenge and authorization remain separate.
+A `RESTATED` outcome means the **machine's proposed interpretation** is available; it does not mean the Operator confirmed it. Material ambiguity requires clarification where consequential reliance would otherwise occur. Reiteration, challenge and authorization remain separate. In the new seven-gate profile this routine cannot itself clear Gate Six before **all Gates One–Five have cleared in order**. The final result is binary: **CLEARED** only if the restatement is materially faithful, or **NOT CLEARED**; Gate Seven is still required.
+
+## Gate Seven — Alpha-Lock, the second production gate (illustrative)
+
+This conceptual receipt check is **not** an implemented controller. Every declared gate result begins `NOT_CLEARED`; a valid `CLEARED` is independently established under an adopted seven-gate contract. Internal evidence may still be `UNRESOLVED`, `CONFLICTED`, or `REFUTED`, but none of those is a gate clearance.
+
+```text
+TYPE GateClearance = CLEARED | NOT_CLEARED
+
+DECLARE gate_one_result : GateClearance = NOT_CLEARED
+DECLARE gate_two_result : GateClearance = NOT_CLEARED
+DECLARE gate_three_result : GateClearance = NOT_CLEARED
+DECLARE gate_four_result : GateClearance = NOT_CLEARED
+DECLARE gate_five_result : GateClearance = NOT_CLEARED
+DECLARE gate_six_result : GateClearance = NOT_CLEARED
+DECLARE alpha_lock_result : GateClearance = NOT_CLEARED
+
+// Each preceding gate must clear in order, with matching, current receipts.
+IF all_previous_six_gates_cleared_in_order_for_exact_effect
+   AND independent_authorization_for_alpha_lock_is_valid:
+    REQUEST independently controlled Alpha-Lock clearance
+    // Only an authorized external controller may return CLEARED.
+ELSE:
+    alpha_lock_result = NOT_CLEARED
+
+// Gate One clearance alone NEVER permits production.
+PRODUCTION_MAY_BEGIN ONLY IF alpha_lock_result == CLEARED
+```
+
+The predicates above are abstract responsibilities, not a claim that an operational controller exists. A changed candidate or material condition invalidates the relevant chain and requires renewed clearance beginning at Gate One.
 
 ## Copy-through-reference and fallback example
 
@@ -242,7 +271,7 @@ RETURN copy_work_state
 
 The existing contract's `GATE_5_READY_FOR_GATE_1_REVIEW` and `PRODUCTION_ADMISSIBLE` shorthand is rewritten in the [standing-gates contract](../../LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md). Stable consequence classes `C0`–`C4` and formal gate IDs remain unchanged.
 
-The review requires established classification, any mandated challenge, any mandated independent verification, stability, unchanged candidate/scope, required informed validation, satisfaction of all other mandatory gates, valid Operator authority, and an independently obtained Gate 1 clearance for the exact effect. Gate 5 being `NOT_ADOPTED` is **not** a passing result: a separate governing policy determines the applicable requirements.
+The review requires established classification, any mandated challenge, any mandated independent verification, stability, unchanged candidate/scope, required informed validation, satisfaction of all other mandatory gates, valid Operator authority, and an independently obtained Gate One clearance for the exact effect. **None of these permits action until Gate Six and Gate Seven — Alpha-Lock — independently clear in order.** Gate 5 being `NOT_ADOPTED` is **not** a passing result: a separate governing policy determines the applicable requirements.
 
 ## Refactor boundaries
 

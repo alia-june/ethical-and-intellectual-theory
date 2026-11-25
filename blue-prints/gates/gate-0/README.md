@@ -48,4 +48,4 @@ A reusable catalog may contain more protections than a particular project select
 
 No source code, production controls, credentials, active access policies, or runtime enforcement mechanisms are published here. G0 v0.4 and G0-MOD v0.2 are **distinct theoretical records**, not claimed to be formally equivalent.
 
-[All proposed gates](../README.md) · [Standing Gates 1–6 contract](../../LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md) · [Blueprints](../../README.md) · [Repository home](../../../README.md)
+[All proposed gates](../README.md) · [Standing Gates 1–7 contract](../../LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md) · [Blueprints](../../README.md) · [Repository home](../../../README.md)

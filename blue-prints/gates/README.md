@@ -7,7 +7,7 @@
 This directory also retains two focused reading paths:
 
 1. **[Gate 0 — Full research archive and modular axioms](gate-0/README.md)** — accepted Gate Zero Foundational Theory v0.4, Gate Zero Modular Catalog v0.2, all 27 Tranche 0–3 item dispositions, Closure Stage C2/C3 ledgers, dependencies, deferrals and 14 unknowns.
-2. **[Gates 1–6 — Lunar Flower standing-gate contract](../LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md)** — the proposed operating-gate contracts, including the new Gate 6 interpretation restatement.
+2. **[Gates 1–7 — Lunar Flower standing-gate contract](../LUNAR_FLOWER_AI_SEED_EXPERT_SYSTEM_CONTRACT.md)** — the ordered seven-gate profile, including Gate Six — Prompt Restatement and Gate Seven — Alpha-Lock.
 
 ## Gate map
 
@@ -19,9 +19,10 @@ This directory also retains two focused reading paths:
 | Gate 3 — Hand-off | Transfer tasks without silently transferring privileges | Proposed |
 | Gate 4 — Informed Operator Validation | Distinguish acknowledgment, understanding, consent and authority | Proposed |
 | Gate 5 — Consequence-Scaled Challenge–Response | Optional, triggered risk checks and independent controls | Proposed |
-| Gate 6 — Prompt Restatement | Machine describes the original request **as it understands it** | **New proposal**; not confirmation or permission |
+| Gate 6 — Prompt Restatement | At sixth clearance, restates the original request consistently with the exact authorized candidate | Proposed; **CLEARED** or **NOT CLEARED** |
+| Gate 7 — Alpha-Lock | Second production gate; independently verifies Gates One–Six cleared in order | **Final production barrier; proposed, not activated** |
 
-Gate numbers are identifiers, not execution order. A project that opts into Gate 6 would use it at interpretation, **before** planning based on an ambiguous prompt. This is distinct from Gate 2 reiteration of a candidate and Gate 4 operator validation. A restatement never clears Gate 1.
+**Errata, 2026-11-25:** In the explicitly selected seven-gate profile, **Gate One → Two → Three → Four → Five → Six → Seven** is a strict clearance order. Gate Six is sixth, not an early gate pass. Every gate yields final **CLEARED** or **NOT CLEARED**; evidence uncertainty does not count as clearance. Gate One clearance does not permit production to begin. Gate Seven — Alpha-Lock remains closed until all earlier gates clear in order for the same candidate and effect scope. See the [ordered-clearance erratum](ERRATA_2026-11-25_ORDERED_CLEARANCE_ALPHA_LOCK.md).
 
 ## Gate 0 disposition at a glance
 

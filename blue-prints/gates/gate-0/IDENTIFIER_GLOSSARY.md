@@ -17,7 +17,8 @@
 | `DEP-001` | **Dependency Record 001** — a provisional dependency. |
 | `PO-001` | **Proof Obligation 001** — an unresolved research obligation. |
 | `G5-C1` | **Gate Five, Candidate 1 — Consequence-Sensitive Admission** — deferred refinement. |
-| `LF-GATE-006` | **Lunar Flower Gate Six — Prompt Restatement** — proposed and unimplemented. |
+| `LF-GATE-006` | **Lunar Flower Gate Six — Prompt Restatement** — sixth ordered clearance check, proposed and unimplemented. |
+| `LF-GATE-007` | **Lunar Flower Gate Seven — Alpha-Lock** — second, final production gate; cannot clear until Gates One–Six clear in order. |
 
 ## Full tranche names
 

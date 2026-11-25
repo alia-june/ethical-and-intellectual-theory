@@ -10,8 +10,9 @@ The preferred path is declared expert-system rules, evidence-bound evaluation, d
 
 This heading describes the intended order of responsibility. It does not indicate an operational implementation or change the recorded gate and axiom dispositions.
 
-**Research lineage:** Lunar Flower Expert-System Seed; Gate Zero Foundational Theory version 0.4; Gate Zero Modular Opt-In Catalog version 0.2; Closure Stages 2 and 3; Standing Gates One through Six.
+**Research lineage:** Lunar Flower Expert-System Seed; Gate Zero Foundational Theory version 0.4; Gate Zero Modular Opt-In Catalog version 0.2; Closure Stages 2 and 3; Standing Gates One through Seven.
 **Consolidation:** 2026-11-25.
+**Errata (2026-11-25):** Gate Six now clears sixth, after Gate Five. Gate One clearance cannot start production. Gate Seven — Alpha-Lock clears last, only with a valid ordered chain from Gates One–Six. The corrected design is incorporated in Parts VII–VIII.
 **Status:** Published theoretical synthesis and archival integration. No deployment, runtime implementation, project-specific adoption, or clearance of any operational Production Lock is claimed.
 
 > **Reading convention:** Everything necessary to understand the gate framework, its premises, named Tranches, interdependencies, control contracts, examples, programming conventions, historical decisions, deferrals, and unresolved claims is included **here**. This document intentionally contains no internal hyperlinks or dependence on a separate README. Historical identifiers remain solely to preserve provenance and decision accounting.
@@ -20,13 +21,13 @@ This heading describes the intended order of responsibility. It does not indicat
 
 The governing actor is the **Operator**, who retains decisions within independently established authority. The AI is a **contract-bound Orchestrator**: it may interpret, propose, transform, test, and hand off work only within permitted scopes. The proposed external control plane alone handles its separate locked-state authority. The AI cannot produce its own permission by making a claim, repeating a result, or presenting a plausible reason.
 
-The framework has **two layers**. **Gate Zero** is a foundational theory and optional axiom library: it is **not** a seventh runtime gate. **Gates One through Six** are proposed operating control contracts. Gate Six is numbered sixth to preserve existing stable identifiers but logically acts at request interpretation before substantive planning. Gate One retains independent effect-scoped production-lock authority.
+The framework has **two layers**. **Gate Zero** is a foundational theory and optional axiom library, **not** one of the numbered standing operational gates. **Gates One through Seven** are proposed control contracts with a fixed clearance sequence under the selected seven-gate profile. Gate Six is the sixth clearance check, and Gate Seven — Alpha-Lock is the final independently controlled release. Gate One retains its independent effect-scoped authorization, but a Gate One clearance cannot start production.
 
 The status words are never interchangeable: **promoted theoretical definition** is not **selected by a project**; **selected** is not **verified**; **verified** is not **authorized**; **authorized to study** is not **authorized for production effects**; **unknown** is not a denial of objective truth, but it cannot be treated as established permission under an adopted fail-closed condition. **Deferred** means retained for later analysis rather than rejected.
 
 **Reading sequence:** Parts I–II explain the architecture and vocabulary; Parts III–VI develop foundational rules, dependencies, and programming conventions; Parts VII–VIII present the standing gates and their interaction; Parts IX–XIII retain audit findings, limitations, decisions, and closure. Every part is present below; nothing needs to be opened elsewhere.
 
-**Numerical reconciliation:** Gate Zero v0.4 has eight promoted theoretical axioms. The modular library records 27 atomic items across Tranches Zero through Three: 23 promoted into an **optional theoretical catalog**, four deferred. Tranches Four through Seven are conceptually crosswalked but not modularly specified. Fourteen named research conclusions remain **UNKNOWN**. The eight programming invariants are a **separate register**. Standing Gate Six is only a **new proposal**. Neither this consolidation nor a document read changes any of those statuses.
+**Numerical reconciliation:** Gate Zero v0.4 has eight promoted theoretical axioms. The modular library records 27 atomic items across Tranches Zero through Three: 23 promoted into an **optional theoretical catalog**, four deferred. Tranches Four through Seven are conceptually crosswalked but not modularly specified. Fourteen named research conclusions remain **UNKNOWN**. The eight programming invariants are a **separate register**. Standing Gates Six and Seven and the new seven-gate sequence remain **proposed architecture**, not operationally activated. Neither this consolidation nor a document read changes any of those statuses.
 
 
 ## Part I — The expert-system seed: purpose, roles, and architecture
@@ -69,7 +70,8 @@ This seed is an architectural proposal. It must not be represented as an already
 | `DEP-001` | **Dependency Record 001** — a provisional dependency. |
 | `PO-001` | **Proof Obligation 001** — an unresolved research obligation. |
 | `G5-C1` | **Gate Five, Candidate 1 — Consequence-Sensitive Admission** — deferred refinement. |
-| `LF-GATE-006` | **Lunar Flower Gate Six — Prompt Restatement** — proposed and unimplemented. |
+| `LF-GATE-006` | **Lunar Flower Gate Six — Prompt Restatement**, sixth in clearance order. |
+| `LF-GATE-007` | **Lunar Flower Gate Seven — Alpha-Lock**, the second and final production gate. |
 
 ### Full tranche names
 
@@ -490,7 +492,7 @@ RETURN profile_status
 
 The procedure does **not** silently activate missing prerequisites or assume a complete dependency graph. Structural validity is not implementation verification, and profile revision does not clear any separately imposed lock.
 
-#### Gate 6 — Prompt restatement
+#### Illustration — Gate Six restatement procedure (not early clearance)
 
 ```text
 TYPE RestatementState = NOT_ADOPTED | RESTATED | NEEDS_CLARIFICATION | UNRESOLVED
@@ -524,6 +526,8 @@ RETURN restatement_result
 ```
 
 A `RESTATED` outcome means the **machine's proposed interpretation** is available; it does not mean the Operator confirmed it. Material ambiguity requires clarification where consequential reliance would otherwise occur. Reiteration, challenge and authorization remain separate.
+
+In the selected seven-gate profile, this pedagogical routine is **not** an early Gate Six clearance. Gate Six can finally return **CLEARED** only after Gates One–Five have cleared in order and the restatement faithfully matches the authorized candidate; otherwise its final result is **NOT CLEARED**.
 
 #### Copy-through-reference and fallback example
 
@@ -581,30 +585,9 @@ The review requires established classification, any mandated challenge, any mand
 - **Unknown:** Independence/minimality, universal consistency, complete effect coverage, actual runtime correspondence and independent assurance. These remain unknown regardless of naming quality.
 
 
-## Part VII — The proposed standing gates, in a human reading order
+## Part VII — Seven Standing Gates: Ordered Clearance and Alpha-Lock
 
-All six standing gates are **proposals**, not active runtime enforcement. Names and identifiers are stable. The presentation begins with the interpretation safeguard, which is numbered **Gate Six**, and then proceeds through Production Lock, Reiteration, Hand-off, Informed Operator Validation, and Consequence-Scaled Challenge–Response. Gate Five Control D (Operational Stability) may operate throughout; Gate One must be rechecked before any production effect.
-
-
-### Gate 6 — Prompt Restatement
-
-**Gate ID:** `LF-GATE-006`
-**Classification:** Optional interpretation safeguard
-**Adoption state:** `NOT_ADOPTED` unless expressly selected by a governing project contract
-**Logical position:** Before substantive planning or reiteration that depends upon the interpreted prompt
-**Status:** Proposed architecture; not implemented, adopted, or independently verified
-
-**Intent:** The machine restates the Operator's prompt in its own words **as it understands the request**. The restatement is a bounded interpretation claim, not a replacement instruction, a new requirement, or an authorization.
-
-- **Entry:** The original prompt and already established context, constraints, exclusions, targets, and authorized scope.
-- **Action:** Briefly restate the requested objective and material constraints in plain language. Identify a material ambiguity or assumption rather than silently completing it with invented intent.
-- **Output:** `RESTATED`, `NEEDS_CLARIFICATION`, or `NOT_ADOPTED`. Preserve the original prompt separately so its contents cannot be replaced by the paraphrase.
-- **Material mismatch:** Do not rely on an unsupported interpretation of a changed target, permission, prohibited action, or consequential effect. Request targeted clarification where needed.
-- **Bound:** Do not force repeated confirmations for unchanged, unambiguous routine requests. Explicit Operator confirmation is a *separate* requirement only where the adopted contract or another applicable gate requires it.
-- **Authority:** A restatement does not establish Operator agreement, independent verification, informed consent, authority to delegate, or production clearance.
-
-**Invariant:** `RESTATED != CONFIRMED != AUTHORIZED`. Gate 6 concerns **prompt interpretation**, Gate 2 concerns **candidate reiteration**, and Gate 4 concerns **informed Operator validation**. Gate 6 cannot bypass Gates 1, 3, 4, or 5.
-
+The proposed seven-gate profile clears **Gates One through Seven in numeric order**. Gate One is the first production gate but cannot authorize immediate action; Gate Seven — Alpha-Lock is the second and final production gate. A gate returns **CLEARED** or **NOT CLEARED** as its final result, while internal evidence retains its own precise state. Gate Six restates the prompt at its sixth clearance position, after Gate Five. This is a theoretical specification and is not automatically adopted or implemented.
 
 ### Gate 1 — Production Lock
 
@@ -613,12 +596,12 @@ All six standing gates are **proposals**, not active runtime enforcement. Names 
 - **Entry:** A candidate action, its declared effect and scope, the currently effective lock state, candidate identity/revision, evidence, and the asserted authorizing principal.
 - **Default:** `LOCKED`; analysis and isolated staging may continue if otherwise permitted, but production mutation, deployment, publication, and external effects remain denied.
 - **Unlock criterion:** Explicit, independently checked authorization for one bounded scope and candidate revision; prerequisite checks and the target environment must match the authorization.
-- **Output:** `DENY_LOCKED`, `REVIEW_REQUIRED`, or `CLEAR_FOR_DECLARED_SCOPE`, accompanied by a reason and a receipt. Clearance from this gate is **not** a substitute for downstream validation or other necessary permissions.
+- **Output:** `DENY_LOCKED`, `REVIEW_REQUIRED`, or `CLEAR_FOR_DECLARED_SCOPE`, accompanied by a reason and a receipt. In the seven-gate profile, only independently verified `CLEAR_FOR_DECLARED_SCOPE` maps to **Gate One = CLEARED**. **This is the first production gate, not authority to begin production.** Gate Seven remains locked until every gate clears in order.
 - **Reset:** Re-lock on revision change, scope change, failed invariant, revoked authority, stale evidence, or expired clearance.
 - **Control-plane exception:** Inspection, cancellation, revocation, and narrowly scoped lock-management operations must remain possible under lock, using a separate authenticated contract; the ordinary application path cannot clear its own lock.
 - **Failure:** Unknown state, mismatched identity, missing evidence, or unreachable authorizer yields `DENY_LOCKED`; no autonomous override.
 
-**Invariant:** The producer of a candidate cannot grant that candidate production authority merely by asserting success, passing its own tests, or generating a plausible rationale.
+**Invariant:** The producer of a candidate cannot grant that candidate production authority merely by asserting success, passing its own tests, or generating a plausible rationale. **Gate One CLEARED does not permit action; Alpha-Lock is still NOT CLEARED.**
 
 #### External error-and-lesson preproduction review (proposed resource)
 
@@ -643,7 +626,6 @@ A receipt must identify its source/generation, check prior relevant errors, revi
 
 **Invariant:** Repetition never creates permission, evidence, or correctness by accumulation alone.
 
-
 ### Gate 3 — Hand-off
 
 **Intent:** Transfer a bounded assignment between participants while preserving task continuity, identity, restrictions, provenance, and the ability to refuse.
@@ -658,13 +640,12 @@ A receipt must identify its source/generation, check prior relevant errors, revi
 
 **Invariant:** A transferred instruction is not a transferred authorization, and task completion by one participant does not imply final adoption by another.
 
-
 ### Gate 4 — Informed Operator Validation
 
-**Gate ID:** `LF-GATE-004`
-**Default state:** `VALIDATION_PENDING`
-**Authority:** Human Operator
-**Failure behavior:** Fail closed
+**Gate ID:** `LF-GATE-004`  
+**Default state:** `VALIDATION_PENDING`  
+**Authority:** Human Operator  
+**Failure behavior:** Fail closed  
 **Status:** Proposed architectural contract; not an implemented enforcement mechanism
 
 #### Purpose
@@ -725,14 +706,13 @@ Production remains locked until every applicable authorization, technical valida
 
 **A plausible acknowledgment must never be promoted into authorization merely because the agent wishes to proceed.**
 
-
 ### Gate 5 — Consequence-Scaled Challenge–Response
 
-**Gate ID:** `LF-GATE-005`
-**Classification:** Optional high-risk production safeguard
-**Default adoption state:** `DORMANT`
-**Trigger after adoption:** Declared risk thresholds, especially destructive, irreversible, critical, or operationally erratic actions
-**Failure behavior:** Fail closed for any required dependent transition
+**Gate ID:** `LF-GATE-005`  
+**Classification:** Optional high-risk production safeguard  
+**Default adoption state:** `DORMANT`  
+**Trigger after adoption:** Declared risk thresholds, especially destructive, irreversible, critical, or operationally erratic actions  
+**Failure behavior:** Fail closed for any required dependent transition  
 **Status:** Proposed architecture; not implemented, activated, or independently verified
 
 #### Governing purpose and adoption boundary
@@ -803,11 +783,11 @@ The control may run throughout planning and execution. Contradictory or rapidly 
 
 #### Control E — Production Admission Interface
 
-**Function:** Provide the bounded outcome of Controls A–D to **Gate 1 — Production Lock**, which retains the actual effect-admission authority. Control E is an interface and an independent consistency check, **not an additional independent right to clear production**.
+**Function:** Provide the bounded outcome of Controls A–D as the **Gate Five clearance receipt** for the later **Gate Seven — Alpha-Lock** decision. Control E checks the already established exact-effect Gate One clearance and the applicable current state; it neither reorders gate receipts nor authorizes production by itself.
 
 **Inputs:** Applicable control receipts, exact candidate and effect scope, Gate 4 result when required, other mandatory gate outcomes, and the current Gate 1 authorization state.
 
-**Outputs:** `ADMISSIBLE_FOR_GATE_1_REVIEW` or `BLOCKED`. This outcome is **never** synonymous with `PRODUCTION_AUTHORIZED`.
+**Outputs:** `GATE_FIVE_CLEARED_FOR_NEXT_GATE` or `BLOCKED`. This outcome is **never** synonymous with `PRODUCTION_AUTHORIZED`; it permits only the next ordered step, **Gate Six**.
 
 Conceptual review predicate, evaluated by the authorized receiving control—not asserted by the producing agent. Every variable is explicitly introduced as an unresolved assessment before being assigned its evidenced state:
 
@@ -876,35 +856,98 @@ A dormant Gate 5 does not falsely satisfy `gate_five_is_ready_for_gate_one_revie
 
 **Publication boundary:** This is a proposed contract, not evidence that challenge engines, external checks, risk scoring, gate interlocks, or production enforcement have been built or tested.
 
+### Gate 6 — Prompt Restatement
 
-## Part VIII — Control composition, precedence, decision routes, and proposed validation cases
+**Gate ID:** `LF-GATE-006`  
+**Classification:** Prompt interpretation and final agreement safeguard  
+**Adoption state:** Required as Gate Six in the selected seven-gate sequence; otherwise opt-in under any separately authorized legacy profile  
+**Clearance position:** **Sixth**, after Gate Five, immediately before Gate Seven Alpha-Lock. An early informal paraphrase is not Gate Six clearance.  
+**Status:** Proposed architecture; not implemented, adopted, or independently verified
+
+**Intent:** The machine restates the Operator's prompt in its own words **as it understands the request**. The restatement is a bounded interpretation claim, not a replacement instruction, a new requirement, or an authorization.
+
+- **Entry:** The original prompt and already established context, constraints, exclusions, targets, and authorized scope.
+- **Action:** After Gates One–Five clear in order, restate the original Operator request, declared constraints, exact candidate identity/revision, target, intended effects, and scope as understood; compare the restatement with the original prompt and established authorization. Identify rather than invent missing intent.
+- **Internal outcomes:** `RESTATED`, `NEEDS_CLARIFICATION`, or `NOT_ADOPTED`. Preserve the original prompt separately. **Final Gate Six result:** `CLEARED` only for a faithful, materially consistent restatement with valid prior gate receipts; otherwise `NOT CLEARED`. A restatement is not Operator agreement or independent authorization.
+- **Material mismatch:** Do not rely on an unsupported interpretation of a changed target, permission, prohibited action, or consequential effect. Request targeted clarification where needed.
+- **Bound:** Do not force repeated confirmations for unchanged, unambiguous routine requests. Explicit Operator confirmation is a *separate* requirement only where the adopted contract or another applicable gate requires it.
+- **Authority:** A restatement does not establish Operator agreement, independent verification, informed consent, authority to delegate, or production clearance.
+
+**Invariant:** `RESTATED != CONFIRMED != AUTHORIZED`. Gate Six concerns **prompt interpretation**, Gate Two concerns **candidate reiteration**, and Gate Four concerns **informed Operator validation**. Gate Six cannot bypass Gates One–Five. A material mismatch blocks clearance, invalidates affected earlier receipts, and prevents Alpha-Lock from clearing.
+
+
+### Gate 7 — Alpha-Lock (Second Production Gate)
+
+**Gate ID:** `LF-GATE-007`  
+**Position:** **Seventh and final**, after Gate Six; the second independent production barrier after Gate One  
+**Default state:** `LOCKED` / final outcome `NOT CLEARED`  
+**Status:** Proposed architecture; not implemented, adopted, or tested
+
+**Purpose:** Prevent production from beginning merely because Gate One approved its exact effect. Alpha-Lock is the **last gate**. Only this final, independently authorized release, after a valid ordered chain, permits the bounded production operation to begin.
+
+- **Entry:** The unchanged candidate identity/revision, original Operator prompt and final restatement, exact target/effects, current binding project contract, present external authorization, and sequential receipts proving Gates One, Two, Three, Four, Five, and Six each returned `CLEARED`.
+- **Sequence check:** Gate `n` clears only after Gate `n-1` has cleared, and Alpha-Lock validates **all six** prior gate receipts in their required order. No post hoc reordering, fabricated receipt, or implied pass is sufficient.
+- **Clearance condition:** Verify exact identity/revision/target/effects, current contract and authorizer scope, provenance, required evidence, non-expiry/non-revocation, and that every preceding gate is still valid. An appropriately authorized **external control**—not the producing AI—must clear Alpha-Lock.
+- **Final output:** `CLEARED` (bounded production may begin for the exact admitted effect) or `NOT CLEARED` (production blocked). Internal reasons may be `FAILED`, `UNRESOLVED`, `CONFLICTED`, `STALE`, `NOT_ADOPTED`, or `UNAVAILABLE`; none substitutes for a `CLEARED` receipt.
+- **Invalidation:** Any material change to the prompt interpretation, candidate, revision, target, effects, risk, conditions, authorizer, or policy invalidates dependent receipts. The candidate must re-enter the sequence at Gate One when its identity, effects or scope change. Alpha-Lock re-locks.
+- **Bound:** A Gate Seven clearance applies only to the stated effect and validity window; it does not delegate further rights or waive independently binding constraints.
+
+**Invariant:** `GateOneCleared != ProductionMayBegin`. Only `GateOneCleared AND GateTwoCleared AND GateThreeCleared AND GateFourCleared AND GateFiveCleared AND GateSixCleared AND OrderedValidReceipts AND IndependentlyClearedAlphaLock` can establish production eligibility under this adopted profile. **No AI may clear Alpha-Lock using its own assertions.**
+
+### Ordered seven-gate clearance — errata-consolidated rule
+
+Every gate in the adopted seven-gate profile has a **binary final outcome**: `CLEARED` or `NOT CLEARED`. A gate may internally record richer evidence states, but `UNRESOLVED`, `CONFLICTED`, `NOT_ADOPTED`, or an unproven `NOT_APPLICABLE` never maps silently to `CLEARED`. If an optional action inside Gate Two (additional iteration), Gate Three (hand-off), Gate Four (extra confirmation), or Gate Five (high-risk challenge) is **not required**, that gate must still produce a positive, independently justified `CLEARED` receipt under the adopted policy. The gate itself is **not skipped**.
+
+```text
+TYPE FinalGateResult = CLEARED | NOT_CLEARED
+
+DECLARE gate_one_cleared   : FinalGateResult = NOT_CLEARED
+DECLARE gate_two_cleared   : FinalGateResult = NOT_CLEARED
+DECLARE gate_three_cleared : FinalGateResult = NOT_CLEARED
+DECLARE gate_four_cleared  : FinalGateResult = NOT_CLEARED
+DECLARE gate_five_cleared  : FinalGateResult = NOT_CLEARED
+DECLARE gate_six_cleared   : FinalGateResult = NOT_CLEARED
+DECLARE alpha_lock_cleared : FinalGateResult = NOT_CLEARED
+
+// This describes logical requirements; these declarations are not a controller.
+GATE_ONE:   independently verify exact-effect authority -> gate_one_cleared
+GATE_TWO:   require gate_one_cleared == CLEARED -> gate_two_cleared
+GATE_THREE: require gate_two_cleared == CLEARED -> gate_three_cleared
+GATE_FOUR:  require gate_three_cleared == CLEARED -> gate_four_cleared
+GATE_FIVE:  require gate_four_cleared == CLEARED -> gate_five_cleared
+GATE_SIX:   require gate_five_cleared == CLEARED -> gate_six_cleared
+
+IF any preceding result != CLEARED OR ordered receipts invalid:
+    alpha_lock_cleared = NOT_CLEARED
+ELSE:
+    // Only a separate authenticated, independently authorized control can act.
+    alpha_lock_cleared = external_alpha_lock_clearance_for_exact_effect()
+
+PRODUCTION_MAY_BEGIN only when alpha_lock_cleared == CLEARED
+```
+
+The sequence is a **proposed theoretical profile**, not code that has been deployed. The prior Gate Zero research and historic modular opt-in decisions remain unchanged. Adoption of this new seven-gate profile requires project-specific authorization.
+
+## Part VIII — Ordered Gate Composition, Decision Routes, and Validation Cases
 
 ### Gate composition and precedence
 
-A proposed generic ordering is:
+**Errata:** The gate sequence is strictly `Gate One → Gate Two → Gate Three → Gate Four → Gate Five → Gate Six → Gate Seven (Alpha-Lock)`. Gate One clearance alone cannot start production. Gate Six is the **sixth** final clearance check, not an early gate pass. If early paraphrasing is used for convenience, the sixth-gate restatement and its receipt still occur after Gate Five.
 
 ```text
-REQUEST
-  -> GATE 6: RESTATE PROMPT AS UNDERSTOOD [IF ADOPTED; CLARIFY MATERIAL MISMATCH]
-  -> CONTRACT + AUTHORITY VALIDATION
-  -> PRODUCTION LOCK CHECK [DEFAULT LOCKED]
-  -> RULE / EVIDENCE / EXPERT-SYSTEM EVALUATION
-  -> REITERATION GATE [BOUNDED; PROGRESS REQUIRED]
-  -> OPTIONAL HAND-OFF GATE [RECEIPT + ACCEPTANCE REQUIRED]
-  -> RETURNED WORK / CANDIDATE
-  -> REVALIDATE CONTRACT + LOCK + EVIDENCE
-  -> INFORMED OPERATOR VALIDATION [WHEN EXPLICIT HUMAN VALIDATION IS REQUIRED]
-  -> GATE 5 [IF ADOPTED AND RISK-TRIGGERED]
-       Control A — risk classification
-       Control D — operational stability [monitored throughout]
-       Control B — operator consequence challenge [when required]
-       Control C — independent verification [when required]
-       Control E — receipt consistency and Gate 1 review interface
-  -> RECHECK EXACT CANDIDATE + REQUIRED GATE OUTCOMES
-  -> GATE 1 EFFECT AUTHORIZATION OR BLOCKED OUTCOME
+PREPARE EXACT CANDIDATE UNDER INDEPENDENTLY ALLOWED READ / STAGING SCOPE
+    -> GATE 1: PRODUCTION LOCK / EXACT-EFFECT AUTHORIZATION       -> CLEARED?
+    -> GATE 2: BOUNDED REITERATION OR DOCUMENTED NO-ITERATION     -> CLEARED?
+    -> GATE 3: BOUNDED HAND-OFF OR DOCUMENTED NO-HANDOFF          -> CLEARED?
+    -> GATE 4: INFORMED VALIDATION UNDER DECLARED CONTRACT       -> CLEARED?
+    -> GATE 5: RISK CLASSIFICATION & REQUIRED INDEPENDENT CHECKS -> CLEARED?
+    -> GATE 6: RESTATE ORIGINAL PROMPT / VERIFY EXACT CONSISTENCY-> CLEARED?
+    -> GATE 7: ALPHA-LOCK / VERIFY ALL ORDERED RECEIPTS & AUTHORITY
+        -> CLEARED: exact bounded production may begin
+        -> NOT CLEARED: block production
 ```
 
-Production Lock is **effect-scoped**: a locked system may still examine or develop a candidate when a separate read/staging contract permits it. It must re-check before any production effect. The Hand-off Gate cannot bypass the lock by sending an effect to another participant. Reiteration cannot convert a failed authorization into a success. All six support refusal and explicit unresolved outcomes when applicable. Gate 4 applies whenever explicit human validation is required, including during a clarification or hand-off if that interaction calls for validation. It must not be bypassed by calling a sensitive operation low-risk. Demonstrated understanding, consent, and operator authorization remain separate; Gate 4 acceptance never clears Production Lock on its own. Gate 5 is optional at adoption, mandatory for triggered operations after adoption, and cannot clear Gate 1. Gate 6 is optional at adoption and addresses interpretation before work based on that interpretation; it cannot stand in for Operator agreement or confirmation. Operational stability may be checked before, during, and after other gate evaluation; the sequence above shows logical dependencies rather than a fixed scheduler.
+Every transition verifies the preceding gate's receipt, the same candidate revision and scope, and required evidence. A non-cleared outcome halts the transition. Any material candidate change returns the proposed effect to Gate One and keeps Alpha-Lock locked. Operational Stability may be assessed continuously without changing receipt order. Gate Zero remains theory; no published document is itself a running enforcement mechanism.
 
 ### Initial validation cases (proposed, not executed)
 
@@ -920,7 +963,7 @@ Production Lock is **effect-scoped**: a locked system may still examine or devel
 | Generated explanation asserts that any gate passed | Treat assertion as data, not gate evidence |
 | Adopted Gate 6: faithful prompt restatement | Record interpretation beside the original; no authorization implied |
 | Adopted Gate 6: restatement changes target or omits a prohibition | Mark interpretation unresolved; preserve prompt and clarify material mismatch |
-| Gate 6 is not adopted for a project | Do not claim the gate ran; other independently binding requirements remain unchanged |
+| Gate Six is not adopted within a selected seven-gate profile | Gate Six NOT CLEARED; Alpha-Lock NOT CLEARED; do not silently skip |
 | Operator responds with a bare "yes" or "okay" when validation is required | Reject as insufficient validation; request contextual clarification |
 | Operator clarifies the action but does not authorize it | Accept clarification only; keep authorization unresolved |
 | Sensitive operation requires permission but material consequences were not understood | Do not authorize; communicate consequences and request action-specific validation |
@@ -930,37 +973,40 @@ Production Lock is **effect-scoped**: a locked system may still examine or devel
 | Operator repeats assent without describing irreversible effect | Fail required challenge; retain lock |
 | C3/C4 challenge passes but independent verifier is unavailable | Block production; a verbal response cannot replace verification |
 | Operation becomes erratic after challenge passes | Suspend affected action until independently stable; reassess scope and risk |
-| AI attempts to use Gate 5 success as production authorization | Reject; only Gate 1's authorized clearance can admit exact effect |
-| Proposal remains only a document, with Gate 5 unimplemented | Record as theoretical; claim no running enforcement |
+| AI attempts to use Gate Five or Gate One success as permission to execute | Reject; Gate Seven Alpha-Lock must independently clear after Gates One–Six clear in order |
+| Proposal remains only a document, with Gate Five unimplemented | Record as theoretical; claim no running enforcement |
+| Gate One CLEARED; Gate Two not cleared | Alpha-Lock NOT CLEARED; no production |
+| Gate Six restatement conflicts with original prompt or candidate | Gate Six NOT CLEARED; Alpha-Lock NOT CLEARED; re-evaluate affected earlier receipts |
+| All first six receipts CLEARED but received out of order | Gate Seven NOT CLEARED; no production |
+| All first six receipts CLEARED in order, then candidate revision changes | Invalidate affected chain, restart Gate One; Alpha-Lock remains locked |
+| Gates One–Six CLEARED in order but independent Alpha-Lock control unavailable | Gate Seven NOT CLEARED; no production |
+| Gates One–Six CLEARED in order for unchanged effect, valid authority, independently cleared Alpha-Lock | Gate Seven CLEARED for exact bounded effect; production may begin, subject to other binding controls |
 
 **Status:** These are **standing proposed gates for the generic expert-system seed**, not proof that lock enforcement, iterative control, inter-agent communication, or delegated authorization exists. No gate may silently adopt a synthetic decision as fact or policy.
 
-### Proposed decision order
+### Proposed decision order — corrected seven-gate profile
+
+Candidate preparation uses contract-bound rules, deterministic methods, expert-system inference and approved tools. **LLM orchestration remains a last resort** and supplies only a candidate; it never counts as a gate pass.
 
 ```text
-REQUEST
-  -> GATE 6 INTERPRETATION RESTATEMENT [IF ADOPTED]
-  -> EXPLICIT CONTRACT AND AUTHORITY CHECK
-  -> EVIDENCE AND RULE MATCH
-  -> DETERMINISTIC / HEURISTIC / EXPERT-SYSTEM ROUTE
-  -> CONTRACT-CHECKED CANDIDATE
-  -> INFORMED OPERATOR VALIDATION [IF EXPLICIT HUMAN VALIDATION REQUIRED]
-  -> GATE 5 INDEPENDENT CONTROLS [IF ADOPTED / RISK-TRIGGERED]
-  -> VALIDATION AND GATE 1 EFFECT ADMISSION
-  -> AUTHORIZED OUTCOME OR REFUSAL
+REQUEST -> CONTRACT / EVIDENCE -> RULES / DETERMINISTIC TOOLS
+    -> CANDIDATE
+    -> if permitted and unresolved: LABELLED LLM-GENERATED CANDIDATE
 
-Only if the contracted routes cannot resolve the request
-AND the contract explicitly allows a last-resort proposal:
-  -> GENERATIVE SYNTHETIC CANDIDATE
-  -> LABEL + PROVENANCE + REVIEW
-  -> INFORMED OPERATOR VALIDATION [IF EXPLICIT HUMAN VALIDATION REQUIRED]
-  -> GATE 5 INDEPENDENT CONTROLS [IF ADOPTED / RISK-TRIGGERED]
-  -> VALIDATION AND SEPARATE GATE 1 ADMISSION
-  -> AUTHORIZED OUTCOME OR UNRESOLVED / REFUSED
+CANDIDATE
+    -> GATE 1 CLEARED  [first production authorization; do not act]
+    -> GATE 2 CLEARED  [bounded reiteration assessment]
+    -> GATE 3 CLEARED  [handoff assessment]
+    -> GATE 4 CLEARED  [informed validation assessment]
+    -> GATE 5 CLEARED  [consequence and independent review]
+    -> GATE 6 CLEARED  [final faithful prompt restatement]
+    -> GATE 7 CLEARED  [independently controlled ALPHA-LOCK]
+    -> PRODUCTION MAY BEGIN FOR THE EXACT AUTHORIZED EFFECT
+
+ANY NOT CLEARED -> ALPHA-LOCK REMAINS LOCKED -> NO PRODUCTION
 ```
 
-This is an ordering sketch, not a claimed executable workflow. A generated candidate cannot revise the contract, infer consent, or elevate its own authority. All illustrative variable names and bounded states are explained in the human-readable Gate Zero notation guide, Tranche catalog and identifier glossary.
-
+This is a theoretical order, not executable code. It does not authorize a project to select the new seven-gate profile or let the producing model alter locked control planes. See the dated erratum for the earlier error and correction.
 
 ## Part IX — Bounded adversarial audit: all eighteen Closure Stage Two findings
 
