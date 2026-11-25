@@ -1,19 +1,19 @@
 # Programming Invariants — Separate Opt-In Register
 
-These preferences do **not** constitute a Gate 0 authority grant or universal security certification. The [full C3 programming decision record](records/C3/05_C3_PROGRAMMING_REGISTER.md) is the accepted accounting.
+These preferences do **not** constitute a Gate 0 authority grant or universal security certification. The [full Closure Stage C3 programming decision record](records/C3/05_C3_PROGRAMMING_REGISTER.md) is the accepted accounting.
 
-| ID | Practice | C3 disposition |
+| Human-readable identifier | Practice | Closure Stage C3 disposition |
 | --- | --- | --- |
-| PVI-01 | Deterministic bounded iteration | Accepted optional preference |
-| PVI-02 | Literal deterministic loop unrolling | Deferred as a universal invariant; available as a technique |
-| PVI-03 | Explicit sentinel states | Accepted optional preference |
-| PVI-04 | Variables declared and placed in a known state before use | Accepted optional preference |
-| PVI-05 | Human-legible identifier conventions | Accepted optional preference |
-| PVI-06 | Human-legible program flow | Accepted optional preference |
-| PVI-07 | Work on an isolated copy obtained through an explicit source reference | Accepted optional preference |
-| PVI-08 | Establish a safe fallback **before** attempting the copy | Accepted optional preference |
+| **Programming Verification Invariant 01** (`PVI-01`) | Deterministic bounded iteration | Accepted optional preference |
+| **Programming Verification Invariant 02** (`PVI-02`) | Literal deterministic loop unrolling | Deferred as a universal invariant; available as a technique |
+| **Programming Verification Invariant 03** (`PVI-03`) | Explicit sentinel states | Accepted optional preference |
+| **Programming Verification Invariant 04** (`PVI-04`) | Variables declared and placed in a known state before use | Accepted optional preference |
+| **Programming Verification Invariant 05** (`PVI-05`) | Human-legible identifier conventions | Accepted optional preference |
+| **Programming Verification Invariant 06** (`PVI-06`) | Human-legible program flow | Accepted optional preference |
+| **Programming Verification Invariant 07** (`PVI-07`) | Work on an isolated copy obtained through an explicit source reference | Accepted optional preference |
+| **Programming Verification Invariant 08** (`PVI-08`) | Establish a safe fallback **before** attempting the copy | Accepted optional preference |
 
-A reference to a mutable object is not automatically an isolated copy. A sentinel must not be mistaken for legitimate data. A successful validation does not automatically authorize committing a result. A fallback may not compensate for irreversible external effects; that stronger claim is deferred as T2-06.
+A reference to a mutable object is not automatically an isolated copy. A sentinel must not be mistaken for legitimate data. A successful validation does not automatically authorize committing a result. A fallback may not compensate for irreversible external effects; that stronger claim is deferred as **Tranche 2, Item 06 — Pre-Copy Fallback (`T2-06`)**.
 
 ## Preferred human-readable programming form
 
@@ -23,4 +23,4 @@ A reference to a mutable object is not automatically an isolated copy. A sentine
 - Distinguish `UNRESOLVED`, `REFUTED`, `NOT_APPLICABLE`, and `SUPPORTED` when the selected evidence model requires them; none implicitly authorizes an effect.
 - Preserve the original through an appropriate isolated copy, **establish the fallback before copying**, and separate validation of a candidate from authorization to commit.
 
-See the [complete human-readable notation and bounded pseudocode](NAMING_AND_PSEUDOCODE.md) and the [earlier C2 programming record](records/C2/05_PROGRAMMING_INVARIANTS.md).
+See the [complete human-readable notation and bounded pseudocode](NAMING_AND_PSEUDOCODE.md) and the [earlier Closure Stage C2 programming record](records/C2/05_PROGRAMMING_INVARIANTS.md).
