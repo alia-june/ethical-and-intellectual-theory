@@ -46,3 +46,12 @@ The initial lack of receipt-to-material equality was addressed *structurally* in
 **Residual counterexample:** A mocked adversary who updates the source data **and all simulated authenticated receipt snapshots** together can still obtain mock `CLEARED`. This is a deliberate demonstration that **R1-003 — Authenticated Receipt Trust** remains unmet; merely matching canonical material is not proof of legitimate signed authority. R1-001 and R1-005 are **modeled only**, not certified.
 
 The next research pass should bind exact material, authentic authorization, causal ordering, and commit-time validation into one explicit assumption-aware model; it must not claim deployment or production gate clearance.
+
+
+## Addendum R3 — Integrated signed-fixture model (2026-11-26)
+
+**R1-001 / R1-005:** Material-to-receipt and policy/condition revision binding are now integrated *structurally* into the bounded R3 model, which verifies signed payload digests against the exact current material. **R1-003:** Ed25519 signature verification relative to ephemeral fixture public keys was exercised; independently legitimate signer identity, custody, rotation and revocation are **not established**.
+
+**R1-002:** Full revocation coverage remains an assumed Boolean; the causal graph is not an authenticated external event log. **R1-004:** External authority hierarchy/precedence is undefined outside the fixture. **R1-006:** A distinct Alpha-Lock signing key is not proof of an independent controller. **R1-009:** An in-memory nonce-consumption operation is not an atomic external effect-commit transaction. **R1-008:** Only declared effects and rules are covered.
+
+The exact tested R3 source and 2,084-case result are documented in \`11_R3_INTEGRATED_GATE_COMMIT_REPORT.md\`. Next work: authoritative trust roots, signed revocation-feed coverage, reliable causal ordering and a genuine commit-time serialization model. **No original UNKNOWN or proof-obligation disposition has changed.**

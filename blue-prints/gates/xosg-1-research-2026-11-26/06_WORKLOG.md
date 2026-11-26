@@ -51,3 +51,13 @@ Establish typed object/authority/effect/condition domains; evaluate the deferred
 4. Deliberately regenerated coherent source and mock receipts together: the fixture still returned `CLEARED`, proving that structural consistency **cannot replace external authentication**.
 5. Marked R1-001 and R1-005 as **structurally modeled in this isolated mock**, but **not independently verified or operationally resolved**. R1-003 (authenticity), R1-002 (revocation feed), R1-009 (atomic commit) remain OPEN.
 6. Neither research evaluator is instrumented, and **the two have not yet been integrated into a single end-to-end tested model**. No promotion, Gate One release, or Alpha-Lock clearance occurred.
+
+
+## R3 — Integrated signed-fixture study (2026-11-26)
+
+1. Created an offline Node.js 22 research model combining source-material SHA-256 binding, a signed issuer-grant fixture, Gates One–Six signed predecessor-linked receipts, a separately signed fixture Alpha-Lock receipt, bounded cumulative effect closure, event-DAG ordering and revocation classes.
+2. Executed the exact source: **2,048 bounded test combinations plus 36 targeted adversarial/edge cases = 2,084/2,084 expected results**, including two mock CLEARED bounded fixtures; zero mismatches. The code passed Node syntax verification.
+3. Published the byte-identical model source: SHA-256 \`9cc4e5a84dca0051086afc347ad0ed4da19a1b894315c85a1cf20f420780cea1\`, Git blob SHA-1 \`446ae6b76aad3355e93e64f1bad705ca799f6d90\`.
+4. Produced R3 integrated research report and separate external authority/revocation/atomic-commit obligations.
+5. Ephemeral signing keys and the trust registry are held in one fixture process. The model's revocation feed completeness and causal graph are assumed input data, and its session consumption is in memory only. Consequently **no independent real-world issuer authorization, external Alpha-Lock, or atomic production effect is proved**.
+6. Previous atomic deferrals and Tranches Four–Seven remain unpromoted; PO-01–PO-11 remain OPEN, U-001–U-014 remain UNKNOWN. No operations contract activation or es-xosg-9 instrumentation occurred.

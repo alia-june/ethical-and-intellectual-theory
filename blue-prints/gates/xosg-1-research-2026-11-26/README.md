@@ -36,9 +36,17 @@ The previous Gate Zero v0.4 foundation (eight promoted theoretical axioms) and G
 - **09_DEFECTS_COUNTERMODELS_AND_RESEARCH_ORDER.md** — identifies a receipt-to-material binding gap and eight additional unverified assumptions; records the next countermodel order.
 - **finite_clearance_commit_model.test.js** — executable research-only finite evaluator; **8,230** mock fixtures returned their expected outcomes.
 
-**R2-01 material-binding follow-up:** [10_MATERIAL_BINDING_R2_RESULTS.md](10_MATERIAL_BINDING_R2_RESULTS.md) and [material_receipt_binding_model.test.js](material_receipt_binding_model.test.js) record **2,048 exhaustive material-change combinations plus 17 targeted cases, all matching expected outcomes**. A deliberately forged-source-and-receipts fixture demonstrates that structural equality cannot authenticate the source. This separate model is **not yet integrated with the event-order mock**.
+**Earlier R2-01 material-binding follow-up (prior to R3 integration):** [10_MATERIAL_BINDING_R2_RESULTS.md](10_MATERIAL_BINDING_R2_RESULTS.md) and [material_receipt_binding_model.test.js](material_receipt_binding_model.test.js) record **2,048 exhaustive material-change combinations plus 17 targeted cases, all matching expected outcomes**. A deliberately forged-source-and-receipts fixture demonstrates that structural equality cannot authenticate the source. These models were separate at R2-01; the later R3 model integrates both behaviors.
 
-The second-pass result is **not** a proof of runtime enforcement or a promotion decision. In particular, the model currently checks names but does not bind complete operation content and condition revision to the receipts.
+The R1 finite model initially checked names without full material binding; R2 investigated material binding independently, and R3 tested both together with fixture signatures. None is proof of runtime enforcement, independent external authority or an operational release.
+
+## R3 — Integrated signed-fixture model (2026-11-26)
+
+- [R3 integrated test report](11_R3_INTEGRATED_GATE_COMMIT_REPORT.md): **2,048 bounded combinations plus 36 targeted cases; 2,084/2,084 expected outcomes observed**.
+- [Trust-root, revocation and atomic commit research obligations](12_R3_TRUST_AND_ATOMIC_COMMIT_OBLIGATIONS.md): external authorization and real effect-commit requirements remain open.
+- [Reproducible integrated offline Node.js source](integrated_gate_commit_research.test.js): tests ephemeral Ed25519 keys, chained receipts, full material digests, bounded cumulative effects, causal order and revocation cases.
+
+**Scope:** Genuine Ed25519 signature checks run against *fixture-controlled keys*; no real legitimate issuer or independently authorized controller is established. The model has no external effects and is not es-xosg-9 instrumentation.
 
 ## Governing distinction
 

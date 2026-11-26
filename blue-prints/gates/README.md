@@ -4,7 +4,7 @@
 
 **Primary specification:** [xOSG-1 Operations Contract](xOSG-1_OPERATIONS_CONTRACT.md) (formerly *Expert Systems Operation*) embeds the Gate Zero axioms, named Tranches, dependencies, pseudocode, ordered Gates One through Seven including Alpha-Lock, proposed tests, audit, open obligations, promotion decisions, deferrals, and unknowns in one continuous document. It contains **no internal links or required companion material**. Its instrumented realization is designated **`es-xosg-9`** only once instrumentation actually exists. LLM orchestration remains a contract-controlled last resort.
 
-**Resumed research (2026-11-26):** [xOSG-1 pending and deferred research](xosg-1-research-2026-11-26/README.md) includes first-pass semantics for four deferred atomic items and Tranches Four–Seven, all 11 proof obligations and 14 unknowns, and 31 in-memory seven-gate dry-run tests. **Candidate research only; no new promotion, implementation or clearance.**
+**Resumed research (2026-11-26), including the R3 integrated signed-fixture model:** [xOSG-1 pending and deferred research](xosg-1-research-2026-11-26/README.md) includes first-pass semantics for four deferred atomic items and Tranches Four–Seven, all 11 proof obligations and 14 unknowns, and 31 initial in-memory seven-gate tests; the later integrated research model matched **2,084/2,084 expected cases** using temporary fixture Ed25519 keys. **Candidate research only; no independently established external authority, new promotion, instrumentation, or production clearance.**
 
 This directory also retains two focused reading paths:
 
