@@ -25,7 +25,7 @@ The previous Gate Zero v0.4 foundation (eight promoted theoretical axioms) and G
 1. **01_ATOMIC_RESEARCH.md** — all four deferred atomic items, with candidate semantics and countermodels.
 2. **02_TRANCHES_4_TO_7.md** — a first substantive modular study of composition, time, independent assurance and recovery.
 3. **03_PROOFS_AND_UNKNOWNS.md** — all eleven open proof obligations and all fourteen unknown claims, with bounded research actions.
-4. **04_GATE_SEVEN_DRYRUN.md** — 31 test outcomes for a simplified Alpha-Lock receipt model, including what the test cannot prove.
+4. **04_GATE_SEVEN_DRYRUN.md** and **alpha_lock_research_model.test.js** — the 31-test report and reproducible, mock-only JavaScript evaluator.
 5. **05_OTHER_DEFERRED.md** — Gate Five consequence refinement, loop-unrolling, substitution and instrumented-system boundaries.
 6. **06_WORKLOG.md** — decision and progress ledger.
 
