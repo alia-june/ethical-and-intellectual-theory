@@ -42,3 +42,12 @@ Establish typed object/authority/effect/condition domains; evaluate the deferred
 6. Preserved historic C2/C3 records and all theoretical decision states; did not modify the primary xOSG-1 Operations Contract or run any operational controller.
 
 **Proof status:** PO-01–PO-11 still OPEN; U-001–U-014 still UNKNOWN. **Instrumentation:** es-xosg-9 still NOT ESTABLISHED. No clearance/implementation authorized.
+
+## R2-01 — Material-to-Receipt Binding Research (2026-11-26)
+
+1. Identified that named receipt identifiers did not structurally bind the underlying operation/effect/condition material in the prior model (Issue R1-001).
+2. Created a separate bounded mock with canonical material text embedded in each receipt; mutation invalidates old structural receipts.
+3. Evaluated **2,048** gate/mutation combinations plus **17** targeted cases; **2,065/2,065** returned expected outcomes.
+4. Deliberately regenerated coherent source and mock receipts together: the fixture still returned `CLEARED`, proving that structural consistency **cannot replace external authentication**.
+5. Marked R1-001 and R1-005 as **structurally modeled in this isolated mock**, but **not independently verified or operationally resolved**. R1-003 (authenticity), R1-002 (revocation feed), R1-009 (atomic commit) remain OPEN.
+6. Neither research evaluator is instrumented, and **the two have not yet been integrated into a single end-to-end tested model**. No promotion, Gate One release, or Alpha-Lock clearance occurred.

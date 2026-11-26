@@ -36,6 +36,8 @@ The previous Gate Zero v0.4 foundation (eight promoted theoretical axioms) and G
 - **09_DEFECTS_COUNTERMODELS_AND_RESEARCH_ORDER.md** — identifies a receipt-to-material binding gap and eight additional unverified assumptions; records the next countermodel order.
 - **finite_clearance_commit_model.test.js** — executable research-only finite evaluator; **8,230** mock fixtures returned their expected outcomes.
 
+**R2-01 material-binding follow-up:** [10_MATERIAL_BINDING_R2_RESULTS.md](10_MATERIAL_BINDING_R2_RESULTS.md) and [material_receipt_binding_model.test.js](material_receipt_binding_model.test.js) record **2,048 exhaustive material-change combinations plus 17 targeted cases, all matching expected outcomes**. A deliberately forged-source-and-receipts fixture demonstrates that structural equality cannot authenticate the source. This separate model is **not yet integrated with the event-order mock**.
+
 The second-pass result is **not** a proof of runtime enforcement or a promotion decision. In particular, the model currently checks names but does not bind complete operation content and condition revision to the receipts.
 
 ## Governing distinction

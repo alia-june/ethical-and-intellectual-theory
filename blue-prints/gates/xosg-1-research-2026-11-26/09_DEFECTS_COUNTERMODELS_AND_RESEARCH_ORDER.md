@@ -38,3 +38,11 @@
 **Pass R2-05:** Reassess optional module substitutions and Gate Five consequence thresholds after the core model is stabilized.
 
 None of these passes constitutes authorization to implement, select a security profile, alter a gate, or promote a deferred axiom.
+
+## Addendum R2-01 — Bounded correction, not full closure (2026-11-26)
+
+The initial lack of receipt-to-material equality was addressed *structurally* in a separate mock model that binds canonical operation plans, interaction rules, grant scope and mandatory-condition/policy revisions to every receipt. A 2,065-case test suite produced expected results, but it is not integrated with the causal event model.
+
+**Residual counterexample:** A mocked adversary who updates the source data **and all simulated authenticated receipt snapshots** together can still obtain mock `CLEARED`. This is a deliberate demonstration that **R1-003 — Authenticated Receipt Trust** remains unmet; merely matching canonical material is not proof of legitimate signed authority. R1-001 and R1-005 are **modeled only**, not certified.
+
+The next research pass should bind exact material, authentic authorization, causal ordering, and commit-time validation into one explicit assumption-aware model; it must not claim deployment or production gate clearance.
