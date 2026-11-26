@@ -29,6 +29,15 @@ The previous Gate Zero v0.4 foundation (eight promoted theoretical axioms) and G
 5. **05_OTHER_DEFERRED.md** — Gate Five consequence refinement, loop-unrolling, substitution and instrumented-system boundaries.
 6. **06_WORKLOG.md** — decision and progress ledger.
 
+## Second pass — finite semantic modeling (2026-11-26)
+
+- **07_CORE_SEMANTIC_UNIVERSE.md** — authority, conditions, cumulative effects and causal time as explicit finite-domain predicates.
+- **08_FINITE_MODEL_CHECK_REPORT.md** — the **8,192 exhaustive finite-domain cases** and **38 targeted cases**, with the observed outcomes and scope limitations.
+- **09_DEFECTS_COUNTERMODELS_AND_RESEARCH_ORDER.md** — identifies a receipt-to-material binding gap and eight additional unverified assumptions; records the next countermodel order.
+- **finite_clearance_commit_model.test.js** — executable research-only finite evaluator; **8,230** mock fixtures returned their expected outcomes.
+
+The second-pass result is **not** a proof of runtime enforcement or a promotion decision. In particular, the model currently checks names but does not bind complete operation content and condition revision to the receipts.
+
 ## Governing distinction
 
 **Defined ≠ proven ≠ adopted ≠ instrumented ≠ authorized to act.** A gate returning CLEARED in a mock is not an actual gate clearance. The first production gate (Gate One) never permits production without the independent seventh gate, Alpha-Lock. Deferred and UNKNOWN entries are not silently promoted by this research pass.

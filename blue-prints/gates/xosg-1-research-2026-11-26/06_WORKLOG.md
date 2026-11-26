@@ -31,3 +31,14 @@
 ## Next bounded analytical order
 
 Establish typed object/authority/effect/condition domains; evaluate the deferred evidence/provenance semantics against adversarial graphs; specify revocation vs atomic effect commit; examine independent verifier trust roots; develop Tranche Four cumulative-effect countermodels; define Tranche Seven authorized recovery. **Any theoretical promotion, actual controller implementation or production change requires a separate explicit decision.**
+
+## Second-pass continuation — 2026-11-26
+
+1. Developed explicit finite type domains for grant source/scope, mandatory condition completeness, direct and emergent effects, receipt identity and partial-order causal events.
+2. Executed a model sweep over **64 gate-result combinations × 32 prerequisite combinations × 4 revocation classes = 8,192** fixtures; **8,192 matched declared expectations**, including 2 mock-positive cases.
+3. Executed **38 adversarial/structural cases**; 38 matched expected results. **Total: 8,230/8,230** mock cases returned expected outcomes.
+4. Published the generated research-only JavaScript fixture evaluator, semantic specification and test report.
+5. **Found and disclosed issue R1-001**: the test receipts do not yet bind the exact material operation/effect/condition content despite checking named candidate/revision fields. Added R1-002 through R1-009 for assumptions remaining unestablished.
+6. Preserved historic C2/C3 records and all theoretical decision states; did not modify the primary xOSG-1 Operations Contract or run any operational controller.
+
+**Proof status:** PO-01–PO-11 still OPEN; U-001–U-014 still UNKNOWN. **Instrumentation:** es-xosg-9 still NOT ESTABLISHED. No clearance/implementation authorized.
