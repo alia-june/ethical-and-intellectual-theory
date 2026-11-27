@@ -4,15 +4,22 @@
 
 Public overview | 23 November 2026
 
-[Public glossary of terms](GLOSSARY.md) — Reader explanations with the same disclosure limits as this overview.
+[Public glossary of terms](GLOSSARY.md) — Reader explanations with the same disclosure limits as this overview.  
+[Integrated research architecture](ARCHITECTURE.md) — Public component relationships, controlled standing, provenance limits, and release status.
 
 ## Purpose and disclosure boundary
 
-Integrity of Legal Reasoning is the primary name of the research program formerly identified by the legacy codename Bellotti Ladder. It is a developing research program concerned with the quality, accountability, and constitutional responsibility of legal reasoning. Its starting subject is corporate constitutional protection. Its broader interests include the evaluation of legal arguments, the responsible use of analytical tools, and the standards needed before research claims are presented as established conclusions.
+Integrity of Legal Reasoning is the primary name of the developing research program concerned with the quality, accountability, and constitutional responsibility of legal reasoning. Bellotti Ladder is preserved within that program as a proposition-level recursive precedent and justificatory-dependency audit. Some historical materials used Bellotti Ladder as a broader project name; this overview retains that history without discarding the method's distinct function. The program's starting subject is corporate constitutional protection. Its broader interests include the evaluation of legal arguments, the responsible use of analytical tools, and the standards needed before research claims are presented as established conclusions.
 
 This overview covers the named theory families represented in the reviewed research. It describes their purposes, maturity, limitations, and safeguards. It intentionally withholds underlying mechanisms, diagnostic procedures, detailed applications, formal models, and new deductions. The detailed evidence records are separate research materials and are not incorporated by reference into this document.
 
 This is a statement of a research program, not a complete technical disclosure. Readers should not treat withheld analysis as proof of a public claim. Where this overview does not provide enough evidence for independent evaluation, the appropriate status is limited or unresolved. Responsible restraint in disclosure must be accompanied by restraint in claims.
+
+## Integrated component relationships
+
+The [integrated architecture](ARCHITECTURE.md) distinguishes the umbrella program from its methods, diagnostic vocabulary, proposed formal tool, attestation designs, and governance layer. Bellotti Ladder traces typed propositions and necessary justificatory dependencies through precedent. Condition Capture and Defeat supplies the maintained public diagnostic vocabulary. Implication is a separate consequence-neutral specification concerned with truth, contradiction, support, authority, analogy, risk, and hypothetical possibility. Multidimensional and Constitutional Attestation preserve separate constitutional, natural-person-rights, trajectory, and governance assessments.
+
+These relationships are source-controlled research classifications. They do not establish that the complete methods have been independently validated or implemented.
 
 ## Constitutional reasoning as the principal subject
 
@@ -64,7 +71,7 @@ The related work on Open-World Uncertainty, Closed Testing, Domain-Relative Infe
 
 ## Formal tools and attestation research
 
-Implication is the name of a proposed formal-analysis tool. Multidimensional Attestation, Constitutional Attestation, Rights-Impact Review, and Trajectory Review are associated design areas. This overview names these projects without supplying their models, procedures, implementation requirements, or technical relationships.
+Implication is the name of a proposed consequence-neutral formal-analysis tool. Its specification separates admitted truth and falsity, contradiction, known proof support, independent surviving support, operative legal authority, analogy, risk, and hypothetical possibility. Loss of all examined support for a proposition does not by itself prove the proposition false. Multidimensional Attestation, Constitutional Attestation, Rights-Impact Review, and Trajectory Review are associated frozen design areas. This overview names these projects and their public relationships without supplying formal rules, case-level proof graphs, operating procedures, implementation requirements, or the withheld engine specification.
 
 The reviewed material does not establish a completed, independently validated system implementing the full program. Design requirements, recorded intentions, and frozen specifications must not be advertised as demonstrated capabilities. Software correctness, legal interpretation, and institutional responsibility each require evidence appropriate to the claim being made.
 
