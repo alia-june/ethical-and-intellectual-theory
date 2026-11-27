@@ -41,6 +41,70 @@ An independent later justification can become a new root for a proposition. Earl
 
 A shared case name or opposite outcomes do not establish contradiction. The compared proposition and its material predicates must be equivalent, and no valid distinction or independent support may account for the difference.
 
+## Successor derivations: repair and finite reporting
+
+The following propositions were derived on 27 November 2026 from the integrated architecture. They are successor theory, not archive-explicit findings, settled law, independently validated conclusions, or implemented operating rules.
+
+### TH-021 — No Naked Implication
+
+When a historical premise fails or becomes unnecessary, releasing that substrate means removing it from active load-bearing service while preserving its provenance. It does not mean deleting the historical record.
+
+A retained implication must not survive as a bare conclusion. It must remain attached to a typed record:
+
+```text
+I* = <P, K, S, B, A, E>
+```
+
+- `P`: the proposition retained.
+- `K`: its material conditions and predicates.
+- `S`: its minimum surviving support, including any independent re-anchoring.
+- `B`: its boundaries, exceptions, and known defeaters.
+- `A`: its authority and formally operative status.
+- `E`: its evidence and provenance.
+
+An unknown field remains `UNKNOWN`; it is not silently omitted. Thus, `retained implication != unsupported conclusion`.
+
+### TH-022 — Minimal Surviving Proposition
+
+After a dependency crack, the object of repair is not the strongest desired rule. It is the strongest proposition actually warranted by the surviving support, within the remaining scope and burden.
+
+If several supported propositions are incomparable, the analysis reports each maximal candidate rather than selecting one without justification. Permissible outcomes include:
+
+1. The original proposition survives.
+2. An independently re-anchored proposition survives.
+3. Only a narrower proposition survives.
+4. Only a conditional or temporary proposition survives.
+5. No proposition presently survives.
+6. The result remains unresolved.
+
+Loss of the original proposition's support does not itself establish its negation.
+
+### TH-023 — Burden-Bounded Repair
+
+A repair derived from a surviving proposition must not exceed the scope, authority, or burden that the surviving support can carry. It must also not become more restrictive than the cracked rule it repairs. A more burdensome rule supported by genuinely new authority is a new root, not a repair attributed to the old rule.
+
+Possible repairs include a narrower class or regulated act, an exception, an evidentiary threshold, a milestone, a review condition, an expiration point, a renewed-evidence requirement, or removal of the unsupported restriction.
+
+Metrics inferred from the evidence are analytical implications. Metrics chosen for administration or policy are governance proposals. The two must remain separately labeled.
+
+### TH-024 — Potentially Unbounded Recursion, Finitely Reported
+
+Dependency analysis may continue without a fixed theoretical depth, but each issued report must be finite and auditable. Every terminated branch records why it stopped.
+
+Recognized stopping states include:
+
+- demonstrated independent re-anchoring;
+- immateriality to the proposition under examination;
+- a detected cycle;
+- a current authoritative root;
+- an unavailable or unknown dependency;
+- a declared research boundary; or
+- exhaustion of the identified sources.
+
+A stopping state closes the reported branch; it does not certify unseen ancestry. Recursion depth and report completeness are therefore distinct statuses.
+
+These derivations extend the architecture's repair discipline without changing the production lock or the status of the frozen archives.
+
 ## Typed doctrinal material
 
 The research treats a doctrine under examination as a typed set that may include holdings, necessary justifications, materially relevant implications, contradictions or dependency failures, and express boundaries. Inclusion in the analytical set requires treatment; it does not give every item identical precedential authority.
