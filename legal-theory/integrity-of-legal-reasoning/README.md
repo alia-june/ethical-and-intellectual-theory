@@ -21,6 +21,8 @@ The [integrated architecture](ARCHITECTURE.md) distinguishes the umbrella progra
 
 These relationships are source-controlled research classifications. They do not establish that the complete methods have been independently validated or implemented.
 
+**27 November 2026 navigation update:** The architecture now records four [successor proposals on repair and finite reporting](ARCHITECTURE.md#successor-derivations-repair-and-finite-reporting): No Naked Implication, Minimal Surviving Proposition, Burden-Bounded Repair, and Potentially Unbounded Recursion, Finitely Reported. The [public glossary](GLOSSARY.md) explains these additions at a conceptual level. Their status remains proposed successor theory, with independent validation and implementation outstanding; they do not reclassify the frozen archive findings.
+
 ## Constitutional reasoning as the principal subject
 
 The Integrity of Legal Reasoning research concerns the careful study of constitutional reasoning in a defined area of law. It seeks to improve the precision with which a research claim is stated, attributed, examined, and qualified. Its name does not imply that constitutional protections inevitably develop in a particular direction or that a preferred legal outcome has been established.
