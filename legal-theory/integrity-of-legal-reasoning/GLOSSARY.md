@@ -24,7 +24,9 @@ Across the glossary, a research classification is distinct from a legal determin
 
 ### Bellotti Ladder
 
-**Legacy codename.** The former name of the research program now called Integrity of Legal Reasoning. It remains useful for identifying earlier archives, titles, and discussions accurately. The current name reflects the program's broader subject, while the legacy name preserves the continuity of its record. Historical appearances should be read in their source context. They do not establish a second current program, an additional legal doctrine, or a prediction about the development of constitutional rights.
+**Archive-explicit research method with bounded controls.** A proposition-level recursive audit of precedent and necessary justificatory dependency within the Integrity of Legal Reasoning program. It distinguishes a proposition from the case name that contains it, preserves source and scope, traces only necessary inherited support, recognizes independent later justification as a new root, and retains negative findings. Earlier materials sometimes used Bellotti Ladder as a broader project name. The term remains the name of a distinct method rather than only a retired codename.
+
+The public account does not provide the complete tracing procedure, case-level proof graphs, or unpublished classifications. Archive-controlled results are not automatically independently validated legal conclusions.
 
 ### Closed Testing
 
@@ -76,7 +78,9 @@ Across the glossary, a research classification is distinct from a legal determin
 
 ### Implication
 
-**Proposed tool name.** A formal-analysis project associated with the research program. Its intended purpose is to support disciplined examination of arguments and make analytical claims easier to assess. The source material describes a design ambition rather than a completed, independently validated implementation of the full program. This entry does not supply models, interfaces, rules, or operating instructions. A precise-looking output from any future tool would still require an adequate basis and a clear account of its limits.
+**Specification-only proposed tool.** A consequence-neutral formal-analysis project associated with the research program. Its design separates truth and falsity, contradiction, known proof support, independent surviving support, operative authority, analogy, risk, and hypothetical possibility. Loss of every examined proof route for a proposition does not by itself prove the proposition false.
+
+The proof calculus, kernel, independent solver checks, interfaces, and constitutional-attestation integrations have not been selected, implemented, or validated. The project remains production locked. Precise-looking future output would still require adequate evidence, typed authority, explicit scope, independent constitutional and rights-impact review, and a separate governance decision.
 
 ### Independent Re-anchoring
 
@@ -88,7 +92,9 @@ Across the glossary, a research classification is distinct from a legal determin
 
 ### Integrity of Legal Reasoning
 
-**Primary program name.** A developing research program concerning the quality, accountability, and constitutional responsibility of legal reasoning. It includes conceptual work, bounded analyses, proposals, and unresolved questions, with differing levels of maturity. Its purpose is to improve the care with which research questions and conclusions are expressed. The name identifies a subject of inquiry; it does not claim universal correctness, judicial adoption, or proof of a general institutional failure. Bellotti Ladder is its legacy codename.
+**Primary program name.** The umbrella research program concerning the quality, accountability, and constitutional responsibility of legal reasoning. It contains Bellotti Ladder as a recursive precedent and dependency method, Condition Capture and Defeat as maintained public diagnostic vocabulary, Implication as a proposed formal tool, and separate attestation and governance design areas. These components have different maturity and validation states.
+
+The program includes conceptual work, bounded controls, negative findings, proposals, and unresolved questions. Its name does not claim universal correctness, judicial adoption, proof of general institutional failure, or implementation. Historical uses of Bellotti Ladder as a broader project name remain part of provenance without erasing Bellotti Ladder's distinct methodological function.
 
 ### Justificatory Drift
 
