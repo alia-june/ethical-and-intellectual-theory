@@ -1,12 +1,14 @@
 # Integrity of Legal Reasoning Public Glossary
 
-Conceptual explanations and responsible disclosure | Expanded edition | 23 November 2026
+Conceptual explanations and responsible disclosure | Expanded edition | 23 November 2026 | Updated 27 November 2026
 
 This glossary accompanies the [public overview of Integrity of Legal Reasoning](https://github.com/alia-june/ethical-and-intellectual-theory/blob/main/legal-theory/integrity-of-legal-reasoning/README.md). It explains what the disclosed research names concern, why those subjects matter, and how firmly the work is established. It also defines ordinary terms used to describe evidence and research status.
 
 The entries offer conceptual orientation rather than complete technical definitions. They do not provide diagnostic criteria, application procedures, formal models, causal chains, historical terminology crosswalks, worked cases, or novel deductions. Sensitive concepts receive a useful description of their subject without the detail needed to apply the underlying research. Some labels identify editorial groupings rather than independently defined theories.
 
 Across the glossary, a research classification is distinct from a legal determination. Naming a concern does not establish misconduct, intention, liability, judicial adoption, or authority to act. A design description does not demonstrate an implemented capability. These general limits apply throughout, allowing individual entries to concentrate on meaning rather than repeating the same caution.
+
+The four entries marked **successor theory proposal** summarize the additions first recorded on 27 November 2026 in the public [integrated research architecture](ARCHITECTURE.md#successor-derivations-repair-and-finite-reporting). Their source assigns proposed status, with independent validation and implementation still outstanding. They are distinct from the frozen archives' controlled findings.
 
 ## Glossary
 
@@ -27,6 +29,10 @@ Across the glossary, a research classification is distinct from a legal determin
 **Archive-explicit research method with bounded controls.** A proposition-level recursive audit of precedent and necessary justificatory dependency within the Integrity of Legal Reasoning program. It distinguishes a proposition from the case name that contains it, preserves source and scope, traces only necessary inherited support, recognizes independent later justification as a new root, and retains negative findings. Earlier materials sometimes used Bellotti Ladder as a broader project name. The term remains the name of a distinct method rather than only a retired codename.
 
 The public account does not provide the complete tracing procedure, case-level proof graphs, or unpublished classifications. Archive-controlled results are not automatically independently validated legal conclusions.
+
+### Burden-Bounded Repair
+
+**Successor theory proposal — 27 November 2026.** A proposed limit on how a rule is repaired after a supporting dependency fails. The repair must stay within the scope, authority, and burden that the surviving support can justify, and must not become more restrictive than the rule being repaired. A more burdensome rule resting on genuinely new authority must be assessed as a new root. The proposal concerns the justification of a repair; it does not itself authorize a restriction or establish a remedy. See the public [successor proposals](ARCHITECTURE.md#successor-derivations-repair-and-finite-reporting).
 
 ### Closed Testing
 
@@ -116,6 +122,10 @@ The program includes conceptual work, bounded controls, negative findings, propo
 
 **Research concept.** A name in the program's consideration of how legal doctrine is understood and represented in analysis. Its subject is the adequacy of an account of doctrine, rather than the mere presence of a citation or familiar title. The proposed internal structure is withheld. The concept remains part of the research framework and should not be read as enlarging the formal scope of precedent or making every observation about a doctrine legally binding.
 
+### Minimal Surviving Proposition
+
+**Successor theory proposal — 27 November 2026.** A name for identifying what the remaining support actually warrants after a dependency fails. The inquiry seeks the strongest proposition justified within the surviving scope and burden. A result may preserve the original proposition, rely on an independent justification, support a narrower or conditional proposition, leave no presently supported proposition, or remain unresolved. Incomparable supported candidates remain visible rather than being reduced to one preferred answer. Failure of the original support does not itself establish the conclusion's negation. See the public [successor proposals](ARCHITECTURE.md#successor-derivations-repair-and-finite-reporting).
+
 ### Multidimensional Attestation
 
 **Proposed design area.** Work concerned with expressing analytical assessments clearly, including the scope and qualifications attached to them. The intended benefit is a more accountable presentation of conclusions, especially where a reader might otherwise misunderstand the strength of an assessment. The technical categories and their relationships are outside this glossary. No completed certification system is established by the name, and the research does not justify treating an assessment as a universal score of legal validity.
@@ -123,6 +133,10 @@ The program includes conceptual work, bounded controls, negative findings, propo
 ### Negative Finding
 
 **Research-status language.** A result that does not establish the condition or claim examined within a stated inquiry. Such findings help constrain conclusions and deserve preservation alongside supportive results. They do not automatically prove that the condition is absent everywhere or that every related claim is false. Scope remains essential to their interpretation.
+
+### No Naked Implication
+
+**Successor theory proposal — 27 November 2026.** A requirement that a retained implication remain connected to its material conditions, surviving support, boundaries, authority, and evidence. Removing a historical premise from active supporting service preserves its provenance. Unknown information remains explicit. The proposal is intended to prevent a retained conclusion from appearing better supported than the available record warrants; it does not make that record a legal determination. See the public [successor proposals](ARCHITECTURE.md#successor-derivations-repair-and-finite-reporting).
 
 ### Observer and Recovery Integrity
 
@@ -135,6 +149,10 @@ The program includes conceptual work, bounded controls, negative findings, propo
 ### Poison Cache
 
 **Named concept with unresolved content.** A title in the related knowledge-examination work whose complete independent definition has not been supplied. Its presence records a subject identified by the author, rather than demonstrating a technical object or established capability. Keeping the name visible can preserve the research record, provided its incompleteness is equally visible. This glossary does not infer storage behavior, persistence, construction, effects, or relationships from the ordinary meanings suggested by the words.
+
+### Potentially Unbounded Recursion, Finitely Reported
+
+**Successor theory proposal — 27 November 2026.** A distinction between the possible depth of dependency research and the finite account issued to a reader. Each report must record why its branches stopped and what research boundary was applied. Closing a reported branch does not certify unexamined ancestry. The proposal supports an auditable statement of coverage while leaving unavailable dependencies and remaining uncertainty visible. See the public [successor proposals](ARCHITECTURE.md#successor-derivations-repair-and-finite-reporting).
 
 ### Proper Construction Attack
 
@@ -198,9 +216,9 @@ The program includes conceptual work, bounded controls, negative findings, propo
 
 ## Source basis and limits
 
-The source basis is the public Integrity of Legal Reasoning overview and the previously reviewed research definitions. These expanded entries provide editorial explanations of subject, purpose, and status; they do not amend the underlying definitions or add new theoretical claims. The glossary makes no current-law, novelty, implementation, or effectiveness determination.
+The source basis is the public Integrity of Legal Reasoning overview, the [integrated research architecture](ARCHITECTURE.md) dated 27 November 2026, and the previously reviewed research definitions. These expanded entries provide editorial explanations of subject, purpose, and status; they do not amend the underlying definitions or add new theoretical claims. The glossary makes no current-law, novelty, implementation, or effectiveness determination.
 
-The entries were reviewed together as well as individually. Explanatory detail was limited where a fuller account would disclose a method or allow separate entries to become a reconstruction of withheld research. The glossary has no links to detailed mechanisms or unpublished research materials; its navigation leads only to the approved public overview.
+The entries were reviewed together as well as individually. Explanatory detail was limited where a fuller account would disclose a method or allow separate entries to become a reconstruction of withheld research. The glossary has no links to unpublished research materials; its navigation leads to the approved public overview and disclosure-limited integrated architecture.
 
 Some concepts remain incompletely formulated, while other labels collect related topics for readability. Those differences are retained rather than flattened into one level of maturity. Publication and fuller explanation do not resolve the remaining research obligations.
 

@@ -1,5 +1,13 @@
 # Errata
 
+## Record 05 — Legal-theory successor proposals and navigation (2026-11-27)
+
+The public [integrated research architecture](legal-theory/integrity-of-legal-reasoning/ARCHITECTURE.md#successor-derivations-repair-and-finite-reporting) records four successor proposals first recorded on 27 November 2026: No Naked Implication, Minimal Surviving Proposition, Burden-Bounded Repair, and Potentially Unbounded Recursion, Finitely Reported. The [public glossary](legal-theory/integrity-of-legal-reasoning/GLOSSARY.md), [program overview](legal-theory/integrity-of-legal-reasoning/README.md), and [Legal Theory index](legal-theory/README.md) now identify these additions and retain their proposed status. Independent validation and implementation remain outstanding. The glossary's update date and source basis identify this public architecture.
+
+The index also identifies **Knowledge Corruption** and **Anti-Knowledge** as separate historical names of Knowledge Antithesis, following the [dedicated definition](legal-theory/knowledge-antithesis/README.md).
+
+**Status and validation scope:** Documentation reconciliation using the existing public architecture and definitions. Validation covers the four changed files, their repository link targets and heading anchors, and consistency with the named public sources. Frozen archive findings, source packages, and the existing disclosure boundary retain their recorded status.
+
 ## Record 04 — xOSG-1 Operations Contract / conditional `es-xosg-9` instrumented designation (2026-11-25)
 
 The integrated one-shot formerly titled *Expert Systems Operation* is now the [**xOSG-1 Operations Contract**](blue-prints/gates/xOSG-1_OPERATIONS_CONTRACT.md). The instrumented realization, **if and when the operations contract is actually instrumented**, is designated **`es-xosg-9`**. These denote a specification and a future or separately established instrumented system, respectively.
