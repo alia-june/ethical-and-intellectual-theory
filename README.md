@@ -78,7 +78,7 @@ The doctrine applies a greater ethical theory to intellectual methodology, deriv
 | Programming methodology | [Human doctrine](programming-doctrine/HUMAN_DOCTRINE.md) · [Machine-readable doctrine](programming-doctrine/DOCTRINE.json) · [Publication and validation](programming-doctrine/PUBLICATION_AND_VALIDATION.md) |
 | Architecture and seed proposals | [Blueprints](blue-prints/README.md) · [Gate framework](blue-prints/gates/README.md) · [Gate Zero research](blue-prints/gates/gate-0/README.md) |
 | Legal research and terminology | [Legal Theory index](legal-theory/README.md) · [Integrity of Legal Reasoning](legal-theory/integrity-of-legal-reasoning/README.md) · [Integrated architecture](legal-theory/integrity-of-legal-reasoning/ARCHITECTURE.md) |
-| Public outreach | [ReShade guidance](outreach/reshade/README.md) · [Non-AI alternatives](outreach/reshade/ALTERNATIVES.md) · [Participation](outreach/reshade/PARTICIPATION.md) |
+| Public outreach | [Life Inventory](outreach/life-inventory/README.md) · [ReShade guidance](outreach/reshade/README.md) · [Non-AI alternatives](outreach/reshade/ALTERNATIVES.md) · [Participation](outreach/reshade/PARTICIPATION.md) |
 | Current research status | [Site hydration and machine-EOL roadmap](research-ethics/EOL_SITE_HYDRATION_AND_REHYDRATION_ROADMAP.md) · [Stage 0 milestone](research-ethics/STAGE_0_DEPLOYMENT_SEGMENT_CLOSURE_2026-11-12.md) |
 | Personal and creative work | [Dossier](personal-dossier/personal_reconstruction_anonymized.md) · [Reconstitution limits](personal-dossier/RECONSTITUTION_AND_VALIDATION.md) · [Musings](personal-dossier/musings/README.md) |
 | Corrections and history | [Errata](ERRATA.md) · [Document history](#document-history) |
@@ -114,6 +114,10 @@ The [Legal Theory index](legal-theory/README.md) maintains author-defined concep
 The public [integrated architecture](legal-theory/integrity-of-legal-reasoning/ARCHITECTURE.md) records the relationship among Bellotti Ladder, Condition Capture and Defeat, Implication, multidimensional attestation, and governed use. It preserves the production lock and does not publish the withheld operating method.
 
 ## Outreach and current research
+
+### Life Inventory outreach
+
+[Life Inventory](outreach/life-inventory/README.md) provides blank, member-controlled materials for preserving a chosen account of life, presence, history, arts, works, embodied experience, knowledge, and hope. The workflow remains proposed, is not approved for live member intake, and does not represent DMH, Clubhouse International, or an individual clubhouse.
 
 ### ReShade outreach
 
